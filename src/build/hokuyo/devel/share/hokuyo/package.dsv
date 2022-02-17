@@ -1,0 +1,3 @@
+source;share/hokuyo/hook/ros_package_path.ps1
+source;share/hokuyo/hook/ros_package_path.dsv
+source;share/hokuyo/hook/ros_package_path.sh

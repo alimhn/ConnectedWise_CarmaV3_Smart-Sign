@@ -1,0 +1,276 @@
+[0.029s] Invoking command in '/workspaces/carma_ws/src/build/novatel_gps_msgs': /usr/bin/cmake /workspaces/carma_ws/src/novatel_gps_driver/novatel_gps_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/novatel_gps_msgs
+[6.817s] -- The C compiler identification is GNU 9.3.0
+[6.817s] -- The CXX compiler identification is GNU 9.3.0
+[6.818s] -- Check for working C compiler: /usr/bin/cc
+[6.818s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.818s] -- Detecting C compiler ABI info
+[6.818s] -- Detecting C compiler ABI info - done
+[6.818s] -- Detecting C compile features
+[6.818s] -- Detecting C compile features - done
+[6.818s] -- Check for working CXX compiler: /usr/bin/c++
+[6.818s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.818s] -- Detecting CXX compiler ABI info
+[6.818s] -- Detecting CXX compiler ABI info - done
+[6.819s] -- Detecting CXX compile features
+[6.819s] -- Detecting CXX compile features - done
+[6.819s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/novatel_gps_msgs/devel
+[6.819s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[6.819s] -- This workspace overlays: /opt/ros/noetic
+[6.819s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.819s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.819s] -- Using Debian Python package layout
+[6.819s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[6.819s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[6.819s] -- Using CATKIN_ENABLE_TESTING: ON
+[6.820s] -- Call enable_testing()
+[6.820s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/novatel_gps_msgs/test_results
+[6.820s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[6.824s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[6.825s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[6.825s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.825s] -- Found Threads: TRUE  
+[6.825s] -- Using Python nosetests: /usr/bin/nosetests3
+[6.825s] -- catkin 0.8.10
+[6.825s] -- BUILD_SHARED_LIBS is on
+[6.825s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[7.072s] -- novatel_gps_msgs: 29 messages, 1 services
+[7.762s] -- Configuring done
+[7.915s] -- Generating done
+[7.970s] -- Build files have been written to: /workspaces/carma_ws/src/build/novatel_gps_msgs
+[8.005s] Invoked command in '/workspaces/carma_ws/src/build/novatel_gps_msgs' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/novatel_gps_driver/novatel_gps_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/novatel_gps_msgs
+[8.006s] Invoking command in '/workspaces/carma_ws/src/build/novatel_gps_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/novatel_gps_msgs -- -j12 -l12
+[22.974s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Insstdev[0m
+[22.977s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Insstdev
+[22.977s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelXYZ[0m
+[22.978s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelXYZ
+[22.978s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelUtmPosition[0m
+[22.978s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelUtmPosition
+[22.978s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelReceiverStatus[0m
+[22.978s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelReceiverStatus
+[22.979s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_RangeInformation[0m
+[22.979s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_RangeInformation
+[22.979s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelSignalMask[0m
+[22.979s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelSignalMask
+[22.979s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelMessageHeader[0m
+[22.979s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelMessageHeader
+[22.982s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[22.982s] [  0%] Built target std_msgs_generate_messages_lisp
+[22.982s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_ClockSteering[0m
+[22.982s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_ClockSteering
+[22.982s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Time[0m
+[22.983s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Time
+[22.983s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelDualAntennaHeading[0m
+[22.983s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelDualAntennaHeading
+[22.983s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Inspvax[0m
+[22.983s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Inspvax
+[22.983s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelPsrdop2[0m
+[22.983s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelPsrdop2
+[22.983s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelCorrectedImuData[0m
+[22.985s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelCorrectedImuData
+[22.986s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelExtendedSolutionStatus[0m
+[22.986s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelExtendedSolutionStatus
+[22.986s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelHeading2[0m
+[22.986s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelHeading2
+[22.986s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Inspva[0m
+[22.986s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Inspva
+[22.986s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelPosition[0m
+[22.986s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelPosition
+[22.986s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelFRESET[0m
+[22.987s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelFRESET
+[22.987s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Gpgga[0m
+[22.987s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgga
+[22.987s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Gpgsa[0m
+[22.987s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgsa
+[22.987s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[22.987s] [  0%] Built target std_msgs_generate_messages_nodejs
+[22.987s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[22.987s] [  0%] Built target std_msgs_generate_messages_py
+[22.987s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[22.987s] [  0%] Built target std_msgs_generate_messages_cpp
+[22.987s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[22.987s] [  0%] Built target std_msgs_generate_messages_eus
+[22.988s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Range[0m
+[22.988s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Range
+[22.988s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Satellite[0m
+[22.988s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Satellite
+[22.988s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Inscov[0m
+[22.988s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Inscov
+[22.988s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Gpgsv[0m
+[22.988s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgsv
+[22.988s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Gphdt[0m
+[22.988s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gphdt
+[22.988s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelVelocity[0m
+[22.989s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelVelocity
+[22.989s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Trackstat[0m
+[22.989s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Trackstat
+[22.989s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_TrackstatChannel[0m
+[22.989s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_TrackstatChannel
+[22.989s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_NovatelPsrdop2System[0m
+[22.989s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelPsrdop2System
+[22.989s] [35m[1mScanning dependencies of target _novatel_gps_msgs_generate_messages_check_deps_Gprmc[0m
+[22.989s] [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gprmc
+[22.989s] [35m[1mScanning dependencies of target novatel_gps_msgs_generate_messages_lisp[0m
+[22.989s] [  1%] [34m[1mGenerating Lisp code from novatel_gps_msgs/ClockSteering.msg[0m
+[22.989s] [  1%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Inspva.msg[0m
+[22.990s] [  2%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Inspvax.msg[0m
+[22.990s] [  3%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Insstdev.msg[0m
+[22.991s] [  3%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelCorrectedImuData.msg[0m
+[22.991s] [  4%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelDualAntennaHeading.msg[0m
+[22.991s] [  4%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelExtendedSolutionStatus.msg[0m
+[22.991s] [  5%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelHeading2.msg[0m
+[22.991s] [  6%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelMessageHeader.msg[0m
+[22.991s] [  6%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelPosition.msg[0m
+[22.991s] [  7%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelPsrdop2.msg[0m
+[22.992s] [  8%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelPsrdop2System.msg[0m
+[22.992s] [  8%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelReceiverStatus.msg[0m
+[22.992s] [  9%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelSignalMask.msg[0m
+[22.992s] [  9%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelUtmPosition.msg[0m
+[22.992s] [ 10%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelVelocity.msg[0m
+[22.992s] [ 11%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelXYZ.msg[0m
+[22.992s] [ 11%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Range.msg[0m
+[22.992s] [ 12%] [34m[1mGenerating Lisp code from novatel_gps_msgs/RangeInformation.msg[0m
+[22.992s] [ 13%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Satellite.msg[0m
+[22.992s] [ 13%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Time.msg[0m
+[22.992s] [ 14%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Trackstat.msg[0m
+[22.993s] [ 14%] [34m[1mGenerating Lisp code from novatel_gps_msgs/TrackstatChannel.msg[0m
+[22.993s] [ 15%] [34m[1mGenerating Lisp code from novatel_gps_msgs/NovatelFRESET.srv[0m
+[22.993s] [ 16%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Inscov.msg[0m
+[22.993s] [ 17%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Gprmc.msg[0m
+[22.993s] [ 17%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Gphdt.msg[0m
+[22.993s] [ 18%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Gpgsv.msg[0m
+[22.993s] [ 18%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Gpgsa.msg[0m
+[22.993s] [ 19%] [34m[1mGenerating Lisp code from novatel_gps_msgs/Gpgga.msg[0m
+[22.993s] [ 19%] Built target novatel_gps_msgs_generate_messages_lisp
+[22.993s] [35m[1mScanning dependencies of target novatel_gps_msgs_generate_messages_eus[0m
+[22.993s] [ 20%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/ClockSteering.msg[0m
+[22.994s] [ 21%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Inspvax.msg[0m
+[22.994s] [ 21%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Insstdev.msg[0m
+[23.042s] [ 22%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelCorrectedImuData.msg[0m
+[23.351s] [ 23%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelDualAntennaHeading.msg[0m
+[23.650s] [ 23%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelExtendedSolutionStatus.msg[0m
+[23.875s] [ 25%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelHeading2.msg[0m
+[24.019s] [ 25%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelMessageHeader.msg[0m
+[24.272s] [ 26%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelPosition.msg[0m
+[24.582s] [ 27%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelPsrdop2.msg[0m
+[24.778s] [ 27%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelPsrdop2System.msg[0m
+[25.011s] [ 28%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelReceiverStatus.msg[0m
+[25.244s] [ 29%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelSignalMask.msg[0m
+[25.524s] [ 29%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelUtmPosition.msg[0m
+[25.733s] [ 30%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelVelocity.msg[0m
+[25.925s] [ 30%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelXYZ.msg[0m
+[26.239s] [ 31%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Range.msg[0m
+[26.457s] [ 32%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/RangeInformation.msg[0m
+[26.722s] [ 32%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Satellite.msg[0m
+[26.886s] [ 33%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Time.msg[0m
+[27.182s] [ 33%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Trackstat.msg[0m
+[27.370s] [ 34%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/TrackstatChannel.msg[0m
+[27.589s] [ 35%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/NovatelFRESET.srv[0m
+[27.809s] [ 35%] [34m[1mGenerating EusLisp manifest code for novatel_gps_msgs[0m
+[29.490s] [ 36%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Inspva.msg[0m
+[29.690s] [ 36%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Inscov.msg[0m
+[29.880s] [ 37%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Gprmc.msg[0m
+[30.233s] [ 37%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Gphdt.msg[0m
+[30.527s] [ 38%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Gpgsv.msg[0m
+[30.721s] [ 39%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Gpgsa.msg[0m
+[30.958s] [ 39%] [34m[1mGenerating EusLisp code from novatel_gps_msgs/Gpgga.msg[0m
+[31.182s] [ 39%] Built target novatel_gps_msgs_generate_messages_eus
+[31.216s] [35m[1mScanning dependencies of target novatel_gps_msgs_generate_messages_cpp[0m
+[31.234s] [ 40%] [34m[1mGenerating C++ code from novatel_gps_msgs/ClockSteering.msg[0m
+[31.556s] [ 41%] [34m[1mGenerating C++ code from novatel_gps_msgs/Insstdev.msg[0m
+[31.778s] [ 41%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelCorrectedImuData.msg[0m
+[31.990s] [ 42%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelDualAntennaHeading.msg[0m
+[32.175s] [ 43%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelExtendedSolutionStatus.msg[0m
+[32.380s] [ 43%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelHeading2.msg[0m
+[32.562s] [ 44%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelMessageHeader.msg[0m
+[32.747s] [ 44%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelPosition.msg[0m
+[32.929s] [ 45%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelPsrdop2.msg[0m
+[33.105s] [ 46%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelPsrdop2System.msg[0m
+[33.276s] [ 46%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelReceiverStatus.msg[0m
+[33.445s] [ 47%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelSignalMask.msg[0m
+[33.611s] [ 48%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelUtmPosition.msg[0m
+[33.800s] [ 48%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelVelocity.msg[0m
+[33.995s] [ 50%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelXYZ.msg[0m
+[34.166s] [ 50%] [34m[1mGenerating C++ code from novatel_gps_msgs/Range.msg[0m
+[34.343s] [ 51%] [34m[1mGenerating C++ code from novatel_gps_msgs/RangeInformation.msg[0m
+[34.511s] [ 52%] [34m[1mGenerating C++ code from novatel_gps_msgs/Satellite.msg[0m
+[34.670s] [ 52%] [34m[1mGenerating C++ code from novatel_gps_msgs/Time.msg[0m
+[34.829s] [ 53%] [34m[1mGenerating C++ code from novatel_gps_msgs/Trackstat.msg[0m
+[34.980s] [ 53%] [34m[1mGenerating C++ code from novatel_gps_msgs/TrackstatChannel.msg[0m
+[35.138s] [ 54%] [34m[1mGenerating C++ code from novatel_gps_msgs/NovatelFRESET.srv[0m
+[35.405s] [ 55%] [34m[1mGenerating C++ code from novatel_gps_msgs/Inspvax.msg[0m
+[35.603s] [ 55%] [34m[1mGenerating C++ code from novatel_gps_msgs/Inspva.msg[0m
+[35.797s] [ 56%] [34m[1mGenerating C++ code from novatel_gps_msgs/Inscov.msg[0m
+[35.973s] [ 56%] [34m[1mGenerating C++ code from novatel_gps_msgs/Gprmc.msg[0m
+[36.137s] [ 57%] [34m[1mGenerating C++ code from novatel_gps_msgs/Gphdt.msg[0m
+[36.293s] [ 58%] [34m[1mGenerating C++ code from novatel_gps_msgs/Gpgsv.msg[0m
+[36.452s] [ 58%] [34m[1mGenerating C++ code from novatel_gps_msgs/Gpgsa.msg[0m
+[36.611s] [ 59%] [34m[1mGenerating C++ code from novatel_gps_msgs/Gpgga.msg[0m
+[36.777s] [ 59%] Built target novatel_gps_msgs_generate_messages_cpp
+[36.787s] [35m[1mScanning dependencies of target novatel_gps_msgs_generate_messages_py[0m
+[36.800s] [ 59%] [34m[1mGenerating Python from MSG novatel_gps_msgs/ClockSteering[0m
+[37.122s] [ 59%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelCorrectedImuData[0m
+[37.500s] [ 60%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelDualAntennaHeading[0m
+[37.837s] [ 61%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelExtendedSolutionStatus[0m
+[38.191s] [ 61%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelHeading2[0m
+[38.585s] [ 62%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelMessageHeader[0m
+[38.945s] [ 63%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelPosition[0m
+[39.282s] [ 63%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelPsrdop2[0m
+[39.611s] [ 64%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelPsrdop2System[0m
+[39.956s] [ 64%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelReceiverStatus[0m
+[40.272s] [ 65%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelSignalMask[0m
+[40.599s] [ 66%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelUtmPosition[0m
+[40.972s] [ 66%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelVelocity[0m
+[41.304s] [ 67%] [34m[1mGenerating Python from MSG novatel_gps_msgs/NovatelXYZ[0m
+[41.625s] [ 68%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Range[0m
+[41.984s] [ 68%] [34m[1mGenerating Python from MSG novatel_gps_msgs/RangeInformation[0m
+[42.308s] [ 69%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Satellite[0m
+[42.631s] [ 69%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Time[0m
+[43.006s] [ 70%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Trackstat[0m
+[43.337s] [ 71%] [34m[1mGenerating Python from MSG novatel_gps_msgs/TrackstatChannel[0m
+[43.673s] [ 71%] [34m[1mGenerating Python code from SRV novatel_gps_msgs/NovatelFRESET[0m
+[43.980s] [ 72%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Insstdev[0m
+[44.340s] [ 72%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Inspvax[0m
+[44.664s] [ 73%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Inspva[0m
+[44.996s] [ 75%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Inscov[0m
+[45.305s] [ 75%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Gprmc[0m
+[45.603s] [ 76%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Gphdt[0m
+[45.935s] [ 77%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Gpgsv[0m
+[46.262s] [ 77%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Gpgsa[0m
+[46.622s] [ 78%] [34m[1mGenerating Python from MSG novatel_gps_msgs/Gpgga[0m
+[46.920s] [ 79%] [34m[1mGenerating Python msg __init__.py for novatel_gps_msgs[0m
+[47.229s] [ 80%] [34m[1mGenerating Python srv __init__.py for novatel_gps_msgs[0m
+[47.512s] [ 80%] Built target novatel_gps_msgs_generate_messages_py
+[47.523s] [35m[1mScanning dependencies of target novatel_gps_msgs_generate_messages_nodejs[0m
+[47.534s] [ 81%] [34m[1mGenerating Javascript code from novatel_gps_msgs/ClockSteering.msg[0m
+[47.600s] [ 81%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelDualAntennaHeading.msg[0m
+[47.662s] [ 82%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelExtendedSolutionStatus.msg[0m
+[47.722s] [ 83%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelHeading2.msg[0m
+[47.785s] [ 83%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelMessageHeader.msg[0m
+[47.843s] [ 84%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelPosition.msg[0m
+[47.907s] [ 85%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelPsrdop2.msg[0m
+[47.966s] [ 85%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelPsrdop2System.msg[0m
+[48.025s] [ 86%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelReceiverStatus.msg[0m
+[48.086s] [ 86%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelSignalMask.msg[0m
+[48.143s] [ 87%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelUtmPosition.msg[0m
+[48.207s] [ 88%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelVelocity.msg[0m
+[48.265s] [ 88%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelXYZ.msg[0m
+[48.329s] [ 89%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Range.msg[0m
+[48.393s] [ 90%] [34m[1mGenerating Javascript code from novatel_gps_msgs/RangeInformation.msg[0m
+[48.448s] [ 90%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Satellite.msg[0m
+[48.509s] [ 91%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Time.msg[0m
+[48.568s] [ 91%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Trackstat.msg[0m
+[48.627s] [ 92%] [34m[1mGenerating Javascript code from novatel_gps_msgs/TrackstatChannel.msg[0m
+[48.686s] [ 93%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelFRESET.srv[0m
+[48.738s] [ 94%] [34m[1mGenerating Javascript code from novatel_gps_msgs/NovatelCorrectedImuData.msg[0m
+[48.797s] [ 94%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Insstdev.msg[0m
+[48.861s] [ 95%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Inspvax.msg[0m
+[48.923s] [ 96%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Inspva.msg[0m
+[48.984s] [ 96%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Inscov.msg[0m
+[49.047s] [ 97%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Gprmc.msg[0m
+[49.112s] [ 98%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Gphdt.msg[0m
+[49.178s] [ 98%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Gpgsv.msg[0m
+[49.241s] [100%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Gpgsa.msg[0m
+[49.305s] [100%] [34m[1mGenerating Javascript code from novatel_gps_msgs/Gpgga.msg[0m
+[49.365s] [100%] Built target novatel_gps_msgs_generate_messages_nodejs
+[49.375s] [35m[1mScanning dependencies of target novatel_gps_msgs_generate_messages[0m
+[49.386s] [100%] Built target novatel_gps_msgs_generate_messages

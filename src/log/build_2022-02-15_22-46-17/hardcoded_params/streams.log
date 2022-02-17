@@ -1,0 +1,5 @@
+[0.075s] Invoking command in '/workspaces/carma_ws/src/build/hardcoded_params': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params -- -j12 -l12
+[0.208s] Invoked command in '/workspaces/carma_ws/src/build/hardcoded_params' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params -- -j12 -l12
+[0.315s] Invoking command in '/workspaces/carma_ws/src/build/hardcoded_params': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params --target tests -- -j12 -l12
+[0.373s] make: *** [Makefile:334: cmake_check_build_system] Interrupt
+[0.387s] Invoked command in '/workspaces/carma_ws/src/build/hardcoded_params' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params --target tests -- -j12 -l12

@@ -1,0 +1,25 @@
+[0.101s] Invoking command in '/workspaces/carma_ws/src/build/pacmod_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/pacmod_msgs -- -j12 -l12
+[0.326s] [  0%] Built target _pacmod_msgs_generate_messages_check_deps_VehicleDynamicsRpt
+[0.328s] Fatal Python error: init_import_size: Failed to import the site module
+[0.328s] Python runtime state: initialized
+[0.330s] Traceback (most recent call last):
+[0.331s]   File "/usr/lib/python3.8/site.py", line 597, in <module>
+[0.332s]     main()
+[0.332s]   File "/usr/lib/python3.8/site.py", line 584, in main
+[0.337s]     known_paths = addsitepackages(known_paths)
+[0.337s]   File "/usr/lib/python3.8/site.py", line 367, in addsitepackages
+[0.338s]     addsitedir(sitedir, known_paths)
+[0.338s]   File "/usr/lib/python3.8/site.py", line 214, in addsitedir
+[0.339s]     addpackage(sitedir, name, known_paths)
+[0.339s]   File "/usr/lib/python3.8/site.py", line 175, in addpackage
+[0.339s]     exec(line)
+[0.339s]   File "<string>", line 1, in <module>
+[0.340s]   File "<frozen importlib._bootstrap_external>", line 1407, in find_spec
+[0.340s]   File "<frozen importlib._bootstrap_external>", line 1379, in _get_spec
+[0.340s]   File "<frozen importlib._bootstrap_external>", line 1510, in find_spec
+[0.340s]   File "<frozen importlib._bootstrap_external>", line 1553, in _fill_cache
+[0.340s] KeyboardInterrupt
+[0.342s] make[2]: *** [CMakeFiles/_pacmod_msgs_generate_messages_check_deps_SteeringPIDRpt1.dir/build.make:57: CMakeFiles/_pacmod_msgs_generate_messages_check_deps_SteeringPIDRpt1] Error 1
+[0.342s] make[1]: *** [CMakeFiles/Makefile2:1354: CMakeFiles/_pacmod_msgs_generate_messages_check_deps_SteeringPIDRpt1.dir/all] Interrupt
+[0.342s] make: *** [Makefile:141: all] Interrupt
+[0.391s] Invoked command in '/workspaces/carma_ws/src/build/pacmod_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/pacmod_msgs -- -j12 -l12

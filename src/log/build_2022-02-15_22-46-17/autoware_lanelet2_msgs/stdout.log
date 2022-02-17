@@ -1,0 +1,4 @@
+[  0%] Built target _autoware_lanelet2_msgs_generate_messages_check_deps_MapBin
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[ 14%] Built target autoware_lanelet2_msgs_generate_messages_nodejs

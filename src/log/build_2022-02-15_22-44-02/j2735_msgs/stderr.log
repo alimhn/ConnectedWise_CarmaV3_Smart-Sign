@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py", line 43, in <module>
+    import genpy.generator
+  File "/opt/ros/noetic/lib/python3/dist-packages/genpy/__init__.py", line 34, in <module>
+    from . message import Message, SerializationError, DeserializationError, MessageException, struct_I
+  File "/opt/ros/noetic/lib/python3/dist-packages/genpy/message.py", line 48, in <module>
+    import yaml
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 9, in <module>
+    from .dumper import *
+  File "/usr/lib/python3/dist-packages/yaml/dumper.py", line 6, in <module>
+    from .representer import *
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 928, in get_code
+  File "<frozen importlib._bootstrap_external>", line 387, in cache_from_source
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/j2735_msgs_generate_messages_py.dir/build.make:1229: devel/lib/python3/dist-packages/j2735_msgs/msg/_TrafficControlDetail.py] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:382: CMakeFiles/j2735_msgs_generate_messages_py.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,98 @@
+[0.135s] Invoking command in '/workspaces/carma_ws/src/build/gnss': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/common/gnss -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/gnss
+[1.316s] -- The C compiler identification is GNU 9.3.0
+[1.544s] -- The CXX compiler identification is GNU 9.3.0
+[1.572s] -- Check for working C compiler: /usr/bin/cc
+[2.090s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.097s] -- Detecting C compiler ABI info
+[2.386s] -- Detecting C compiler ABI info - done
+[2.429s] -- Detecting C compile features
+[2.429s] -- Detecting C compile features - done
+[2.443s] -- Check for working CXX compiler: /usr/bin/c++
+[3.001s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.006s] -- Detecting CXX compiler ABI info
+[3.633s] -- Detecting CXX compiler ABI info - done
+[3.673s] -- Detecting CXX compile features
+[3.675s] -- Detecting CXX compile features - done
+[3.683s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/gnss/devel
+[3.683s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[3.685s] -- This workspace overlays: /opt/ros/noetic
+[3.858s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.859s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.859s] -- Using Debian Python package layout
+[4.029s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[4.030s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[4.674s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.674s] -- Call enable_testing()
+[4.730s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/gnss/test_results
+[6.829s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[6.830s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[6.830s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[6.993s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.996s] -- Found Threads: TRUE  
+[7.004s] -- Using Python nosetests: /usr/bin/nosetests3
+[7.230s] -- catkin 0.8.10
+[7.230s] -- BUILD_SHARED_LIBS is on
+[9.540s] -- Configuring done
+[9.648s] -- Generating done
+[9.665s] -- Build files have been written to: /workspaces/carma_ws/src/build/gnss
+[9.704s] Invoked command in '/workspaces/carma_ws/src/build/gnss' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/common/gnss -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/gnss
+[9.704s] Invoking command in '/workspaces/carma_ws/src/build/gnss': /usr/bin/cmake --build /workspaces/carma_ws/src/build/gnss -- -j12 -l12
+[9.821s] [35m[1mScanning dependencies of target gnss[0m
+[9.938s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss.dir/src/geo_pos_conv.cpp.o[0m
+[10.455s] [100%] [32m[1mLinking CXX shared library devel/lib/libgnss.so[0m
+[10.646s] [100%] Built target gnss
+[10.731s] Invoked command in '/workspaces/carma_ws/src/build/gnss' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/gnss -- -j12 -l12
+[11.310s] Invoking command in '/workspaces/carma_ws/src/build/gnss': /usr/bin/cmake --build /workspaces/carma_ws/src/build/gnss --target tests -- -j12 -l12
+[18.313s] [35m[1mScanning dependencies of target gtest[0m
+[18.313s] [ 20%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[24.224s] [ 40%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[24.598s] [ 40%] Built target gtest
+[24.660s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[24.730s] [ 40%] Built target roscpp_generate_messages_lisp
+[24.815s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[24.870s] [ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[24.939s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[25.016s] [ 40%] Built target std_msgs_generate_messages_cpp
+[25.077s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[25.161s] [ 40%] Built target std_msgs_generate_messages_nodejs
+[25.233s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[25.300s] [ 40%] Built target std_msgs_generate_messages_py
+[25.346s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[25.381s] [ 40%] Built target std_msgs_generate_messages_lisp
+[25.460s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[25.539s] [ 40%] Built target roscpp_generate_messages_eus
+[25.607s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[25.687s] [ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[25.759s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[25.819s] [ 40%] Built target rosgraph_msgs_generate_messages_py
+[25.875s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[25.938s] [ 40%] Built target roscpp_generate_messages_py
+[26.029s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[26.088s] [ 40%] Built target roscpp_generate_messages_cpp
+[26.158s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[26.260s] [ 40%] Built target std_msgs_generate_messages_eus
+[26.316s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[26.341s] [ 40%] Built target roscpp_generate_messages_nodejs
+[26.407s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[26.445s] [ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[26.534s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[26.626s] [ 40%] Built target rosgraph_msgs_generate_messages_eus
+[26.675s] [35m[1mScanning dependencies of target test_gnss[0m
+[26.787s] [ 60%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/test/test_gnss.cpp.o[0m
+[33.816s] [ 80%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/src/geo_pos_conv.cpp.o[0m
+[34.110s] [100%] [32m[1mLinking CXX executable devel/lib/gnss/test_gnss[0m
+[34.618s] [100%] Built target test_gnss
+[34.672s] [35m[1mScanning dependencies of target tests[0m
+[34.722s] [100%] Built target tests
+[34.783s] Invoked command in '/workspaces/carma_ws/src/build/gnss' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/gnss --target tests -- -j12 -l12
+[35.145s] Invoking command in '/workspaces/carma_ws/src/build/gnss': /usr/bin/cmake --install /workspaces/carma_ws/src/build/gnss
+[35.179s] -- Install configuration: ""
+[35.179s] -- Installing: /workspaces/carma_ws/src/install/gnss/lib/pkgconfig/gnss.pc
+[35.179s] -- Installing: /workspaces/carma_ws/src/install/gnss/share/gnss/cmake/gnssConfig.cmake
+[35.179s] -- Installing: /workspaces/carma_ws/src/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+[35.179s] -- Installing: /workspaces/carma_ws/src/install/gnss/share/gnss/package.xml
+[35.179s] -- Installing: /workspaces/carma_ws/src/install/gnss/include/gnss
+[35.180s] -- Installing: /workspaces/carma_ws/src/install/gnss/include/gnss/geo_pos_conv.hpp
+[35.180s] -- Installing: /workspaces/carma_ws/src/install/gnss/lib/libgnss.so
+[35.180s] -- Set runtime path of "/workspaces/carma_ws/src/install/gnss/lib/libgnss.so" to ""
+[35.203s] Invoked command in '/workspaces/carma_ws/src/build/gnss' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/gnss

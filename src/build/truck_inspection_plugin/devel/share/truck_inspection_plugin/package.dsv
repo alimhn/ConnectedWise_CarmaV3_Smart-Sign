@@ -1,0 +1,3 @@
+source;share/truck_inspection_plugin/hook/ros_package_path.ps1
+source;share/truck_inspection_plugin/hook/ros_package_path.dsv
+source;share/truck_inspection_plugin/hook/ros_package_path.sh

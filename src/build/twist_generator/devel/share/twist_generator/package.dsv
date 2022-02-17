@@ -1,0 +1,3 @@
+source;share/twist_generator/hook/ros_package_path.ps1
+source;share/twist_generator/hook/ros_package_path.dsv
+source;share/twist_generator/hook/ros_package_path.sh

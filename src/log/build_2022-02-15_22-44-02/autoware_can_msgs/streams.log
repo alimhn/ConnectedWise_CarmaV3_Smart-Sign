@@ -1,0 +1,151 @@
+[0.070s] Invoking command in '/workspaces/carma_ws/src/build/autoware_can_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/autoware_can_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_can_msgs
+[2.934s] -- The C compiler identification is GNU 9.3.0
+[2.934s] -- The CXX compiler identification is GNU 9.3.0
+[2.934s] -- Check for working C compiler: /usr/bin/cc
+[2.934s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.935s] -- Detecting C compiler ABI info
+[2.935s] -- Detecting C compiler ABI info - done
+[2.935s] -- Detecting C compile features
+[2.935s] -- Detecting C compile features - done
+[2.935s] -- Check for working CXX compiler: /usr/bin/c++
+[2.935s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.935s] -- Detecting CXX compiler ABI info
+[2.935s] -- Detecting CXX compiler ABI info - done
+[2.936s] -- Detecting CXX compile features
+[2.936s] -- Detecting CXX compile features - done
+[2.936s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/autoware_can_msgs/devel
+[2.936s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[2.936s] -- This workspace overlays: /opt/ros/noetic
+[2.936s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.936s] -- Using Debian Python package layout
+[2.936s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.937s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.937s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.937s] -- Call enable_testing()
+[2.937s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/autoware_can_msgs/test_results
+[2.937s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.937s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.938s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.938s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.938s] -- Found Threads: TRUE  
+[2.938s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.938s] -- catkin 0.8.10
+[2.939s] -- BUILD_SHARED_LIBS is on
+[2.939s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.105s] -- autoware_can_msgs: 3 messages, 0 services
+[3.444s] -- Configuring done
+[3.472s] -- Generating done
+[3.475s] -- Build files have been written to: /workspaces/carma_ws/src/build/autoware_can_msgs
+[3.500s] Invoked command in '/workspaces/carma_ws/src/build/autoware_can_msgs' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/autoware_can_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_can_msgs
+[3.501s] Invoking command in '/workspaces/carma_ws/src/build/autoware_can_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_can_msgs -- -j12 -l12
+[3.607s] [35m[1mScanning dependencies of target _autoware_can_msgs_generate_messages_check_deps_CANInfo[0m
+[3.611s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[3.611s] [35m[1mScanning dependencies of target _autoware_can_msgs_generate_messages_check_deps_CANPacket[0m
+[3.630s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[3.636s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[3.640s] [35m[1mScanning dependencies of target _autoware_can_msgs_generate_messages_check_deps_CANData[0m
+[3.706s] [  0%] Built target std_msgs_generate_messages_eus
+[3.717s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.719s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.756s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[3.761s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANInfo
+[3.767s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[3.803s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANPacket
+[3.830s] [  0%] Built target std_msgs_generate_messages_py
+[3.840s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.898s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANData
+[3.997s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[4.040s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[4.042s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[4.094s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[4.095s] [  5%] [34m[1mGenerating Lisp code from autoware_can_msgs/CANInfo.msg[0m
+[4.126s] [ 11%] [34m[1mGenerating EusLisp code from autoware_can_msgs/CANInfo.msg[0m
+[4.127s] [ 17%] [34m[1mGenerating Lisp code from autoware_can_msgs/CANPacket.msg[0m
+[4.139s] [ 23%] [34m[1mGenerating EusLisp code from autoware_can_msgs/CANData.msg[0m
+[4.150s] [ 29%] [34m[1mGenerating Lisp code from autoware_can_msgs/CANData.msg[0m
+[4.152s] [ 35%] [34m[1mGenerating Python from MSG autoware_can_msgs/CANInfo[0m
+[4.167s] [ 41%] [34m[1mGenerating EusLisp code from autoware_can_msgs/CANPacket.msg[0m
+[4.167s] [ 47%] [34m[1mGenerating EusLisp manifest code for autoware_can_msgs[0m
+[4.171s] [ 52%] [34m[1mGenerating C++ code from autoware_can_msgs/CANInfo.msg[0m
+[4.216s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[4.218s] [ 58%] [34m[1mGenerating Python from MSG autoware_can_msgs/CANData[0m
+[4.263s] [ 64%] [34m[1mGenerating Python from MSG autoware_can_msgs/CANPacket[0m
+[4.348s] [ 70%] [34m[1mGenerating Javascript code from autoware_can_msgs/CANInfo.msg[0m
+[4.442s] [ 76%] [34m[1mGenerating C++ code from autoware_can_msgs/CANData.msg[0m
+[4.509s] [ 82%] [34m[1mGenerating Javascript code from autoware_can_msgs/CANData.msg[0m
+[4.526s] [ 88%] [34m[1mGenerating Javascript code from autoware_can_msgs/CANPacket.msg[0m
+[4.713s] [ 88%] Built target autoware_can_msgs_generate_messages_lisp
+[4.742s] [ 94%] [34m[1mGenerating C++ code from autoware_can_msgs/CANPacket.msg[0m
+[5.299s] [ 94%] Built target autoware_can_msgs_generate_messages_nodejs
+[6.472s] [ 94%] Built target autoware_can_msgs_generate_messages_cpp
+[6.990s] [100%] [34m[1mGenerating Python msg __init__.py for autoware_can_msgs[0m
+[7.777s] [100%] Built target autoware_can_msgs_generate_messages_eus
+[8.166s] [100%] Built target autoware_can_msgs_generate_messages_py
+[8.222s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages[0m
+[8.365s] [100%] Built target autoware_can_msgs_generate_messages
+[8.484s] Invoked command in '/workspaces/carma_ws/src/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_can_msgs -- -j12 -l12
+[9.142s] Invoking command in '/workspaces/carma_ws/src/build/autoware_can_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_can_msgs --target tests -- -j12 -l12
+[9.904s] [35m[1mScanning dependencies of target tests[0m
+[9.905s] Built target tests
+[9.962s] Invoked command in '/workspaces/carma_ws/src/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_can_msgs --target tests -- -j12 -l12
+[10.853s] Invoking command in '/workspaces/carma_ws/src/build/autoware_can_msgs': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_can_msgs
+[19.493s] -- Install configuration: ""
+[19.493s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/msg/CANInfo.msg
+[19.493s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/msg/CANData.msg
+[19.493s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/msg/CANPacket.msg
+[19.493s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgs-msg-paths.cmake
+[19.493s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/include/autoware_can_msgs
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/include/autoware_can_msgs/CANPacket.h
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/include/autoware_can_msgs/CANData.h
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/include/autoware_can_msgs/CANInfo.h
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg/CANPacket.l
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg/CANInfo.l
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg/CANData.l
+[19.494s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/manifest.l
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package_CANData.lisp
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package_CANPacket.lisp
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/autoware_can_msgs-msg.asd
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package_CANInfo.lisp
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/CANPacket.lisp
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package.lisp
+[19.495s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/CANData.lisp
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/CANInfo.lisp
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/_index.js
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/CANInfo.js
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/_index.js
+[19.496s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/CANData.js
+[19.497s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/CANPacket.js
+[19.497s] Listing '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs'...
+[19.497s] Compiling '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs/__init__.py'...
+[19.497s] Listing '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs/msg'...
+[19.497s] Compiling '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs/msg/_CANData.py'...
+[19.499s] Compiling '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs/msg/_CANInfo.py'...
+[19.499s] Compiling '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs/msg/_CANPacket.py'...
+[19.499s] Compiling '/workspaces/carma_ws/src/build/autoware_can_msgs/devel/lib/python3/dist-packages/autoware_can_msgs/msg/__init__.py'...
+[19.499s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs
+[19.499s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/__pycache__
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/__pycache__/__init__.cpython-38.pyc
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/__pycache__
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/__pycache__/_CANData.cpython-38.pyc
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/__pycache__/_CANInfo.cpython-38.pyc
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/__pycache__/_CANPacket.cpython-38.pyc
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/__pycache__/__init__.cpython-38.pyc
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/_CANInfo.py
+[19.500s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/_CANPacket.py
+[19.501s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/_CANData.py
+[19.501s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/msg/__init__.py
+[19.501s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/python3/dist-packages/autoware_can_msgs/__init__.py
+[19.501s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/lib/pkgconfig/autoware_can_msgs.pc
+[19.501s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgs-msg-extras.cmake
+[19.501s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgsConfig.cmake
+[19.502s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgsConfig-version.cmake
+[19.502s] -- Installing: /workspaces/carma_ws/src/install/autoware_can_msgs/share/autoware_can_msgs/package.xml
+[19.524s] Invoked command in '/workspaces/carma_ws/src/build/autoware_can_msgs' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_can_msgs

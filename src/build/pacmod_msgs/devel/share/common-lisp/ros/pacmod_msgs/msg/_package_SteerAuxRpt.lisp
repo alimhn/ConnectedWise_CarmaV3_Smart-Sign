@@ -1,0 +1,20 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          RAW_POSITION-VAL
+          RAW_POSITION
+          RAW_POSITION_IS_VALID-VAL
+          RAW_POSITION_IS_VALID
+          RAW_TORQUE-VAL
+          RAW_TORQUE
+          RAW_TORQUE_IS_VALID-VAL
+          RAW_TORQUE_IS_VALID
+          ROTATION_RATE-VAL
+          ROTATION_RATE
+          ROTATION_RATE_IS_VALID-VAL
+          ROTATION_RATE_IS_VALID
+          USER_INTERACTION-VAL
+          USER_INTERACTION
+          USER_INTERACTION_IS_VALID-VAL
+          USER_INTERACTION_IS_VALID
+))

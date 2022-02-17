@@ -1,0 +1,37 @@
+[0.023s] Invoking command in '/workspaces/carma_ws/src/build/asn1c': /usr/bin/cmake /workspaces/carma_ws/src/carma-messenger/carma-messenger-core/lib_asn1c -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/asn1c
+[3.991s] -- The C compiler identification is GNU 9.3.0
+[3.991s] -- The CXX compiler identification is GNU 9.3.0
+[3.991s] -- Check for working C compiler: /usr/bin/cc
+[3.991s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.991s] -- Detecting C compiler ABI info
+[3.992s] -- Detecting C compiler ABI info - done
+[3.992s] -- Detecting C compile features
+[3.992s] -- Detecting C compile features - done
+[3.992s] -- Check for working CXX compiler: /usr/bin/c++
+[3.992s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.992s] -- Detecting CXX compiler ABI info
+[3.992s] -- Detecting CXX compiler ABI info - done
+[3.992s] -- Detecting CXX compile features
+[3.993s] -- Detecting CXX compile features - done
+[3.993s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/asn1c/devel
+[3.993s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[3.993s] -- This workspace overlays: /opt/ros/noetic
+[3.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.993s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.993s] -- Using Debian Python package layout
+[3.993s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[3.993s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[3.994s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.994s] -- Call enable_testing()
+[3.994s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/asn1c/test_results
+[3.994s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.994s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.994s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.994s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.994s] -- Found Threads: TRUE  
+[3.995s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.995s] -- catkin 0.8.10
+[3.995s] -- BUILD_SHARED_LIBS is on
+[4.222s] -- Configuring done
+[4.243s] -- Generating done
+[4.248s] -- Build files have been written to: /workspaces/carma_ws/src/build/asn1c

@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/build/wgs84_utils/devel
+
+Name: wgs84_utils
+Description: Description of wgs84_utils
+Version: 1.3.0
+Cflags: -I/workspaces/carma_ws/src/carma-utils/wgs84_utils/include
+Libs: -L${prefix}/lib -lwgs84_utils_library
+Requires: roscpp tf2 tf2_ros tf2_geometry_msgs

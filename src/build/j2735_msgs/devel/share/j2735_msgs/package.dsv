@@ -1,0 +1,12 @@
+source;share/j2735_msgs/hook/cmake_prefix_path.ps1
+source;share/j2735_msgs/hook/cmake_prefix_path.dsv
+source;share/j2735_msgs/hook/cmake_prefix_path.sh
+source;share/j2735_msgs/hook/pkg_config.ps1
+source;share/j2735_msgs/hook/pkg_config.dsv
+source;share/j2735_msgs/hook/pkg_config.sh
+source;share/j2735_msgs/hook/ros_package_path.ps1
+source;share/j2735_msgs/hook/ros_package_path.dsv
+source;share/j2735_msgs/hook/ros_package_path.sh
+source;share/j2735_msgs/hook/catkin_pythonpath.ps1
+source;share/j2735_msgs/hook/catkin_pythonpath.dsv
+source;share/j2735_msgs/hook/catkin_pythonpath.sh

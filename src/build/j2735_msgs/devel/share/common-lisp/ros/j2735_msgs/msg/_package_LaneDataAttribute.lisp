@@ -1,0 +1,16 @@
+(cl:in-package j2735_msgs-msg)
+(cl:export '(CHOICE-VAL
+          CHOICE
+          PATH_END_POINT_ANGLE-VAL
+          PATH_END_POINT_ANGLE
+          LANE_CROWN_POINT_CENTER-VAL
+          LANE_CROWN_POINT_CENTER
+          LANE_CROWN_POINT_RIGHT-VAL
+          LANE_CROWN_POINT_RIGHT
+          LANE_CROWN_POINT_LEFT-VAL
+          LANE_CROWN_POINT_LEFT
+          LANE_ANGLE-VAL
+          LANE_ANGLE
+          SPEED_LIMITS-VAL
+          SPEED_LIMITS
+))

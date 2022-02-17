@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/carma_ws/src/build/autoware_config_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_config_msgs -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/autoware_config_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_config_msgs -- -j12 -l12

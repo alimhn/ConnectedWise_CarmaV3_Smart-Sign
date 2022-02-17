@@ -1,0 +1,16 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          ENGINE_SPEED-VAL
+          ENGINE_SPEED
+          ENGINE_TORQUE-VAL
+          ENGINE_TORQUE
+          ENGINE_COOLANT_TEMP-VAL
+          ENGINE_COOLANT_TEMP
+          ENGINE_SPEED_AVAIL-VAL
+          ENGINE_SPEED_AVAIL
+          ENGINE_TORQUE_AVAIL-VAL
+          ENGINE_TORQUE_AVAIL
+          ENGINE_COOLANT_TEMP_AVAIL-VAL
+          ENGINE_COOLANT_TEMP_AVAIL
+))

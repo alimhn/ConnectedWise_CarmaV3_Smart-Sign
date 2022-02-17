@@ -1,0 +1,18 @@
+<launch>
+
+
+  <node pkg="proj" name="v2i_image_raw" type="v2i_image_raw">
+    <param name="image_file" type="str" value="$(find proj)/common/test_img/"/>
+
+  </node>
+
+ <node pkg="proj" name="crop_image" type="crop_image">
+    
+  </node>
+
+   <node pkg="proj" name="match_images" type="match_images">
+    
+  </node>
+ 
+
+</launch>

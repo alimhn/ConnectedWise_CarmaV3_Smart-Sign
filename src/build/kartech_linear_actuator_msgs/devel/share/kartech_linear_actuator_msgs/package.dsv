@@ -1,0 +1,3 @@
+source;share/kartech_linear_actuator_msgs/hook/ros_package_path.ps1
+source;share/kartech_linear_actuator_msgs/hook/ros_package_path.dsv
+source;share/kartech_linear_actuator_msgs/hook/ros_package_path.sh

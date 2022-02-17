@@ -1,0 +1,9 @@
+[0.100s] Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs -- -j12 -l12
+[0.182s] [  0%] Built target std_msgs_generate_messages_eus
+[0.216s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.248s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.293s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.331s] make[2]: *** [CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make:70: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend] Interrupt
+[0.331s] make[1]: *** [CMakeFiles/Makefile2:802: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all] Interrupt
+[0.331s] make: *** [Makefile:141: all] Interrupt
+[0.389s] Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs -- -j12 -l12

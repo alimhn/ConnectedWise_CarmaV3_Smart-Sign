@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/workspaces/carma_ws/src/build/lib_vehicle_model/gtest/lib ../lib/libgtest.so -lpthread 

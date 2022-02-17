@@ -1,0 +1,7 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+make[2]: *** [CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make:70: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:802: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

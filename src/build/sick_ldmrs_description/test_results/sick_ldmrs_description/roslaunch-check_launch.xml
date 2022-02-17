@@ -1,0 +1,4 @@
+<testsuite tests="1" failures="1" time="1" errors="0" name="roslaunch-check_launch.xml"><testcase name="sick_ldmrs_description_launch" status="run" time="1" classname="roslaunch.RoslaunchCheck"><failure message="roslaunch check [/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch] failed" type="" /></testcase><system-out>&lt;![CDATA[
+[/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/show_urdf.launch]:
+	cannot find node [state_publisher] in package [robot_state_publisher]
+]]&gt;</system-out></testsuite>

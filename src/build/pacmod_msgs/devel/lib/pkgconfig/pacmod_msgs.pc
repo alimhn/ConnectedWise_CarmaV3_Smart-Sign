@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/build/pacmod_msgs/devel
+
+Name: pacmod_msgs
+Description: Description of pacmod_msgs
+Version: 3.0.2
+Cflags: -I/workspaces/carma_ws/src/build/pacmod_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

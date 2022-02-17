@@ -1,0 +1,9 @@
+source;share/hardcoded_params/hook/cmake_prefix_path.ps1
+source;share/hardcoded_params/hook/cmake_prefix_path.dsv
+source;share/hardcoded_params/hook/cmake_prefix_path.sh
+source;share/hardcoded_params/hook/pkg_config.ps1
+source;share/hardcoded_params/hook/pkg_config.dsv
+source;share/hardcoded_params/hook/pkg_config.sh
+source;share/hardcoded_params/hook/ros_package_path.ps1
+source;share/hardcoded_params/hook/ros_package_path.dsv
+source;share/hardcoded_params/hook/ros_package_path.sh

@@ -1,0 +1,3 @@
+source;share/carma_wm/hook/ros_package_path.ps1
+source;share/carma_wm/hook/ros_package_path.dsv
+source;share/carma_wm/hook/ros_package_path.sh

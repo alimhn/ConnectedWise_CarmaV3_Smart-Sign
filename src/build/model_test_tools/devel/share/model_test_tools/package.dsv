@@ -1,0 +1,3 @@
+source;share/model_test_tools/hook/ros_package_path.ps1
+source;share/model_test_tools/hook/ros_package_path.dsv
+source;share/model_test_tools/hook/ros_package_path.sh

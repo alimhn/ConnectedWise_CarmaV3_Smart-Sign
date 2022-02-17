@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/build/hardcoded_params/devel
+
+Name: hardcoded_params
+Description: Description of hardcoded_params
+Version: 0.0.1
+Cflags: -I/workspaces/carma_ws/src/autoware.ai/common/hardcoded_params/include
+Libs: -L${prefix}/lib 
+Requires: 

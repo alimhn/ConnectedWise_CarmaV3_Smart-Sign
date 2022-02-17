@@ -1,0 +1,3 @@
+source;share/cost_plugin_system/hook/ros_package_path.ps1
+source;share/cost_plugin_system/hook/ros_package_path.dsv
+source;share/cost_plugin_system/hook/ros_package_path.sh

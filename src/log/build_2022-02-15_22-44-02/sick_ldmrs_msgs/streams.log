@@ -1,0 +1,39 @@
+[0.037s] Invoking command in '/workspaces/carma_ws/src/build/sick_ldmrs_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/sick_ldmrs_msgs
+[1.840s] -- The C compiler identification is GNU 9.3.0
+[1.840s] -- The CXX compiler identification is GNU 9.3.0
+[1.840s] -- Check for working C compiler: /usr/bin/cc
+[1.840s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.840s] -- Detecting C compiler ABI info
+[1.840s] -- Detecting C compiler ABI info - done
+[1.840s] -- Detecting C compile features
+[1.841s] -- Detecting C compile features - done
+[1.841s] -- Check for working CXX compiler: /usr/bin/c++
+[1.841s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.841s] -- Detecting CXX compiler ABI info
+[1.841s] -- Detecting CXX compiler ABI info - done
+[1.841s] -- Detecting CXX compile features
+[1.841s] -- Detecting CXX compile features - done
+[1.842s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/sick_ldmrs_msgs/devel
+[1.842s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[1.842s] -- This workspace overlays: /opt/ros/noetic
+[1.892s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.892s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.893s] -- Using Debian Python package layout
+[2.051s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.051s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.397s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.397s] -- Call enable_testing()
+[2.411s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/sick_ldmrs_msgs/test_results
+[3.539s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.540s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.540s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.635s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.639s] -- Found Threads: TRUE  
+[3.649s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.751s] -- catkin 0.8.10
+[3.751s] -- BUILD_SHARED_LIBS is on
+[4.307s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.691s] -- sick_ldmrs_msgs: 2 messages, 0 services
+[4.976s] -- Configuring done
+[5.008s] -- Generating done
+[5.015s] -- Build files have been written to: /workspaces/carma_ws/src/build/sick_ldmrs_msgs

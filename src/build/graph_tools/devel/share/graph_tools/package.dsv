@@ -1,0 +1,3 @@
+source;share/graph_tools/hook/ros_package_path.ps1
+source;share/graph_tools/hook/ros_package_path.dsv
+source;share/graph_tools/hook/ros_package_path.sh

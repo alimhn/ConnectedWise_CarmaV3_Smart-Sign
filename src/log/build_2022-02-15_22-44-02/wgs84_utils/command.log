@@ -1,0 +1,5 @@
+Invoking command in '/workspaces/carma_ws/src/build/wgs84_utils': /usr/bin/cmake /workspaces/carma_ws/src/carma-utils/wgs84_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/wgs84_utils
+Invoked command in '/workspaces/carma_ws/src/build/wgs84_utils' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/carma-utils/wgs84_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/wgs84_utils
+Invoking command in '/workspaces/carma_ws/src/build/wgs84_utils': /usr/bin/cmake --build /workspaces/carma_ws/src/build/wgs84_utils -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/wgs84_utils' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/wgs84_utils -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/wgs84_utils': /usr/bin/cmake --build /workspaces/carma_ws/src/build/wgs84_utils --target tests -- -j12 -l12

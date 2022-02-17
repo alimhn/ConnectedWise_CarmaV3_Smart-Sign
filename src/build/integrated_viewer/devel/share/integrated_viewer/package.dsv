@@ -1,0 +1,3 @@
+source;share/integrated_viewer/hook/ros_package_path.ps1
+source;share/integrated_viewer/hook/ros_package_path.dsv
+source;share/integrated_viewer/hook/ros_package_path.sh

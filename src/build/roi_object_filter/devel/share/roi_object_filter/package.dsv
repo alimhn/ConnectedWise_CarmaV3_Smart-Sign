@@ -1,0 +1,3 @@
+source;share/roi_object_filter/hook/ros_package_path.ps1
+source;share/roi_object_filter/hook/ros_package_path.dsv
+source;share/roi_object_filter/hook/ros_package_path.sh

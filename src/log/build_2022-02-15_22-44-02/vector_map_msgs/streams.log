@@ -1,0 +1,513 @@
+[0.063s] Invoking command in '/workspaces/carma_ws/src/build/vector_map_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/vector_map_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/vector_map_msgs
+[0.200s] -- The C compiler identification is GNU 9.3.0
+[0.348s] -- The CXX compiler identification is GNU 9.3.0
+[0.358s] -- Check for working C compiler: /usr/bin/cc
+[0.508s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.509s] -- Detecting C compiler ABI info
+[0.628s] -- Detecting C compiler ABI info - done
+[0.673s] -- Detecting C compile features
+[0.673s] -- Detecting C compile features - done
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++
+[0.798s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.799s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.973s] -- Detecting CXX compile features
+[0.977s] -- Detecting CXX compile features - done
+[0.982s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/vector_map_msgs/devel
+[0.983s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.985s] -- This workspace overlays: /opt/ros/noetic
+[1.051s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.052s] -- Using Debian Python package layout
+[1.124s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.124s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.397s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.399s] -- Call enable_testing()
+[1.402s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/vector_map_msgs/test_results
+[2.026s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.027s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.027s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.073s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.079s] -- Found Threads: TRUE  
+[2.088s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.184s] -- catkin 0.8.10
+[2.185s] -- BUILD_SHARED_LIBS is on
+[2.621s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.189s] -- vector_map_msgs: 64 messages, 0 services
+[3.602s] -- Configuring done
+[3.938s] -- Generating done
+[3.990s] -- Build files have been written to: /workspaces/carma_ws/src/build/vector_map_msgs
+[4.021s] Invoked command in '/workspaces/carma_ws/src/build/vector_map_msgs' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/vector_map_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/vector_map_msgs
+[4.027s] Invoking command in '/workspaces/carma_ws/src/build/vector_map_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/vector_map_msgs -- -j12 -l12
+[4.736s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_GuardRail[0m
+[4.736s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_SideStripArray[0m
+[4.736s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RailCrossing[0m
+[4.737s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Fence[0m
+[4.737s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Wall[0m
+[4.745s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_SideStrip[0m
+[4.746s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CrossRoadArray[0m
+[4.746s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CrossRoad[0m
+[4.746s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_DriveOnPortionArray[0m
+[4.746s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_SideWalkArray[0m
+[4.747s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_SideStripArray
+[4.747s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RailCrossing
+[4.747s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_NodeArray[0m
+[4.749s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_GuardRailArray[0m
+[4.798s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CrossRoadArray
+[4.814s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CrossWalkArray[0m
+[4.819s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_GuardRail
+[4.866s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Fence
+[4.966s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_SideStrip
+[4.977s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_DriveOnPortionArray
+[5.011s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Wall
+[5.079s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_NodeArray
+[5.089s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_DTLane[0m
+[5.127s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Pole[0m
+[5.136s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CrossRoad
+[5.161s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_SideWalk[0m
+[5.187s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Area[0m
+[5.229s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadMark[0m
+[5.229s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_LineArray[0m
+[5.297s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_SideWalkArray
+[5.345s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CrossWalkArray
+[5.448s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_GuardRailArray
+[5.492s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_LaneArray[0m
+[5.605s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_SignalArray[0m
+[5.640s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_DTLane
+[5.648s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_ZebraZoneArray[0m
+[5.663s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Pole
+[5.698s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Area
+[5.729s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_SideWalk
+[5.755s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Box[0m
+[5.765s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_LineArray
+[5.957s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_GutterArray[0m
+[5.971s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Lane[0m
+[5.977s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadMark
+[5.984s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_LaneArray
+[5.994s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CurveMirror[0m
+[6.005s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_PointArray[0m
+[6.026s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Point[0m
+[6.038s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_VectorArray[0m
+[6.241s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_ZebraZoneArray
+[6.241s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Vector[0m
+[6.242s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_SignalArray
+[6.325s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Box
+[6.402s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_StreetLight[0m
+[6.483s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_GutterArray
+[6.501s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadMarkArray[0m
+[6.516s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_StopLine[0m
+[6.526s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_WallArray[0m
+[6.572s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_PointArray
+[6.578s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Line[0m
+[6.627s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CurveMirror
+[6.656s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_WayAreaArray[0m
+[6.657s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Lane
+[6.717s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[6.742s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_VectorArray
+[6.769s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadPoleArray[0m
+[6.816s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Point
+[6.920s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Node[0m
+[6.940s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.987s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Vector
+[6.988s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadMarkArray
+[7.012s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_WallArray
+[7.013s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_StopLine
+[7.022s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_WayArea[0m
+[7.088s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_StreetLight
+[7.097s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadEdgeArray[0m
+[7.155s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_AreaArray[0m
+[7.155s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Curb[0m
+[7.189s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadEdge[0m
+[7.193s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Node
+[7.206s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Line
+[7.236s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_WayAreaArray
+[7.249s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_WhiteLineArray[0m
+[7.335s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadPoleArray
+[7.390s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_WayArea
+[7.438s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CurbArray[0m
+[7.474s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_PoleArray[0m
+[7.547s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_ZebraZone[0m
+[7.558s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_DriveOnPortion[0m
+[7.580s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CurveMirrorArray[0m
+[7.590s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_DTLaneArray[0m
+[7.707s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadEdgeArray
+[7.707s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Curb
+[7.728s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_WhiteLine[0m
+[7.858s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_AreaArray
+[7.861s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadEdge
+[7.863s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Gutter[0m
+[7.962s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_DriveOnPortion
+[7.965s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_PoleArray
+[7.966s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_WhiteLineArray
+[8.067s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CurveMirrorArray
+[8.071s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_DTLaneArray
+[8.072s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_ZebraZone
+[8.107s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CurbArray
+[8.122s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_CrossWalk[0m
+[8.137s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_UtilityPoleArray[0m
+[8.155s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_UtilityPole[0m
+[8.158s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadPole[0m
+[8.164s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RailCrossingArray[0m
+[8.166s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_FenceArray[0m
+[8.175s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadSign[0m
+[8.180s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_BoxArray[0m
+[8.189s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_StopLineArray[0m
+[8.228s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_RoadSignArray[0m
+[8.384s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_CrossWalk
+[8.398s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_WhiteLine
+[8.499s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Gutter
+[8.557s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_UtilityPoleArray
+[8.558s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_UtilityPole
+[8.593s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadSign
+[8.598s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RailCrossingArray
+[8.601s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadPole
+[8.646s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_FenceArray
+[8.653s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_Signal[0m
+[8.660s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_StopLineArray
+[8.686s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_BoxArray
+[8.717s] [35m[1mScanning dependencies of target _vector_map_msgs_generate_messages_check_deps_StreetLightArray[0m
+[8.719s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_RoadSignArray
+[8.851s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[8.873s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[8.885s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[8.989s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[8.990s] [  0%] Built target std_msgs_generate_messages_py
+[9.084s] [  0%] Built target std_msgs_generate_messages_eus
+[9.097s] [  0%] Built target std_msgs_generate_messages_nodejs
+[9.158s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_Signal
+[9.159s] [  0%] Built target std_msgs_generate_messages_cpp
+[9.209s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_StreetLightArray
+[9.347s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[9.349s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[9.444s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[9.484s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[9.484s] [  0%] [34m[1mGenerating Python from MSG vector_map_msgs/Point[0m
+[9.504s] [  1%] [34m[1mGenerating Lisp code from vector_map_msgs/PointArray.msg[0m
+[9.505s] [  1%] [34m[1mGenerating Lisp code from vector_map_msgs/Vector.msg[0m
+[9.536s] [  1%] [34m[1mGenerating Lisp code from vector_map_msgs/VectorArray.msg[0m
+[9.536s] [  1%] [34m[1mGenerating Lisp code from vector_map_msgs/Point.msg[0m
+[9.550s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[9.550s] [  3%] [34m[1mGenerating Python from MSG vector_map_msgs/Vector[0m
+[9.551s] [  3%] [34m[1mGenerating Javascript code from vector_map_msgs/Point.msg[0m
+[9.552s] [  4%] [34m[1mGenerating Python from MSG vector_map_msgs/PointArray[0m
+[9.552s] [  4%] [34m[1mGenerating Lisp code from vector_map_msgs/Line.msg[0m
+[9.583s] [  4%] [34m[1mGenerating Javascript code from vector_map_msgs/PointArray.msg[0m
+[9.583s] [  5%] [34m[1mGenerating EusLisp code from vector_map_msgs/Point.msg[0m
+[9.711s] [  5%] [34m[1mGenerating C++ code from vector_map_msgs/Point.msg[0m
+[9.865s] [  5%] [34m[1mGenerating Lisp code from vector_map_msgs/LineArray.msg[0m
+[10.008s] [  5%] [34m[1mGenerating Lisp code from vector_map_msgs/Area.msg[0m
+[10.086s] [  5%] [34m[1mGenerating Lisp code from vector_map_msgs/AreaArray.msg[0m
+[10.087s] [  5%] [34m[1mGenerating Python from MSG vector_map_msgs/VectorArray[0m
+[10.246s] [  7%] [34m[1mGenerating Javascript code from vector_map_msgs/VectorArray.msg[0m
+[10.247s] [  7%] [34m[1mGenerating Javascript code from vector_map_msgs/Vector.msg[0m
+[10.248s] [  6%] [34m[1mGenerating Lisp code from vector_map_msgs/Pole.msg[0m
+[10.773s] [  7%] [34m[1mGenerating EusLisp code from vector_map_msgs/PointArray.msg[0m
+[10.812s] [  7%] [34m[1mGenerating Javascript code from vector_map_msgs/Line.msg[0m
+[10.913s] [  8%] [34m[1mGenerating Lisp code from vector_map_msgs/BoxArray.msg[0m
+[11.058s] [  9%] [34m[1mGenerating C++ code from vector_map_msgs/PointArray.msg[0m
+[11.277s] [  9%] [34m[1mGenerating Javascript code from vector_map_msgs/LineArray.msg[0m
+[11.322s] [  9%] [34m[1mGenerating Lisp code from vector_map_msgs/Box.msg[0m
+[11.326s] [  9%] [34m[1mGenerating EusLisp code from vector_map_msgs/Vector.msg[0m
+[11.435s] [ 10%] [34m[1mGenerating Python from MSG vector_map_msgs/LineArray[0m
+[11.438s] [ 10%] [34m[1mGenerating Javascript code from vector_map_msgs/Pole.msg[0m
+[11.526s] [ 10%] [34m[1mGenerating Lisp code from vector_map_msgs/DTLane.msg[0m
+[11.723s] [ 10%] [34m[1mGenerating C++ code from vector_map_msgs/Vector.msg[0m
+[11.745s] [ 10%] [34m[1mGenerating Javascript code from vector_map_msgs/AreaArray.msg[0m
+[11.745s] [ 10%] [34m[1mGenerating Lisp code from vector_map_msgs/DTLaneArray.msg[0m
+[11.990s] [ 11%] [34m[1mGenerating EusLisp code from vector_map_msgs/VectorArray.msg[0m
+[12.167s] [ 11%] [34m[1mGenerating Javascript code from vector_map_msgs/PoleArray.msg[0m
+[12.174s] [ 11%] [34m[1mGenerating Python from MSG vector_map_msgs/AreaArray[0m
+[12.175s] [ 11%] [34m[1mGenerating Lisp code from vector_map_msgs/NodeArray.msg[0m
+[12.408s] [ 11%] [34m[1mGenerating C++ code from vector_map_msgs/VectorArray.msg[0m
+[12.408s] [ 12%] [34m[1mGenerating Javascript code from vector_map_msgs/Box.msg[0m
+[12.423s] [ 12%] [34m[1mGenerating Lisp code from vector_map_msgs/Lane.msg[0m
+[12.451s] [ 12%] [34m[1mGenerating EusLisp code from vector_map_msgs/Line.msg[0m
+[12.710s] [ 12%] [34m[1mGenerating Javascript code from vector_map_msgs/BoxArray.msg[0m
+[12.751s] [ 13%] [34m[1mGenerating Lisp code from vector_map_msgs/Node.msg[0m
+[12.859s] [ 13%] [34m[1mGenerating Javascript code from vector_map_msgs/DTLane.msg[0m
+[12.982s] [ 13%] [34m[1mGenerating Python from MSG vector_map_msgs/Area[0m
+[12.985s] [ 13%] [34m[1mGenerating EusLisp code from vector_map_msgs/LineArray.msg[0m
+[13.005s] [ 13%] [34m[1mGenerating C++ code from vector_map_msgs/Line.msg[0m
+[13.048s] [ 14%] [34m[1mGenerating Lisp code from vector_map_msgs/WayArea.msg[0m
+[13.266s] [ 15%] [34m[1mGenerating Javascript code from vector_map_msgs/DTLaneArray.msg[0m
+[13.350s] [ 15%] [34m[1mGenerating Lisp code from vector_map_msgs/LaneArray.msg[0m
+[13.512s] [ 15%] [34m[1mGenerating EusLisp code from vector_map_msgs/Area.msg[0m
+[13.596s] [ 15%] [34m[1mGenerating Lisp code from vector_map_msgs/WayAreaArray.msg[0m
+[13.621s] [ 15%] [34m[1mGenerating Javascript code from vector_map_msgs/Node.msg[0m
+[13.748s] [ 16%] [34m[1mGenerating C++ code from vector_map_msgs/LineArray.msg[0m
+[13.763s] [ 16%] [34m[1mGenerating Javascript code from vector_map_msgs/NodeArray.msg[0m
+[13.894s] [ 17%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadEdgeArray.msg[0m
+[13.914s] [ 18%] [34m[1mGenerating Python from MSG vector_map_msgs/Pole[0m
+[14.151s] [ 18%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadEdge.msg[0m
+[14.159s] [ 19%] [34m[1mGenerating EusLisp code from vector_map_msgs/AreaArray.msg[0m
+[14.242s] [ 20%] [34m[1mGenerating Javascript code from vector_map_msgs/Area.msg[0m
+[14.401s] [ 20%] [34m[1mGenerating Lisp code from vector_map_msgs/Gutter.msg[0m
+[14.575s] [ 20%] [34m[1mGenerating Python from MSG vector_map_msgs/Box[0m
+[14.575s] [ 20%] [34m[1mGenerating Javascript code from vector_map_msgs/LaneArray.msg[0m
+[14.634s] [ 20%] [34m[1mGenerating EusLisp code from vector_map_msgs/Pole.msg[0m
+[14.718s] [ 20%] [34m[1mGenerating C++ code from vector_map_msgs/AreaArray.msg[0m
+[14.782s] [ 20%] [34m[1mGenerating Lisp code from vector_map_msgs/PoleArray.msg[0m
+[14.880s] [ 21%] [34m[1mGenerating Javascript code from vector_map_msgs/Lane.msg[0m
+[15.091s] [ 22%] [34m[1mGenerating EusLisp code from vector_map_msgs/Box.msg[0m
+[15.114s] [ 23%] [34m[1mGenerating Lisp code from vector_map_msgs/Curb.msg[0m
+[15.140s] [ 23%] [34m[1mGenerating Javascript code from vector_map_msgs/WayArea.msg[0m
+[15.292s] [ 23%] [34m[1mGenerating Lisp code from vector_map_msgs/GutterArray.msg[0m
+[15.409s] [ 23%] [34m[1mGenerating EusLisp code from vector_map_msgs/DTLane.msg[0m
+[15.420s] [ 23%] [34m[1mGenerating Javascript code from vector_map_msgs/WayAreaArray.msg[0m
+[15.505s] [ 23%] [34m[1mGenerating Lisp code from vector_map_msgs/CurbArray.msg[0m
+[15.599s] [ 23%] [34m[1mGenerating C++ code from vector_map_msgs/Area.msg[0m
+[15.621s] [ 23%] [34m[1mGenerating Python from MSG vector_map_msgs/BoxArray[0m
+[15.673s] [ 23%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadEdgeArray.msg[0m
+[15.784s] [ 23%] [34m[1mGenerating Lisp code from vector_map_msgs/WhiteLine.msg[0m
+[15.838s] [ 23%] [34m[1mGenerating EusLisp code from vector_map_msgs/BoxArray.msg[0m
+[16.034s] [ 24%] [34m[1mGenerating Javascript code from vector_map_msgs/GutterArray.msg[0m
+[16.113s] [ 25%] [34m[1mGenerating Lisp code from vector_map_msgs/WhiteLineArray.msg[0m
+[16.153s] [ 26%] [34m[1mGenerating EusLisp code from vector_map_msgs/DTLaneArray.msg[0m
+[16.171s] [ 27%] [34m[1mGenerating C++ code from vector_map_msgs/Pole.msg[0m
+[16.254s] [ 28%] [34m[1mGenerating Python from MSG vector_map_msgs/DTLane[0m
+[16.338s] [ 28%] [34m[1mGenerating Lisp code from vector_map_msgs/StopLine.msg[0m
+[16.393s] [ 28%] [34m[1mGenerating Javascript code from vector_map_msgs/Curb.msg[0m
+[16.549s] [ 28%] [34m[1mGenerating C++ code from vector_map_msgs/PoleArray.msg[0m
+[16.562s] [ 28%] [34m[1mGenerating EusLisp code from vector_map_msgs/PoleArray.msg[0m
+[16.732s] [ 29%] [34m[1mGenerating Javascript code from vector_map_msgs/WhiteLine.msg[0m
+[16.755s] [ 29%] [34m[1mGenerating Lisp code from vector_map_msgs/StopLineArray.msg[0m
+[16.991s] [ 29%] [34m[1mGenerating Javascript code from vector_map_msgs/CurbArray.msg[0m
+[17.024s] [ 29%] [34m[1mGenerating Lisp code from vector_map_msgs/ZebraZone.msg[0m
+[17.073s] [ 29%] [34m[1mGenerating EusLisp code from vector_map_msgs/NodeArray.msg[0m
+[17.123s] [ 29%] [34m[1mGenerating C++ code from vector_map_msgs/Box.msg[0m
+[17.230s] [ 30%] [34m[1mGenerating Lisp code from vector_map_msgs/ZebraZoneArray.msg[0m
+[17.312s] [ 30%] [34m[1mGenerating Python from MSG vector_map_msgs/DTLaneArray[0m
+[17.358s] [ 30%] [34m[1mGenerating Javascript code from vector_map_msgs/Gutter.msg[0m
+[17.600s] [ 30%] [34m[1mGenerating EusLisp code from vector_map_msgs/WayArea.msg[0m
+[17.612s] [ 31%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadEdge.msg[0m
+[17.643s] [ 31%] [34m[1mGenerating Lisp code from vector_map_msgs/CrossWalk.msg[0m
+[17.862s] [ 31%] [34m[1mGenerating EusLisp code from vector_map_msgs/WayAreaArray.msg[0m
+[17.864s] [ 31%] [34m[1mGenerating Javascript code from vector_map_msgs/WhiteLineArray.msg[0m
+[17.991s] [ 31%] [34m[1mGenerating Lisp code from vector_map_msgs/CrossWalkArray.msg[0m
+[18.024s] [ 32%] [34m[1mGenerating C++ code from vector_map_msgs/BoxArray.msg[0m
+[18.145s] [ 32%] [34m[1mGenerating Python from MSG vector_map_msgs/Node[0m
+[18.155s] [ 32%] [34m[1mGenerating Javascript code from vector_map_msgs/StopLine.msg[0m
+[18.260s] [ 32%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadMarkArray.msg[0m
+[18.373s] [ 33%] [34m[1mGenerating EusLisp code from vector_map_msgs/LaneArray.msg[0m
+[18.494s] [ 33%] [34m[1mGenerating Javascript code from vector_map_msgs/ZebraZone.msg[0m
+[18.575s] [ 33%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadPole.msg[0m
+[18.637s] [ 33%] [34m[1mGenerating C++ code from vector_map_msgs/DTLane.msg[0m
+[18.688s] [ 34%] [34m[1mGenerating Javascript code from vector_map_msgs/StopLineArray.msg[0m
+[18.730s] [ 34%] [34m[1mGenerating Python from MSG vector_map_msgs/PoleArray[0m
+[18.906s] [ 35%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadEdge.msg[0m
+[18.974s] [ 35%] [34m[1mGenerating Javascript code from vector_map_msgs/ZebraZoneArray.msg[0m
+[18.997s] [ 36%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadMark.msg[0m
+[19.286s] [ 37%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadPoleArray.msg[0m
+[19.290s] [ 37%] [34m[1mGenerating Javascript code from vector_map_msgs/CrossWalk.msg[0m
+[19.305s] [ 37%] [34m[1mGenerating EusLisp code from vector_map_msgs/Lane.msg[0m
+[19.317s] [ 37%] [34m[1mGenerating C++ code from vector_map_msgs/Node.msg[0m
+[19.493s] [ 38%] [34m[1mGenerating Javascript code from vector_map_msgs/CrossWalkArray.msg[0m
+[19.501s] [ 38%] [34m[1mGenerating Python from MSG vector_map_msgs/Lane[0m
+[19.564s] [ 38%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadEdgeArray.msg[0m
+[19.585s] [ 38%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadSign.msg[0m
+[19.685s] [ 38%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadMark.msg[0m
+[19.757s] [ 39%] [34m[1mGenerating C++ code from vector_map_msgs/NodeArray.msg[0m
+[19.886s] [ 39%] [34m[1mGenerating Lisp code from vector_map_msgs/RoadSignArray.msg[0m
+[19.992s] [ 39%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadMarkArray.msg[0m
+[20.141s] [ 39%] [34m[1mGenerating EusLisp code from vector_map_msgs/Gutter.msg[0m
+[20.201s] [ 40%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadPole.msg[0m
+[20.299s] [ 40%] [34m[1mGenerating Lisp code from vector_map_msgs/Signal.msg[0m
+[20.390s] [ 40%] [34m[1mGenerating EusLisp code from vector_map_msgs/Node.msg[0m
+[20.408s] [ 40%] [34m[1mGenerating C++ code from vector_map_msgs/Lane.msg[0m
+[20.488s] [ 40%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadPoleArray.msg[0m
+[20.577s] [ 41%] [34m[1mGenerating Python from MSG vector_map_msgs/WayArea[0m
+[20.641s] [ 42%] [34m[1mGenerating Lisp code from vector_map_msgs/SignalArray.msg[0m
+[20.781s] [ 42%] [34m[1mGenerating EusLisp code from vector_map_msgs/Curb.msg[0m
+[20.788s] [ 42%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadSign.msg[0m
+[20.836s] [ 42%] [34m[1mGenerating Lisp code from vector_map_msgs/StreetLight.msg[0m
+[21.052s] [ 43%] [34m[1mGenerating Javascript code from vector_map_msgs/RoadSignArray.msg[0m
+[21.141s] [ 43%] [34m[1mGenerating C++ code from vector_map_msgs/LaneArray.msg[0m
+[21.189s] [ 43%] [34m[1mGenerating Lisp code from vector_map_msgs/StreetLightArray.msg[0m
+[21.244s] [ 43%] [34m[1mGenerating EusLisp code from vector_map_msgs/CurbArray.msg[0m
+[21.299s] [ 43%] [34m[1mGenerating Javascript code from vector_map_msgs/Signal.msg[0m
+[21.445s] [ 44%] [34m[1mGenerating Lisp code from vector_map_msgs/UtilityPole.msg[0m
+[21.520s] [ 44%] [34m[1mGenerating Python from MSG vector_map_msgs/WayAreaArray[0m
+[21.523s] [ 44%] [34m[1mGenerating Javascript code from vector_map_msgs/SignalArray.msg[0m
+[21.608s] [ 44%] [34m[1mGenerating Lisp code from vector_map_msgs/UtilityPoleArray.msg[0m
+[21.652s] [ 45%] [34m[1mGenerating C++ code from vector_map_msgs/WayArea.msg[0m
+[21.657s] [ 46%] [34m[1mGenerating EusLisp code from vector_map_msgs/GutterArray.msg[0m
+[21.677s] [ 46%] [34m[1mGenerating Javascript code from vector_map_msgs/StreetLight.msg[0m
+[21.997s] [ 46%] [34m[1mGenerating Lisp code from vector_map_msgs/GuardRail.msg[0m
+[22.109s] [ 47%] [34m[1mGenerating Javascript code from vector_map_msgs/StreetLightArray.msg[0m
+[22.122s] [ 48%] [34m[1mGenerating EusLisp code from vector_map_msgs/WhiteLine.msg[0m
+[22.179s] [ 50%] [34m[1mGenerating Lisp code from vector_map_msgs/GuardRailArray.msg[0m
+[22.188s] [ 50%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadEdgeArray[0m
+[22.285s] [ 50%] [34m[1mGenerating Javascript code from vector_map_msgs/UtilityPole.msg[0m
+[22.377s] [ 50%] [34m[1mGenerating C++ code from vector_map_msgs/DTLaneArray.msg[0m
+[22.395s] [ 50%] [34m[1mGenerating EusLisp code from vector_map_msgs/WhiteLineArray.msg[0m
+[22.423s] [ 50%] [34m[1mGenerating Lisp code from vector_map_msgs/SideWalk.msg[0m
+[22.628s] [ 50%] [34m[1mGenerating Javascript code from vector_map_msgs/UtilityPoleArray.msg[0m
+[22.783s] [ 50%] [34m[1mGenerating EusLisp code from vector_map_msgs/StopLine.msg[0m
+[22.783s] [ 50%] [34m[1mGenerating Lisp code from vector_map_msgs/SideWalkArray.msg[0m
+[22.807s] [ 50%] [34m[1mGenerating C++ code from vector_map_msgs/WayAreaArray.msg[0m
+[22.888s] [ 51%] [34m[1mGenerating Javascript code from vector_map_msgs/GuardRail.msg[0m
+[22.976s] [ 51%] [34m[1mGenerating Python from MSG vector_map_msgs/Curb[0m
+[23.074s] [ 51%] [34m[1mGenerating Javascript code from vector_map_msgs/GuardRailArray.msg[0m
+[23.169s] [ 51%] [34m[1mGenerating Lisp code from vector_map_msgs/DriveOnPortion.msg[0m
+[23.270s] [ 51%] [34m[1mGenerating EusLisp code from vector_map_msgs/StopLineArray.msg[0m
+[23.310s] [ 52%] [34m[1mGenerating Lisp code from vector_map_msgs/DriveOnPortionArray.msg[0m
+[23.313s] [ 52%] [34m[1mGenerating Javascript code from vector_map_msgs/SideWalk.msg[0m
+[23.431s] [ 52%] [34m[1mGenerating C++ code from vector_map_msgs/RoadEdge.msg[0m
+[23.519s] [ 52%] [34m[1mGenerating Lisp code from vector_map_msgs/CrossRoad.msg[0m
+[23.527s] [ 53%] [34m[1mGenerating Javascript code from vector_map_msgs/SideWalkArray.msg[0m
+[23.550s] [ 54%] [34m[1mGenerating EusLisp code from vector_map_msgs/ZebraZone.msg[0m
+[23.643s] [ 54%] [34m[1mGenerating Python from MSG vector_map_msgs/GutterArray[0m
+[23.664s] [ 54%] [34m[1mGenerating Lisp code from vector_map_msgs/CrossRoadArray.msg[0m
+[23.775s] [ 54%] [34m[1mGenerating Javascript code from vector_map_msgs/DriveOnPortionArray.msg[0m
+[23.837s] [ 54%] [34m[1mGenerating EusLisp code from vector_map_msgs/ZebraZoneArray.msg[0m
+[23.933s] [ 54%] [34m[1mGenerating Javascript code from vector_map_msgs/DriveOnPortion.msg[0m
+[23.944s] [ 55%] [34m[1mGenerating Lisp code from vector_map_msgs/SideStrip.msg[0m
+[24.096s] [ 55%] [34m[1mGenerating Javascript code from vector_map_msgs/CrossRoad.msg[0m
+[24.217s] [ 55%] [34m[1mGenerating EusLisp code from vector_map_msgs/CrossWalk.msg[0m
+[24.276s] [ 55%] [34m[1mGenerating Lisp code from vector_map_msgs/SideStripArray.msg[0m
+[24.310s] [ 56%] [34m[1mGenerating C++ code from vector_map_msgs/RoadEdgeArray.msg[0m
+[24.349s] [ 57%] [34m[1mGenerating Javascript code from vector_map_msgs/CrossRoadArray.msg[0m
+[24.385s] [ 57%] [34m[1mGenerating Lisp code from vector_map_msgs/CurveMirror.msg[0m
+[24.449s] [ 58%] [34m[1mGenerating EusLisp code from vector_map_msgs/CrossWalkArray.msg[0m
+[24.568s] [ 58%] [34m[1mGenerating Javascript code from vector_map_msgs/SideStrip.msg[0m
+[24.614s] [ 59%] [34m[1mGenerating Python from MSG vector_map_msgs/Gutter[0m
+[24.626s] [ 60%] [34m[1mGenerating Lisp code from vector_map_msgs/CurveMirrorArray.msg[0m
+[24.676s] [ 61%] [34m[1mGenerating Javascript code from vector_map_msgs/CurveMirror.msg[0m
+[24.745s] [ 61%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadMark.msg[0m
+[24.820s] [ 61%] [34m[1mGenerating C++ code from vector_map_msgs/GutterArray.msg[0m
+[24.895s] [ 61%] [34m[1mGenerating Javascript code from vector_map_msgs/SideStripArray.msg[0m
+[24.908s] [ 61%] [34m[1mGenerating Lisp code from vector_map_msgs/Wall.msg[0m
+[25.217s] [ 61%] [34m[1mGenerating Javascript code from vector_map_msgs/CurveMirrorArray.msg[0m
+[25.246s] [ 61%] [34m[1mGenerating Lisp code from vector_map_msgs/WallArray.msg[0m
+[25.386s] [ 61%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadMarkArray.msg[0m
+[25.388s] [ 61%] [34m[1mGenerating Python from MSG vector_map_msgs/WhiteLine[0m
+[25.395s] [ 61%] [34m[1mGenerating Javascript code from vector_map_msgs/Wall.msg[0m
+[25.465s] [ 62%] [34m[1mGenerating Lisp code from vector_map_msgs/Fence.msg[0m
+[25.506s] [ 62%] [34m[1mGenerating C++ code from vector_map_msgs/Gutter.msg[0m
+[25.660s] [ 62%] [34m[1mGenerating Lisp code from vector_map_msgs/FenceArray.msg[0m
+[25.803s] [ 63%] [34m[1mGenerating Javascript code from vector_map_msgs/WallArray.msg[0m
+[25.885s] [ 64%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadPole.msg[0m
+[25.951s] [ 64%] [34m[1mGenerating Lisp code from vector_map_msgs/RailCrossing.msg[0m
+[25.992s] [ 65%] [34m[1mGenerating C++ code from vector_map_msgs/Curb.msg[0m
+[26.043s] [ 65%] [34m[1mGenerating Javascript code from vector_map_msgs/Fence.msg[0m
+[26.177s] [ 65%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadPoleArray.msg[0m
+[26.179s] [ 65%] [34m[1mGenerating Lisp code from vector_map_msgs/RailCrossingArray.msg[0m
+[26.195s] [ 65%] [34m[1mGenerating Javascript code from vector_map_msgs/FenceArray.msg[0m
+[26.260s] [ 65%] [34m[1mGenerating Python from MSG vector_map_msgs/WhiteLineArray[0m
+[26.367s] [ 65%] Built target vector_map_msgs_generate_messages_lisp
+[26.459s] [ 65%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadSign.msg[0m
+[26.507s] [ 66%] [34m[1mGenerating Javascript code from vector_map_msgs/RailCrossing.msg[0m
+[26.636s] [ 66%] [34m[1mGenerating C++ code from vector_map_msgs/WhiteLineArray.msg[0m
+[26.890s] [ 66%] [34m[1mGenerating Javascript code from vector_map_msgs/RailCrossingArray.msg[0m
+[26.893s] [ 66%] [34m[1mGenerating EusLisp code from vector_map_msgs/RoadSignArray.msg[0m
+[27.021s] [ 67%] [34m[1mGenerating Python from MSG vector_map_msgs/CurbArray[0m
+[27.138s] [ 68%] [34m[1mGenerating C++ code from vector_map_msgs/StopLine.msg[0m
+[27.157s] [ 68%] Built target vector_map_msgs_generate_messages_nodejs
+[27.449s] [ 69%] [34m[1mGenerating EusLisp code from vector_map_msgs/Signal.msg[0m
+[27.653s] [ 70%] [34m[1mGenerating Python from MSG vector_map_msgs/StopLine[0m
+[27.656s] [ 70%] [34m[1mGenerating C++ code from vector_map_msgs/ZebraZone.msg[0m
+[27.726s] [ 70%] [34m[1mGenerating EusLisp code from vector_map_msgs/StreetLight.msg[0m
+[27.994s] [ 70%] [34m[1mGenerating C++ code from vector_map_msgs/StopLineArray.msg[0m
+[28.011s] [ 71%] [34m[1mGenerating EusLisp code from vector_map_msgs/StreetLightArray.msg[0m
+[28.439s] [ 71%] [34m[1mGenerating Python from MSG vector_map_msgs/StopLineArray[0m
+[28.503s] [ 71%] [34m[1mGenerating EusLisp code from vector_map_msgs/UtilityPole.msg[0m
+[28.714s] [ 71%] [34m[1mGenerating C++ code from vector_map_msgs/CrossWalk.msg[0m
+[28.840s] [ 71%] [34m[1mGenerating EusLisp code from vector_map_msgs/UtilityPoleArray.msg[0m
+[29.212s] [ 71%] [34m[1mGenerating C++ code from vector_map_msgs/CrossWalkArray.msg[0m
+[29.225s] [ 71%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadEdge[0m
+[29.279s] [ 72%] [34m[1mGenerating EusLisp code from vector_map_msgs/GuardRail.msg[0m
+[29.495s] [ 72%] [34m[1mGenerating EusLisp code from vector_map_msgs/SignalArray.msg[0m
+[29.778s] [ 73%] [34m[1mGenerating C++ code from vector_map_msgs/ZebraZoneArray.msg[0m
+[29.981s] [ 73%] [34m[1mGenerating EusLisp code from vector_map_msgs/GuardRailArray.msg[0m
+[30.133s] [ 74%] [34m[1mGenerating C++ code from vector_map_msgs/RoadMark.msg[0m
+[30.139s] [ 74%] [34m[1mGenerating Python from MSG vector_map_msgs/CrossWalk[0m
+[30.185s] [ 74%] [34m[1mGenerating EusLisp code from vector_map_msgs/SideWalk.msg[0m
+[30.706s] [ 74%] [34m[1mGenerating EusLisp code from vector_map_msgs/SideWalkArray.msg[0m
+[30.734s] [ 74%] [34m[1mGenerating C++ code from vector_map_msgs/WhiteLine.msg[0m
+[30.809s] [ 74%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadMark[0m
+[31.092s] [ 74%] [34m[1mGenerating EusLisp code from vector_map_msgs/DriveOnPortionArray.msg[0m
+[31.384s] [ 75%] [34m[1mGenerating EusLisp code from vector_map_msgs/DriveOnPortion.msg[0m
+[31.441s] [ 75%] [34m[1mGenerating C++ code from vector_map_msgs/RoadPole.msg[0m
+[31.533s] [ 75%] [34m[1mGenerating Python from MSG vector_map_msgs/CrossWalkArray[0m
+[31.577s] [ 75%] [34m[1mGenerating EusLisp code from vector_map_msgs/CrossRoad.msg[0m
+[31.766s] [ 75%] [34m[1mGenerating C++ code from vector_map_msgs/RoadPoleArray.msg[0m
+[31.903s] [ 76%] [34m[1mGenerating EusLisp code from vector_map_msgs/CrossRoadArray.msg[0m
+[32.139s] [ 77%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadMarkArray[0m
+[32.153s] [ 78%] [34m[1mGenerating C++ code from vector_map_msgs/RoadSign.msg[0m
+[32.197s] [ 78%] [34m[1mGenerating EusLisp code from vector_map_msgs/SideStrip.msg[0m
+[32.438s] [ 78%] [34m[1mGenerating EusLisp code from vector_map_msgs/SideStripArray.msg[0m
+[32.588s] [ 78%] [34m[1mGenerating C++ code from vector_map_msgs/RoadSignArray.msg[0m
+[32.677s] [ 79%] [34m[1mGenerating EusLisp code from vector_map_msgs/CurveMirror.msg[0m
+[32.837s] [ 79%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadPole[0m
+[32.995s] [ 79%] [34m[1mGenerating EusLisp code from vector_map_msgs/CurveMirrorArray.msg[0m
+[33.147s] [ 79%] [34m[1mGenerating C++ code from vector_map_msgs/Signal.msg[0m
+[33.505s] [ 80%] [34m[1mGenerating EusLisp code from vector_map_msgs/WallArray.msg[0m
+[33.538s] [ 81%] [34m[1mGenerating C++ code from vector_map_msgs/RoadMarkArray.msg[0m
+[33.539s] [ 81%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadSign[0m
+[33.815s] [ 81%] [34m[1mGenerating EusLisp code from vector_map_msgs/Wall.msg[0m
+[34.166s] [ 81%] [34m[1mGenerating EusLisp code from vector_map_msgs/Fence.msg[0m
+[34.240s] [ 81%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadSignArray[0m
+[34.270s] [ 82%] [34m[1mGenerating C++ code from vector_map_msgs/SignalArray.msg[0m
+[34.325s] [ 82%] [34m[1mGenerating EusLisp code from vector_map_msgs/FenceArray.msg[0m
+[34.696s] [ 82%] [34m[1mGenerating C++ code from vector_map_msgs/StreetLight.msg[0m
+[34.703s] [ 82%] [34m[1mGenerating EusLisp code from vector_map_msgs/RailCrossing.msg[0m
+[34.986s] [ 83%] [34m[1mGenerating EusLisp code from vector_map_msgs/RailCrossingArray.msg[0m
+[35.109s] [ 83%] [34m[1mGenerating C++ code from vector_map_msgs/StreetLightArray.msg[0m
+[35.174s] [ 83%] [34m[1mGenerating Python from MSG vector_map_msgs/Signal[0m
+[35.198s] [ 83%] [34m[1mGenerating EusLisp manifest code for vector_map_msgs[0m
+[35.646s] [ 84%] [34m[1mGenerating C++ code from vector_map_msgs/UtilityPole.msg[0m
+[35.944s] [ 84%] [34m[1mGenerating Python from MSG vector_map_msgs/StreetLight[0m
+[36.113s] [ 84%] [34m[1mGenerating C++ code from vector_map_msgs/UtilityPoleArray.msg[0m
+[36.613s] [ 84%] [34m[1mGenerating Python from MSG vector_map_msgs/StreetLightArray[0m
+[36.801s] [ 84%] [34m[1mGenerating C++ code from vector_map_msgs/GuardRail.msg[0m
+[37.151s] [ 84%] Built target vector_map_msgs_generate_messages_eus
+[37.171s] [ 84%] [34m[1mGenerating Python from MSG vector_map_msgs/UtilityPole[0m
+[37.544s] [ 85%] [34m[1mGenerating C++ code from vector_map_msgs/SideWalk.msg[0m
+[37.915s] [ 86%] [34m[1mGenerating Python from MSG vector_map_msgs/UtilityPoleArray[0m
+[37.936s] [ 86%] [34m[1mGenerating C++ code from vector_map_msgs/SideWalkArray.msg[0m
+[38.514s] [ 86%] [34m[1mGenerating C++ code from vector_map_msgs/GuardRailArray.msg[0m
+[38.709s] [ 86%] [34m[1mGenerating Python from MSG vector_map_msgs/GuardRailArray[0m
+[39.003s] [ 86%] [34m[1mGenerating C++ code from vector_map_msgs/DriveOnPortion.msg[0m
+[39.420s] [ 86%] [34m[1mGenerating C++ code from vector_map_msgs/CurbArray.msg[0m
+[39.446s] [ 86%] [34m[1mGenerating Python from MSG vector_map_msgs/SideWalkArray[0m
+[39.827s] [ 87%] [34m[1mGenerating C++ code from vector_map_msgs/DriveOnPortionArray.msg[0m
+[40.138s] [ 87%] [34m[1mGenerating Python from MSG vector_map_msgs/DriveOnPortion[0m
+[40.174s] [ 87%] [34m[1mGenerating C++ code from vector_map_msgs/CrossRoad.msg[0m
+[40.673s] [ 87%] [34m[1mGenerating C++ code from vector_map_msgs/CrossRoadArray.msg[0m
+[40.807s] [ 88%] [34m[1mGenerating Python from MSG vector_map_msgs/DriveOnPortionArray[0m
+[41.058s] [ 89%] [34m[1mGenerating C++ code from vector_map_msgs/SideStrip.msg[0m
+[41.344s] [ 89%] [34m[1mGenerating Python from MSG vector_map_msgs/CrossRoad[0m
+[41.408s] [ 89%] [34m[1mGenerating C++ code from vector_map_msgs/SideStripArray.msg[0m
+[41.664s] [ 89%] [34m[1mGenerating C++ code from vector_map_msgs/CurveMirror.msg[0m
+[42.077s] [ 89%] [34m[1mGenerating Python from MSG vector_map_msgs/CrossRoadArray[0m
+[42.084s] [ 90%] [34m[1mGenerating C++ code from vector_map_msgs/CurveMirrorArray.msg[0m
+[42.598s] [ 90%] [34m[1mGenerating Python from MSG vector_map_msgs/SideStrip[0m
+[42.660s] [ 90%] [34m[1mGenerating C++ code from vector_map_msgs/Wall.msg[0m
+[43.097s] [ 90%] [34m[1mGenerating C++ code from vector_map_msgs/WallArray.msg[0m
+[43.124s] [ 91%] [34m[1mGenerating Python from MSG vector_map_msgs/SideStripArray[0m
+[43.482s] [ 91%] [34m[1mGenerating C++ code from vector_map_msgs/Fence.msg[0m
+[43.740s] [ 91%] [34m[1mGenerating Python from MSG vector_map_msgs/CurveMirror[0m
+[43.980s] [ 92%] [34m[1mGenerating C++ code from vector_map_msgs/FenceArray.msg[0m
+[44.366s] [ 92%] [34m[1mGenerating C++ code from vector_map_msgs/RailCrossing.msg[0m
+[44.396s] [ 92%] [34m[1mGenerating Python from MSG vector_map_msgs/CurveMirrorArray[0m
+[44.723s] [ 92%] [34m[1mGenerating C++ code from vector_map_msgs/RailCrossingArray.msg[0m
+[44.893s] [ 93%] [34m[1mGenerating Python from MSG vector_map_msgs/Wall[0m
+[44.980s] [ 93%] Built target vector_map_msgs_generate_messages_cpp
+[45.437s] [ 93%] [34m[1mGenerating Python from MSG vector_map_msgs/Fence[0m
+[45.847s] [ 94%] [34m[1mGenerating Python from MSG vector_map_msgs/FenceArray[0m
+[46.396s] [ 94%] [34m[1mGenerating Python from MSG vector_map_msgs/RailCrossing[0m
+[46.869s] [ 94%] [34m[1mGenerating Python from MSG vector_map_msgs/RailCrossingArray[0m
+[47.437s] [ 94%] [34m[1mGenerating Python from MSG vector_map_msgs/WallArray[0m
+[47.960s] [ 95%] [34m[1mGenerating Python from MSG vector_map_msgs/SideWalk[0m
+[48.603s] [ 95%] [34m[1mGenerating Python from MSG vector_map_msgs/GuardRail[0m
+[49.085s] [ 96%] [34m[1mGenerating Python from MSG vector_map_msgs/SignalArray[0m
+[49.621s] [ 96%] [34m[1mGenerating Python from MSG vector_map_msgs/RoadPoleArray[0m
+[50.347s] [ 97%] [34m[1mGenerating Python from MSG vector_map_msgs/ZebraZoneArray[0m
+[50.829s] [ 97%] [34m[1mGenerating Python from MSG vector_map_msgs/ZebraZone[0m
+[51.357s] [ 97%] [34m[1mGenerating Python from MSG vector_map_msgs/LaneArray[0m
+[51.814s] [ 98%] [34m[1mGenerating Python from MSG vector_map_msgs/NodeArray[0m
+[52.276s] [ 98%] [34m[1mGenerating Python from MSG vector_map_msgs/Line[0m
+[52.780s] [100%] [34m[1mGenerating Python msg __init__.py for vector_map_msgs[0m
+[53.197s] [100%] Built target vector_map_msgs_generate_messages_py
+[53.216s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages[0m
+[53.250s] [100%] Built target vector_map_msgs_generate_messages

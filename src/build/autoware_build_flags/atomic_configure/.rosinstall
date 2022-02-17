@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/carma_ws/src/build/autoware_build_flags/devel/setup.sh

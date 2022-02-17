@@ -1,0 +1,3 @@
+source;share/pc2_downsampler/hook/ros_package_path.ps1
+source;share/pc2_downsampler/hook/ros_package_path.dsv
+source;share/pc2_downsampler/hook/ros_package_path.sh

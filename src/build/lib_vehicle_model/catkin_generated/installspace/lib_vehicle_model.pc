@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/install/lib_vehicle_model
+
+Name: lib_vehicle_model
+Description: Description of lib_vehicle_model
+Version: 2.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llib_vehicle_model
+Requires: roscpp

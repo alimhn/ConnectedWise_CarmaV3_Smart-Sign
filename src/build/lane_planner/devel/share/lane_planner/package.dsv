@@ -1,0 +1,3 @@
+source;share/lane_planner/hook/ros_package_path.ps1
+source;share/lane_planner/hook/ros_package_path.dsv
+source;share/lane_planner/hook/ros_package_path.sh

@@ -1,0 +1,3 @@
+source;share/cav_driver_utils/hook/ros_package_path.ps1
+source;share/cav_driver_utils/hook/ros_package_path.dsv
+source;share/cav_driver_utils/hook/ros_package_path.sh

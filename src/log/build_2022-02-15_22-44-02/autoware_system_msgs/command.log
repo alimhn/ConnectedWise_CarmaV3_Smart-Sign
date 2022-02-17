@@ -1,0 +1,8 @@
+Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_system_msgs
+Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_system_msgs
+Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs --target tests -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs --target tests -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_system_msgs
+Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_system_msgs

@@ -1,0 +1,1 @@
+prepend-non-duplicate;ROS_PACKAGE_PATH;/workspaces/carma_ws/src/carma-messenger/carma-messenger-core/truck_inspection_plugin

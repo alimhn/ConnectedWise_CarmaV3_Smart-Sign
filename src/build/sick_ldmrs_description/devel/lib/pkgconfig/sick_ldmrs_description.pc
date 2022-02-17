@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/build/sick_ldmrs_description/devel
+
+Name: sick_ldmrs_description
+Description: Description of sick_ldmrs_description
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

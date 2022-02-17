@@ -1,0 +1,3 @@
+source;share/marker_downsampler/hook/ros_package_path.ps1
+source;share/marker_downsampler/hook/ros_package_path.dsv
+source;share/marker_downsampler/hook/ros_package_path.sh

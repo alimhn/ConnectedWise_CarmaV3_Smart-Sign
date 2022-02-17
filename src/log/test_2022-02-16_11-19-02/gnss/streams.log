@@ -1,0 +1,46 @@
+[0.392s] Invoking command in '/workspaces/carma_ws/src/build/gnss': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/gnss/devel:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/carma_ws/src/build/gnss/devel/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/gnss/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/autoware.ai/common/gnss:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.463s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+[0.463s] Parse Config file:/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+[0.463s]    Site: 734334d1087f
+[0.463s]    Build name: (empty)
+[0.464s]  Add coverage exclude regular expressions.
+[0.464s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.464s] Create new tag: 20220216-1119 - Experimental
+[0.464s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+[0.464s] Parse Config file:/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+[0.464s] Test project /workspaces/carma_ws/src/build/gnss
+[0.464s] Constructing a list of tests
+[0.464s] Done constructing a list of tests
+[0.465s] Updating test list for fixtures
+[0.465s] Added 0 tests to meet fixture requirements
+[0.465s] Checking test dependency graph...
+[0.465s] Checking test dependency graph end
+[0.465s] test 1
+[0.465s]     Start 1: _ctest_gnss_rostest_test_test_gnss.test
+[0.465s] 
+[0.465s] 1: Test command: /workspaces/carma_ws/src/build/gnss/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml" "--return-code" "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/gnss --package=gnss --results-filename test_test_gnss.xml --results-base-dir "/workspaces/carma_ws/src/build/gnss/test_results" /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test "
+[0.466s] 1: Test timeout computed to be: 10000000
+[1.933s] 1: ... logging to /home/carma/.ros/log/rostest-734334d1087f-999.log
+[1.933s] 1: [ROSUNIT] Outputting test results to /workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml
+[1.934s] 1: [Testcase: testtest_gnss] ... ok
+[1.934s] 1: 
+[1.935s] 1: [ROSTEST]-----------------------------------------------------------------------
+[1.935s] 1: 
+[1.935s] 1: [gnss.rosunit-test_gnss/llhNmeaDegreesTest][passed]
+[1.935s] 1: 
+[1.935s] 1: SUMMARY
+[1.936s] 1: [32m * RESULT: SUCCESS[0m
+[1.936s] 1:  * TESTS: 1
+[1.936s] 1:  * ERRORS: 0
+[1.936s] 1:  * FAILURES: 0
+[1.936s] 1: 
+[1.936s] 1: rostest log file is in /home/carma/.ros/log/rostest-734334d1087f-999.log
+[2.124s] 1: -- run_tests.py: execute commands
+[2.124s] 1:   /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/gnss --package=gnss --results-filename test_test_gnss.xml --results-base-dir "/workspaces/carma_ws/src/build/gnss/test_results" /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test 
+[2.124s] 1: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml"
+[2.131s] 1/1 Test #1: _ctest_gnss_rostest_test_test_gnss.test ...   Passed    1.73 sec
+[2.132s] 
+[2.132s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[2.132s] 
+[2.132s] Total Test time (real) =   1.73 sec
+[2.279s] Invoked command in '/workspaces/carma_ws/src/build/gnss' returned '0': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/gnss/devel:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/carma_ws/src/build/gnss/devel/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/gnss/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/autoware.ai/common/gnss:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

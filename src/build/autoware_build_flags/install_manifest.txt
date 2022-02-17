@@ -1,0 +1,5 @@
+/workspaces/carma_ws/src/install/autoware_build_flags/lib/pkgconfig/autoware_build_flags.pc
+/workspaces/carma_ws/src/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake
+/workspaces/carma_ws/src/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig.cmake
+/workspaces/carma_ws/src/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig-version.cmake
+/workspaces/carma_ws/src/install/autoware_build_flags/share/autoware_build_flags/package.xml

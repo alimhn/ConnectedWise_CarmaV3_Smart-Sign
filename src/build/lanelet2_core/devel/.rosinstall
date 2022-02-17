@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/carma_ws/src/build/lanelet2_core/devel/setup.sh

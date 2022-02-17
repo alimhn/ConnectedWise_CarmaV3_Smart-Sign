@@ -1,0 +1,78 @@
+[0.210s] Invoking command in '/workspaces/carma_ws/src/build/ros_observer': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/ros_observer/devel:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/carma_ws/src/build/ros_observer/devel/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/ros_observer/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/autoware.ai/common/ros_observer:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.422s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/ros_observer/CTestConfiguration.ini
+[0.423s] Parse Config file:/workspaces/carma_ws/src/build/ros_observer/CTestConfiguration.ini
+[0.424s]    Site: 734334d1087f
+[0.424s]    Build name: (empty)
+[0.428s]  Add coverage exclude regular expressions.
+[0.429s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.429s] Create new tag: 20220216-1126 - Experimental
+[0.430s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/ros_observer/CTestConfiguration.ini
+[0.430s] Parse Config file:/workspaces/carma_ws/src/build/ros_observer/CTestConfiguration.ini
+[0.430s] Test project /workspaces/carma_ws/src/build/ros_observer
+[0.430s] Constructing a list of tests
+[0.430s] Done constructing a list of tests
+[0.431s] Updating test list for fixtures
+[0.431s] Added 0 tests to meet fixture requirements
+[0.431s] Checking test dependency graph...
+[0.431s] Checking test dependency graph end
+[0.431s] test 1
+[0.432s]     Start 1: _ctest_ros_observer_roslint_package
+[0.433s] 
+[0.433s] 1: Test command: /workspaces/carma_ws/src/build/ros_observer/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml" "--working-dir" "/workspaces/carma_ws/src/build/ros_observer" "--return-code" "/opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml make roslint_ros_observer"
+[0.433s] 1: Test timeout computed to be: 10000000
+[0.581s] 1: Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/include/ros_observer/lib_ros_observer.h
+[0.581s] 1: Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/include/ros_observer/ros_observer.h
+[0.581s] 1: Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/lib/lib_ros_observer.cpp
+[0.581s] 1: Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/src/ros_observer.cpp
+[0.582s] 1: Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/src/test_ros_observer.cpp
+[0.582s] 1: Total errors found: 1
+[0.582s] 1: /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/src/test_ros_observer.cpp:59:  Add #include <memory> for unique_ptr<>  [build/include_what_you_use] [4]
+[0.585s] 1: make[3]: *** [CMakeFiles/roslint_ros_observer.dir/build.make:57: roslint_ros_observer] Error 1
+[0.585s] 1: make[2]: *** [CMakeFiles/Makefile2:1000: CMakeFiles/roslint_ros_observer.dir/all] Error 2
+[0.585s] 1: make[1]: *** [CMakeFiles/Makefile2:1007: CMakeFiles/roslint_ros_observer.dir/rule] Error 2
+[0.585s] 1: make: *** [Makefile:565: roslint_ros_observer] Error 2
+[0.595s] 1: -- run_tests.py: execute commands with working directory "/workspaces/carma_ws/src/build/ros_observer"
+[0.595s] 1:   /opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml make roslint_ros_observer
+[0.595s] 1: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml"
+[0.604s] 1/2 Test #1: _ctest_ros_observer_roslint_package .......................***Failed    0.37 sec
+[0.604s] test 2
+[0.604s]     Start 2: _ctest_ros_observer_rostest_test_test_ros_observer.test
+[0.607s] 
+[0.608s] 2: Test command: /workspaces/carma_ws/src/build/ros_observer/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/rostest-test_test_ros_observer.xml" "--return-code" "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/ros_observer --package=ros_observer --results-filename test_test_ros_observer.xml --results-base-dir "/workspaces/carma_ws/src/build/ros_observer/test_results" /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/test_ros_observer.test "
+[0.609s] 2: Test timeout computed to be: 10000000
+[2.514s] 2: ... logging to /home/carma/.ros/log/rostest-734334d1087f-9255.log
+[2.514s] 2: [ROSUNIT] Outputting test results to /workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/rostest-test_test_ros_observer.xml
+[2.515s] 2: [Testcase: testtest-ros_observer] ... ok
+[2.515s] 2: 
+[2.515s] 2: [ROSTEST]-----------------------------------------------------------------------
+[2.515s] 2: 
+[2.515s] 2: [ros_observer.rosunit-test-ros_observer/ModeTestVM][passed]
+[2.515s] 2: [ros_observer.rosunit-test-ros_observer/NameTestVM][passed]
+[2.515s] 2: [ros_observer.rosunit-test-ros_observer/OpenTestVM][passed]
+[2.516s] 2: [ros_observer.rosunit-test-ros_observer/RunTestVM][passed]
+[2.516s] 2: [ros_observer.rosunit-test-ros_observer/UpdateTestVM][passed]
+[2.516s] 2: [ros_observer.rosunit-test-ros_observer/ErrorDetectionTestVM][passed]
+[2.516s] 2: [ros_observer.rosunit-test-ros_observer/OpenTestDR][passed]
+[2.516s] 2: [ros_observer.rosunit-test-ros_observer/ClearTestDR][passed]
+[2.517s] 2: [ros_observer.rosunit-test-ros_observer/RequestCheckTestDR][passed]
+[2.517s] 2: 
+[2.517s] 2: SUMMARY
+[2.517s] 2: [32m * RESULT: SUCCESS[0m
+[2.517s] 2:  * TESTS: 9
+[2.517s] 2:  * ERRORS: 0
+[2.517s] 2:  * FAILURES: 0
+[2.517s] 2: 
+[2.517s] 2: rostest log file is in /home/carma/.ros/log/rostest-734334d1087f-9255.log
+[2.688s] 2: -- run_tests.py: execute commands
+[2.689s] 2:   /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/ros_observer --package=ros_observer --results-filename test_test_ros_observer.xml --results-base-dir "/workspaces/carma_ws/src/build/ros_observer/test_results" /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/test_ros_observer.test 
+[2.689s] 2: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/rostest-test_test_ros_observer.xml"
+[2.689s] 2/2 Test #2: _ctest_ros_observer_rostest_test_test_ros_observer.test ...   Passed    2.09 sec
+[2.689s] 
+[2.690s] 50% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 2
+[2.690s] 
+[2.690s] Total Test time (real) =   2.46 sec
+[2.690s] 
+[2.690s] The following tests FAILED:
+[2.690s] 	[0;31m  1 - _ctest_ros_observer_roslint_package (Failed)[0;0m
+[2.708s] Errors while running CTest
+[2.910s] Invoked command in '/workspaces/carma_ws/src/build/ros_observer' returned '8': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/ros_observer/devel:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/carma_ws/src/build/ros_observer/devel/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/ros_observer/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/autoware.ai/common/ros_observer:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

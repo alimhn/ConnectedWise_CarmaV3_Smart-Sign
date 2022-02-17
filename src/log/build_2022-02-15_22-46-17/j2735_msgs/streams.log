@@ -1,0 +1,7 @@
+[0.069s] Invoking command in '/workspaces/carma_ws/src/build/j2735_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/j2735_msgs -- -j12 -l12
+[0.225s] [  0%] Built target _j2735_msgs_generate_messages_check_deps_IntersectionState
+[0.317s] [  0%] Built target _j2735_msgs_generate_messages_check_deps_LaneDirection
+[0.355s] make[2]: *** [CMakeFiles/_j2735_msgs_generate_messages_check_deps_LaneDataAttributeList.dir/build.make:57: CMakeFiles/_j2735_msgs_generate_messages_check_deps_LaneDataAttributeList] Interrupt
+[0.358s] make[1]: *** [CMakeFiles/Makefile2:820: CMakeFiles/_j2735_msgs_generate_messages_check_deps_LaneDataAttributeList.dir/all] Interrupt
+[0.362s] make: *** [Makefile:141: all] Interrupt
+[0.392s] Invoked command in '/workspaces/carma_ws/src/build/j2735_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/j2735_msgs -- -j12 -l12

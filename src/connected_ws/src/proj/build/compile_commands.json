@@ -1,0 +1,61 @@
+[
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"proj\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/home/carma/autoware.ai/install/autoware_msgs/include -I../include/proj -I../src/common/include -isystem ../include/proj/opencv/include -I../include/proj/opencv_contrib/modules/xfeatures2d/include -I../include -isystem ../include/proj/opencv/build -isystem ../include/proj/opencv/modules/core/include -isystem ../include/proj/opencv/modules/flann/include -isystem ../include/proj/opencv/modules/imgproc/include -isystem ../include/proj/opencv/modules/ml/include -isystem ../include/proj/opencv/modules/photo/include -isystem ../include/proj/opencv/modules/dnn/include -isystem ../include/proj/opencv/modules/features2d/include -isystem ../include/proj/opencv/modules/imgcodecs/include -isystem ../include/proj/opencv/modules/videoio/include -isystem ../include/proj/opencv/modules/calib3d/include -isystem ../include/proj/opencv/modules/highgui/include -isystem ../include/proj/opencv/modules/objdetect/include -isystem ../include/proj/opencv/modules/stitching/include -isystem ../include/proj/opencv/modules/ts/include -isystem ../include/proj/opencv/modules/video/include -isystem ../include/proj/opencv/modules/gapi/include  -g   -std=gnu++11 -o CMakeFiles/crop_image.dir/src/crop/crop_rects_main.cpp.o -c /home/carma/connected_ws/src/proj/src/crop/crop_rects_main.cpp",
+  "file": "/home/carma/connected_ws/src/proj/src/crop/crop_rects_main.cpp"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"proj\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/home/carma/autoware.ai/install/autoware_msgs/include -I../include/proj -I../src/common/include -isystem ../include/proj/opencv/include -I../include/proj/opencv_contrib/modules/xfeatures2d/include -I../include -isystem ../include/proj/opencv/build -isystem ../include/proj/opencv/modules/core/include -isystem ../include/proj/opencv/modules/flann/include -isystem ../include/proj/opencv/modules/imgproc/include -isystem ../include/proj/opencv/modules/ml/include -isystem ../include/proj/opencv/modules/photo/include -isystem ../include/proj/opencv/modules/dnn/include -isystem ../include/proj/opencv/modules/features2d/include -isystem ../include/proj/opencv/modules/imgcodecs/include -isystem ../include/proj/opencv/modules/videoio/include -isystem ../include/proj/opencv/modules/calib3d/include -isystem ../include/proj/opencv/modules/highgui/include -isystem ../include/proj/opencv/modules/objdetect/include -isystem ../include/proj/opencv/modules/stitching/include -isystem ../include/proj/opencv/modules/ts/include -isystem ../include/proj/opencv/modules/video/include -isystem ../include/proj/opencv/modules/gapi/include  -g   -std=gnu++11 -o CMakeFiles/crop_image.dir/src/crop/crop_rects.cpp.o -c /home/carma/connected_ws/src/proj/src/crop/crop_rects.cpp",
+  "file": "/home/carma/connected_ws/src/proj/src/crop/crop_rects.cpp"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"proj\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/home/carma/autoware.ai/install/autoware_msgs/include -I../include/proj -I../src/common/include -isystem ../include/proj/opencv/include -I../include/proj/opencv_contrib/modules/xfeatures2d/include -I../include -isystem ../include/proj/opencv/build -isystem ../include/proj/opencv/modules/core/include -isystem ../include/proj/opencv/modules/flann/include -isystem ../include/proj/opencv/modules/imgproc/include -isystem ../include/proj/opencv/modules/ml/include -isystem ../include/proj/opencv/modules/photo/include -isystem ../include/proj/opencv/modules/dnn/include -isystem ../include/proj/opencv/modules/features2d/include -isystem ../include/proj/opencv/modules/imgcodecs/include -isystem ../include/proj/opencv/modules/videoio/include -isystem ../include/proj/opencv/modules/calib3d/include -isystem ../include/proj/opencv/modules/highgui/include -isystem ../include/proj/opencv/modules/objdetect/include -isystem ../include/proj/opencv/modules/stitching/include -isystem ../include/proj/opencv/modules/ts/include -isystem ../include/proj/opencv/modules/video/include -isystem ../include/proj/opencv/modules/gapi/include  -g   -std=gnu++11 -o CMakeFiles/v2i.dir/src/v2i/v2i_node.cpp.o -c /home/carma/connected_ws/src/proj/src/v2i/v2i_node.cpp",
+  "file": "/home/carma/connected_ws/src/proj/src/v2i/v2i_node.cpp"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/carma/connected_ws/src/proj/build",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+}
+]

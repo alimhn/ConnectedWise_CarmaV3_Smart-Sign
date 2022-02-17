@@ -1,0 +1,3 @@
+source;share/uncertainty_tools/hook/ros_package_path.ps1
+source;share/uncertainty_tools/hook/ros_package_path.dsv
+source;share/uncertainty_tools/hook/ros_package_path.sh

@@ -1,0 +1,20 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          FRONT_DOME_LIGHTS_ON-VAL
+          FRONT_DOME_LIGHTS_ON
+          FRONT_DOME_LIGHTS_ON_IS_VALID-VAL
+          FRONT_DOME_LIGHTS_ON_IS_VALID
+          REAR_DOME_LIGHTS_ON-VAL
+          REAR_DOME_LIGHTS_ON
+          REAR_DOME_LIGHTS_ON_IS_VALID-VAL
+          REAR_DOME_LIGHTS_ON_IS_VALID
+          MOOD_LIGHTS_ON-VAL
+          MOOD_LIGHTS_ON
+          MOOD_LIGHTS_ON_IS_VALID-VAL
+          MOOD_LIGHTS_ON_IS_VALID
+          DIM_LEVEL-VAL
+          DIM_LEVEL
+          DIM_LEVEL_IS_VALID-VAL
+          DIM_LEVEL_IS_VALID
+))

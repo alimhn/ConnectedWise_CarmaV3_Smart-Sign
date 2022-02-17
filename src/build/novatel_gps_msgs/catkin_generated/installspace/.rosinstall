@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/carma_ws/src/install/novatel_gps_msgs/setup.sh

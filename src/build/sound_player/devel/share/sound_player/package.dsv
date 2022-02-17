@@ -1,0 +1,3 @@
+source;share/sound_player/hook/ros_package_path.ps1
+source;share/sound_player/hook/ros_package_path.dsv
+source;share/sound_player/hook/ros_package_path.sh

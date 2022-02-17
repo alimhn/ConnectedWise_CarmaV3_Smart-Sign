@@ -1,0 +1,2 @@
+set(autoware_system_msgs_MESSAGE_FILES "/workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs/msg/DiagnosticStatus.msg;/workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs/msg/DiagnosticStatusArray.msg;/workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs/msg/SystemStatus.msg;/workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs/msg/NodeStatus.msg;/workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs/msg/HardwareStatus.msg")
+set(autoware_system_msgs_SERVICE_FILES "")

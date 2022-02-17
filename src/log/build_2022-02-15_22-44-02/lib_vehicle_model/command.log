@@ -1,0 +1,5 @@
+Invoking command in '/workspaces/carma_ws/src/build/lib_vehicle_model': /usr/bin/cmake /workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/lib_vehicle_model
+Invoked command in '/workspaces/carma_ws/src/build/lib_vehicle_model' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/lib_vehicle_model
+Invoking command in '/workspaces/carma_ws/src/build/lib_vehicle_model': /usr/bin/cmake --build /workspaces/carma_ws/src/build/lib_vehicle_model -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/lib_vehicle_model' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/lib_vehicle_model -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/lib_vehicle_model': /usr/bin/cmake --build /workspaces/carma_ws/src/build/lib_vehicle_model --target tests -- -j12 -l12

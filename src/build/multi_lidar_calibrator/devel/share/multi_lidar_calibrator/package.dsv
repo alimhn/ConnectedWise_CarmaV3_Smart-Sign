@@ -1,0 +1,3 @@
+source;share/multi_lidar_calibrator/hook/ros_package_path.ps1
+source;share/multi_lidar_calibrator/hook/ros_package_path.dsv
+source;share/multi_lidar_calibrator/hook/ros_package_path.sh

@@ -1,0 +1,3 @@
+source;share/pose_to_tf/hook/ros_package_path.ps1
+source;share/pose_to_tf/hook/ros_package_path.dsv
+source;share/pose_to_tf/hook/ros_package_path.sh

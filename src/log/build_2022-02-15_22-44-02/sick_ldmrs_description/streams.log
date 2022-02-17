@@ -1,0 +1,37 @@
+[0.040s] Invoking command in '/workspaces/carma_ws/src/build/sick_ldmrs_description': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/sick_ldmrs_description
+[1.543s] -- The C compiler identification is GNU 9.3.0
+[1.543s] -- The CXX compiler identification is GNU 9.3.0
+[1.544s] -- Check for working C compiler: /usr/bin/cc
+[1.544s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.544s] -- Detecting C compiler ABI info
+[1.544s] -- Detecting C compiler ABI info - done
+[1.544s] -- Detecting C compile features
+[1.544s] -- Detecting C compile features - done
+[1.544s] -- Check for working CXX compiler: /usr/bin/c++
+[1.645s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.651s] -- Detecting CXX compiler ABI info
+[1.947s] -- Detecting CXX compiler ABI info - done
+[1.981s] -- Detecting CXX compile features
+[1.983s] -- Detecting CXX compile features - done
+[1.988s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/sick_ldmrs_description/devel
+[1.988s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[1.988s] -- This workspace overlays: /opt/ros/noetic
+[2.028s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.028s] -- Using Debian Python package layout
+[2.161s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.161s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.517s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.517s] -- Call enable_testing()
+[2.520s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results
+[3.508s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.509s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.509s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.589s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.593s] -- Found Threads: TRUE  
+[3.613s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.790s] -- catkin 0.8.10
+[3.790s] -- BUILD_SHARED_LIBS is on
+[4.574s] -- Configuring done
+[4.596s] -- Generating done
+[4.601s] -- Build files have been written to: /workspaces/carma_ws/src/build/sick_ldmrs_description

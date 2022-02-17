@@ -1,0 +1,6 @@
+/workspaces/carma_ws/src/install/gnss/lib/pkgconfig/gnss.pc
+/workspaces/carma_ws/src/install/gnss/share/gnss/cmake/gnssConfig.cmake
+/workspaces/carma_ws/src/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+/workspaces/carma_ws/src/install/gnss/share/gnss/package.xml
+/workspaces/carma_ws/src/install/gnss/include/gnss/geo_pos_conv.hpp
+/workspaces/carma_ws/src/install/gnss/lib/libgnss.so

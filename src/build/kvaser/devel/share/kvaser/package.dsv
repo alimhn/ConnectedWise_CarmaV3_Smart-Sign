@@ -1,0 +1,3 @@
+source;share/kvaser/hook/ros_package_path.ps1
+source;share/kvaser/hook/ros_package_path.dsv
+source;share/kvaser/hook/ros_package_path.sh

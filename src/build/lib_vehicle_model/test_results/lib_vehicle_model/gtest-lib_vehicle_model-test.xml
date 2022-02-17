@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0.004" timestamp="2022-02-16T11:26:15" name="AllTests">
+  <testsuite name="KinematicsSolver" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2022-02-16T11:26:15">
+    <testcase name="solve" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="KinematicsSolver" />
+    <testcase name="solve_exceptions" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="KinematicsSolver" />
+  </testsuite>
+  <testsuite name="ConstraintChecker" tests="3" failures="0" disabled="0" errors="0" time="0.003" timestamp="2022-02-16T11:26:15">
+    <testcase name="constructor" status="run" result="completed" time="0.002" timestamp="2022-02-16T11:26:15" classname="ConstraintChecker" />
+    <testcase name="validateInitialState" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="ConstraintChecker" />
+    <testcase name="validateControlInputs" status="run" result="completed" time="0.001" timestamp="2022-02-16T11:26:15" classname="ConstraintChecker" />
+  </testsuite>
+  <testsuite name="ModelLoader" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-02-16T11:26:15">
+    <testcase name="load" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="ModelLoader" />
+  </testsuite>
+  <testsuite name="lib_vehicle_model" tests="3" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-02-16T11:26:15">
+    <testcase name="init" status="run" result="completed" time="0.001" timestamp="2022-02-16T11:26:15" classname="lib_vehicle_model" />
+    <testcase name="predict_no_control" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="lib_vehicle_model" />
+    <testcase name="predict_with_control" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="lib_vehicle_model" />
+  </testsuite>
+  <testsuite name="ODESOlver" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-02-16T11:26:15">
+    <testcase name="rk4" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:15" classname="ODESOlver" />
+  </testsuite>
+</testsuites>

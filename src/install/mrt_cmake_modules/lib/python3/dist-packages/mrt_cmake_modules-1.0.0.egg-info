@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mrt_cmake_modules
+Version: 1.0.0
+Summary: CMake Functions and Modules which are commonly used by MRT's ROS packages.
+Home-page: https://gitlab.mrt.uni-karlsruhe.de/MRT/mrt_cmake_modules.git
+Author: Piotr Orzechowski
+Author-email: piotr.orzechowski@kit.edu
+License: GPL-3.0+
+Description: UNKNOWN
+Platform: UNKNOWN

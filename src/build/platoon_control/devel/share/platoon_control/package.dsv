@@ -1,0 +1,3 @@
+source;share/platoon_control/hook/ros_package_path.ps1
+source;share/platoon_control/hook/ros_package_path.dsv
+source;share/platoon_control/hook/ros_package_path.sh

@@ -1,0 +1,3 @@
+source;share/waypoint_maker/hook/ros_package_path.ps1
+source;share/waypoint_maker/hook/ros_package_path.dsv
+source;share/waypoint_maker/hook/ros_package_path.sh

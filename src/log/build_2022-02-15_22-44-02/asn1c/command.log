@@ -1,0 +1,1 @@
+Invoking command in '/workspaces/carma_ws/src/build/asn1c': /usr/bin/cmake /workspaces/carma_ws/src/carma-messenger/carma-messenger-core/lib_asn1c -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/asn1c

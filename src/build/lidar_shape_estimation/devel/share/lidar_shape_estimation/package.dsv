@@ -1,0 +1,3 @@
+source;share/lidar_shape_estimation/hook/ros_package_path.ps1
+source;share/lidar_shape_estimation/hook/ros_package_path.dsv
+source;share/lidar_shape_estimation/hook/ros_package_path.sh

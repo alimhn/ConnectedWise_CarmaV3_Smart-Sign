@@ -1,0 +1,6 @@
+match_id,long,lat,msg_type,msg_detail,msg_dir,media_dir
+FL-257-325-005,25.7891,-80.1978,Intersection Message,Safety Warnings,Data/V2I/Msg/FL-257-801-001.json,/home/cw-jetson/Desktop/AutoConnectV2/src/v2i/Data/6block/FL-257-325-005.png
+FL-257-801-004,25.7891,-80.1978,Vehicular Message,Safety Warning,Data/V2I/Msg/FL-257-801-001.json,/home/cw-jetson/Desktop/AutoConnectV2/src/v2i/Data/Media/road-closed.png
+FL-257-801-003,25.7631,-80.1075,MAPdata Message, Safety Warnings,Data/V2I/Msg/FL-284-815-004.json,/home/cw-jetson/Desktop/AutoConnectV2/src/v2i/Data/6block/FL-257-801-003.png
+FL-257-801-002,25.7891,-80.1978,Travel Information Message (TIM),Work Zone Location - Take Detour,Data/V2I/Msg/FL-257-801-001.json,/home/cw-jetson/Desktop/AutoConnectV2/src/v2i/Data/6block/FL-257-801-003.png
+FL-257-801-001,25.7897,-80.1985,Intersection Situation Data (SAE-J2735),Circular intersection (5-ingress/4-egress),Data/V2I/Msg/FL-257-801-002.json,/home/cw-jetson/Desktop/AutoConnectV2/src/v2i/Data/Media/Circular-Int-Warn.png

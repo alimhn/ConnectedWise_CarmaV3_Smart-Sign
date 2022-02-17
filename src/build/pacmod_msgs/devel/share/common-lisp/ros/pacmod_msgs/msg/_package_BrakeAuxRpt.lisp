@@ -1,0 +1,24 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          RAW_PEDAL_POS-VAL
+          RAW_PEDAL_POS
+          RAW_PEDAL_POS_IS_VALID-VAL
+          RAW_PEDAL_POS_IS_VALID
+          RAW_PEDAL_FORCE-VAL
+          RAW_PEDAL_FORCE
+          RAW_PEDAL_FORCE_IS_VALID-VAL
+          RAW_PEDAL_FORCE_IS_VALID
+          RAW_BRAKE_PRESSURE-VAL
+          RAW_BRAKE_PRESSURE
+          RAW_BRAKE_PRESSURE_IS_VALID-VAL
+          RAW_BRAKE_PRESSURE_IS_VALID
+          BRAKE_ON_OFF-VAL
+          BRAKE_ON_OFF
+          BRAKE_ON_OFF_IS_VALID-VAL
+          BRAKE_ON_OFF_IS_VALID
+          USER_INTERACTION-VAL
+          USER_INTERACTION
+          USER_INTERACTION_IS_VALID-VAL
+          USER_INTERACTION_IS_VALID
+))

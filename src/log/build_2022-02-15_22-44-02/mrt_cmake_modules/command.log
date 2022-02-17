@@ -1,0 +1,8 @@
+Invoking command in '/workspaces/carma_ws/src/build/mrt_cmake_modules': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/mrt_cmake_modules -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/mrt_cmake_modules
+Invoked command in '/workspaces/carma_ws/src/build/mrt_cmake_modules' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/mrt_cmake_modules -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/mrt_cmake_modules
+Invoking command in '/workspaces/carma_ws/src/build/mrt_cmake_modules': /usr/bin/cmake --build /workspaces/carma_ws/src/build/mrt_cmake_modules -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/mrt_cmake_modules -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/mrt_cmake_modules': /usr/bin/cmake --build /workspaces/carma_ws/src/build/mrt_cmake_modules --target tests -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/mrt_cmake_modules --target tests -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/mrt_cmake_modules': /usr/bin/cmake --install /workspaces/carma_ws/src/build/mrt_cmake_modules
+Invoked command in '/workspaces/carma_ws/src/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/mrt_cmake_modules

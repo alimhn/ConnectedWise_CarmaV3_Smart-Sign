@@ -1,0 +1,12 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          FRONT_LEFT_WHEEL_SPEED-VAL
+          FRONT_LEFT_WHEEL_SPEED
+          FRONT_RIGHT_WHEEL_SPEED-VAL
+          FRONT_RIGHT_WHEEL_SPEED
+          REAR_LEFT_WHEEL_SPEED-VAL
+          REAR_LEFT_WHEEL_SPEED
+          REAR_RIGHT_WHEEL_SPEED-VAL
+          REAR_RIGHT_WHEEL_SPEED
+))

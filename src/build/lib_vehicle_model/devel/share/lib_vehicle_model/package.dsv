@@ -1,0 +1,12 @@
+source;share/lib_vehicle_model/hook/cmake_prefix_path.ps1
+source;share/lib_vehicle_model/hook/cmake_prefix_path.dsv
+source;share/lib_vehicle_model/hook/cmake_prefix_path.sh
+source;share/lib_vehicle_model/hook/ld_library_path_lib.ps1
+source;share/lib_vehicle_model/hook/ld_library_path_lib.dsv
+source;share/lib_vehicle_model/hook/ld_library_path_lib.sh
+source;share/lib_vehicle_model/hook/pkg_config.ps1
+source;share/lib_vehicle_model/hook/pkg_config.dsv
+source;share/lib_vehicle_model/hook/pkg_config.sh
+source;share/lib_vehicle_model/hook/ros_package_path.ps1
+source;share/lib_vehicle_model/hook/ros_package_path.dsv
+source;share/lib_vehicle_model/hook/ros_package_path.sh

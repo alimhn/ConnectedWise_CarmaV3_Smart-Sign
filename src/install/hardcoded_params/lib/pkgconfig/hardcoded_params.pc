@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/install/hardcoded_params
+
+Name: hardcoded_params
+Description: Description of hardcoded_params
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

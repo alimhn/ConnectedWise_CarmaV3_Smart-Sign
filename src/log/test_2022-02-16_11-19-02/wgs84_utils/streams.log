@@ -1,0 +1,43 @@
+[0.343s] Invoking command in '/workspaces/carma_ws/src/build/wgs84_utils': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/wgs84_utils/devel:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/carma_ws/src/build/wgs84_utils/devel/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/wgs84_utils/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/carma-utils/wgs84_utils:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.415s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/wgs84_utils/CTestConfiguration.ini
+[0.415s] Parse Config file:/workspaces/carma_ws/src/build/wgs84_utils/CTestConfiguration.ini
+[0.421s]    Site: 734334d1087f
+[0.424s]    Build name: (empty)
+[0.424s]  Add coverage exclude regular expressions.
+[0.424s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.424s] Create new tag: 20220216-1119 - Experimental
+[0.425s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/wgs84_utils/CTestConfiguration.ini
+[0.425s] Parse Config file:/workspaces/carma_ws/src/build/wgs84_utils/CTestConfiguration.ini
+[0.425s] Test project /workspaces/carma_ws/src/build/wgs84_utils
+[0.425s] Constructing a list of tests
+[0.426s] Done constructing a list of tests
+[0.426s] Updating test list for fixtures
+[0.427s] Added 0 tests to meet fixture requirements
+[0.428s] Checking test dependency graph...
+[0.429s] Checking test dependency graph end
+[0.429s] test 1
+[0.429s]     Start 1: _ctest_wgs84_utils_gtest_wgs84_uitls_test
+[0.429s] 
+[0.430s] 1: Test command: /workspaces/carma_ws/src/build/wgs84_utils/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml" "--return-code" "/workspaces/carma_ws/src/build/wgs84_utils/devel/lib/wgs84_utils/wgs84_uitls_test --gtest_output=xml:/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml"
+[0.433s] 1: Test timeout computed to be: 10000000
+[0.449s] 1: [==========] Running 2 tests from 1 test suite.
+[0.450s] 1: [----------] Global test environment set-up.
+[0.450s] 1: [----------] 2 tests from proj_tools
+[0.452s] 1: [ RUN      ] proj_tools.getAxisFromProjString
+[0.453s] 1: [       OK ] proj_tools.getAxisFromProjString (1 ms)
+[0.455s] 1: [ RUN      ] proj_tools.getRotationOfNEDFromProjAxis
+[0.456s] 1: [       OK ] proj_tools.getRotationOfNEDFromProjAxis (0 ms)
+[0.456s] 1: [----------] 2 tests from proj_tools (1 ms total)
+[0.456s] 1: 
+[0.456s] 1: [----------] Global test environment tear-down
+[0.456s] 1: [==========] 2 tests from 1 test suite ran. (1 ms total)
+[0.457s] 1: [  PASSED  ] 2 tests.
+[0.458s] 1: -- run_tests.py: execute commands
+[0.458s] 1:   /workspaces/carma_ws/src/build/wgs84_utils/devel/lib/wgs84_utils/wgs84_uitls_test --gtest_output=xml:/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml
+[0.458s] 1: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml"
+[0.459s] 1/1 Test #1: _ctest_wgs84_utils_gtest_wgs84_uitls_test ...   Passed    0.07 sec
+[0.459s] 
+[0.459s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.459s] 
+[0.459s] Total Test time (real) =   0.07 sec
+[0.511s] Invoked command in '/workspaces/carma_ws/src/build/wgs84_utils' returned '0': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/wgs84_utils/devel:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/carma_ws/src/build/wgs84_utils/devel/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/wgs84_utils/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/carma-utils/wgs84_utils:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

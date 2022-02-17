@@ -1,0 +1,3 @@
+source;share/naive_motion_predict/hook/ros_package_path.ps1
+source;share/naive_motion_predict/hook/ros_package_path.dsv
+source;share/naive_motion_predict/hook/ros_package_path.sh

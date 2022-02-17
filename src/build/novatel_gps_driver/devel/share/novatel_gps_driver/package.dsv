@@ -1,0 +1,3 @@
+source;share/novatel_gps_driver/hook/ros_package_path.ps1
+source;share/novatel_gps_driver/hook/ros_package_path.dsv
+source;share/novatel_gps_driver/hook/ros_package_path.sh

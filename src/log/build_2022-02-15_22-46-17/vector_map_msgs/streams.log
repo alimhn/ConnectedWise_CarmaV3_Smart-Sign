@@ -1,0 +1,7 @@
+[0.083s] Invoking command in '/workspaces/carma_ws/src/build/vector_map_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/vector_map_msgs -- -j12 -l12
+[0.226s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_GuardRail
+[0.307s] [  0%] Built target _vector_map_msgs_generate_messages_check_deps_GuardRailArray
+[0.344s] make[2]: *** [CMakeFiles/_vector_map_msgs_generate_messages_check_deps_CrossWalkArray.dir/build.make:57: CMakeFiles/_vector_map_msgs_generate_messages_check_deps_CrossWalkArray] Interrupt
+[0.346s] make[1]: *** [CMakeFiles/Makefile2:934: CMakeFiles/_vector_map_msgs_generate_messages_check_deps_CrossWalkArray.dir/all] Interrupt
+[0.349s] make: *** [Makefile:141: all] Interrupt
+[0.368s] Invoked command in '/workspaces/carma_ws/src/build/vector_map_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/vector_map_msgs -- -j12 -l12

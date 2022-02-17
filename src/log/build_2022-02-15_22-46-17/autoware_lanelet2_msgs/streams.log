@@ -1,0 +1,9 @@
+[0.080s] Invoking command in '/workspaces/carma_ws/src/build/autoware_lanelet2_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_lanelet2_msgs -- -j12 -l12
+[0.229s] [  0%] Built target _autoware_lanelet2_msgs_generate_messages_check_deps_MapBin
+[0.264s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.297s] [  0%] Built target std_msgs_generate_messages_py
+[0.338s] [ 14%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[0.350s] make[2]: *** [CMakeFiles/autoware_lanelet2_msgs_generate_messages_py.dir/build.make:88: CMakeFiles/autoware_lanelet2_msgs_generate_messages_py.dir/depend] Interrupt
+[0.354s] make[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/autoware_lanelet2_msgs_generate_messages_py.dir/all] Interrupt
+[0.356s] make: *** [Makefile:141: all] Interrupt
+[0.377s] Invoked command in '/workspaces/carma_ws/src/build/autoware_lanelet2_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_lanelet2_msgs -- -j12 -l12

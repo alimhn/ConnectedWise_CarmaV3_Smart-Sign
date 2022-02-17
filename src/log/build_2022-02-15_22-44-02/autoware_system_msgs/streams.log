@@ -1,0 +1,199 @@
+[0.071s] Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_system_msgs
+[2.967s] -- The C compiler identification is GNU 9.3.0
+[2.967s] -- The CXX compiler identification is GNU 9.3.0
+[2.967s] -- Check for working C compiler: /usr/bin/cc
+[2.967s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.968s] -- Detecting C compiler ABI info
+[2.968s] -- Detecting C compiler ABI info - done
+[2.968s] -- Detecting C compile features
+[2.968s] -- Detecting C compile features - done
+[2.968s] -- Check for working CXX compiler: /usr/bin/c++
+[2.968s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.968s] -- Detecting CXX compiler ABI info
+[2.968s] -- Detecting CXX compiler ABI info - done
+[2.968s] -- Detecting CXX compile features
+[2.969s] -- Detecting CXX compile features - done
+[2.969s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/autoware_system_msgs/devel
+[2.969s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[2.969s] -- This workspace overlays: /opt/ros/noetic
+[2.969s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.969s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.969s] -- Using Debian Python package layout
+[2.969s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.969s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.973s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.974s] -- Call enable_testing()
+[2.974s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/autoware_system_msgs/test_results
+[2.974s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.975s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.975s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.975s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.975s] -- Found Threads: TRUE  
+[2.975s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.975s] -- catkin 0.8.10
+[2.975s] -- BUILD_SHARED_LIBS is on
+[2.975s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.166s] -- autoware_system_msgs: 5 messages, 0 services
+[3.498s] -- Configuring done
+[3.528s] -- Generating done
+[3.536s] -- Build files have been written to: /workspaces/carma_ws/src/build/autoware_system_msgs
+[3.575s] Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/autoware_system_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_system_msgs
+[3.579s] Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs -- -j12 -l12
+[4.000s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[4.000s] [35m[1mScanning dependencies of target _autoware_system_msgs_generate_messages_check_deps_HardwareStatus[0m
+[4.000s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.001s] [35m[1mScanning dependencies of target _autoware_system_msgs_generate_messages_check_deps_SystemStatus[0m
+[4.002s] [35m[1mScanning dependencies of target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatusArray[0m
+[4.002s] [35m[1mScanning dependencies of target _autoware_system_msgs_generate_messages_check_deps_NodeStatus[0m
+[4.002s] [35m[1mScanning dependencies of target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatus[0m
+[4.002s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.007s] [  0%] Built target std_msgs_generate_messages_eus
+[4.009s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.012s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[4.020s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[4.024s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatus
+[4.067s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_NodeStatus
+[4.095s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.095s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.104s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[4.146s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_SystemStatus
+[4.175s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_DiagnosticStatusArray
+[4.199s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.211s] [  0%] Built target std_msgs_generate_messages_py
+[4.211s] [  0%] Built target _autoware_system_msgs_generate_messages_check_deps_HardwareStatus
+[4.344s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.349s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.370s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.381s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[4.426s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.457s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[4.460s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_eus[0m
+[4.509s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_py[0m
+[4.544s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_cpp[0m
+[4.565s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_lisp[0m
+[4.619s] [  3%] [34m[1mGenerating EusLisp code from autoware_system_msgs/DiagnosticStatus.msg[0m
+[4.625s] [  7%] [34m[1mGenerating Python from MSG autoware_system_msgs/DiagnosticStatus[0m
+[4.629s] [ 11%] [34m[1mGenerating EusLisp code from autoware_system_msgs/DiagnosticStatusArray.msg[0m
+[4.652s] [ 14%] [34m[1mGenerating EusLisp code from autoware_system_msgs/SystemStatus.msg[0m
+[4.658s] [ 14%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.685s] [ 18%] [34m[1mGenerating EusLisp code from autoware_system_msgs/HardwareStatus.msg[0m
+[4.690s] [ 22%] [34m[1mGenerating Python from MSG autoware_system_msgs/DiagnosticStatusArray[0m
+[4.698s] [ 25%] [34m[1mGenerating EusLisp code from autoware_system_msgs/NodeStatus.msg[0m
+[4.730s] [ 25%] Built target std_msgs_generate_messages_nodejs
+[4.738s] [ 33%] [34m[1mGenerating Python from MSG autoware_system_msgs/NodeStatus[0m
+[4.740s] [ 37%] [34m[1mGenerating Lisp code from autoware_system_msgs/DiagnosticStatus.msg[0m
+[4.742s] [ 29%] [34m[1mGenerating Python from MSG autoware_system_msgs/SystemStatus[0m
+[4.765s] [ 40%] [34m[1mGenerating C++ code from autoware_system_msgs/DiagnosticStatus.msg[0m
+[4.912s] [ 44%] [34m[1mGenerating Python from MSG autoware_system_msgs/HardwareStatus[0m
+[5.190s] [ 48%] [34m[1mGenerating Lisp code from autoware_system_msgs/DiagnosticStatusArray.msg[0m
+[5.260s] [ 51%] [34m[1mGenerating Lisp code from autoware_system_msgs/SystemStatus.msg[0m
+[5.269s] [ 55%] [34m[1mGenerating EusLisp manifest code for autoware_system_msgs[0m
+[5.459s] [ 59%] [34m[1mGenerating Lisp code from autoware_system_msgs/NodeStatus.msg[0m
+[5.542s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_nodejs[0m
+[5.696s] [ 62%] [34m[1mGenerating Javascript code from autoware_system_msgs/DiagnosticStatus.msg[0m
+[5.799s] [ 66%] [34m[1mGenerating Javascript code from autoware_system_msgs/DiagnosticStatusArray.msg[0m
+[5.807s] [ 70%] [34m[1mGenerating Javascript code from autoware_system_msgs/NodeStatus.msg[0m
+[5.836s] [ 74%] [34m[1mGenerating Javascript code from autoware_system_msgs/SystemStatus.msg[0m
+[5.892s] [ 77%] [34m[1mGenerating Lisp code from autoware_system_msgs/HardwareStatus.msg[0m
+[5.993s] [ 81%] [34m[1mGenerating C++ code from autoware_system_msgs/DiagnosticStatusArray.msg[0m
+[6.389s] [ 81%] Built target autoware_system_msgs_generate_messages_lisp
+[6.477s] [ 85%] [34m[1mGenerating Javascript code from autoware_system_msgs/HardwareStatus.msg[0m
+[6.510s] [ 88%] [34m[1mGenerating C++ code from autoware_system_msgs/SystemStatus.msg[0m
+[6.554s] [ 92%] [34m[1mGenerating C++ code from autoware_system_msgs/NodeStatus.msg[0m
+[6.588s] [ 96%] [34m[1mGenerating C++ code from autoware_system_msgs/HardwareStatus.msg[0m
+[7.212s] [ 96%] Built target autoware_system_msgs_generate_messages_nodejs
+[7.774s] [100%] [34m[1mGenerating Python msg __init__.py for autoware_system_msgs[0m
+[7.926s] [100%] Built target autoware_system_msgs_generate_messages_cpp
+[10.534s] [100%] Built target autoware_system_msgs_generate_messages_py
+[10.918s] [100%] Built target autoware_system_msgs_generate_messages_eus
+[10.983s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages[0m
+[11.057s] [100%] Built target autoware_system_msgs_generate_messages
+[11.115s] Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs -- -j12 -l12
+[11.945s] Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs --target tests -- -j12 -l12
+[19.516s] [35m[1mScanning dependencies of target tests[0m
+[19.516s] Built target tests
+[19.582s] Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_system_msgs --target tests -- -j12 -l12
+[20.345s] Invoking command in '/workspaces/carma_ws/src/build/autoware_system_msgs': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_system_msgs
+[20.788s] -- Install configuration: ""
+[20.788s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/DiagnosticStatus.msg
+[20.788s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/DiagnosticStatusArray.msg
+[20.788s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/SystemStatus.msg
+[20.788s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/NodeStatus.msg
+[20.788s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/HardwareStatus.msg
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs-msg-paths.cmake
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/include/autoware_system_msgs
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/include/autoware_system_msgs/DiagnosticStatus.h
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/include/autoware_system_msgs/HardwareStatus.h
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/include/autoware_system_msgs/SystemStatus.h
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/include/autoware_system_msgs/DiagnosticStatusArray.h
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/include/autoware_system_msgs/NodeStatus.h
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs
+[20.789s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/HardwareStatus.l
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/DiagnosticStatus.l
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/SystemStatus.l
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/DiagnosticStatusArray.l
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/msg/NodeStatus.l
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/roseus/ros/autoware_system_msgs/manifest.l
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg
+[20.790s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/SystemStatus.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/NodeStatus.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_SystemStatus.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/DiagnosticStatusArray.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_NodeStatus.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/HardwareStatus.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package.lisp
+[20.791s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/autoware_system_msgs-msg.asd
+[20.792s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_DiagnosticStatusArray.lisp
+[20.792s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/DiagnosticStatus.lisp
+[20.795s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_DiagnosticStatus.lisp
+[20.795s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/common-lisp/ros/autoware_system_msgs/msg/_package_HardwareStatus.lisp
+[20.796s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs
+[20.796s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/_index.js
+[20.796s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg
+[20.796s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/SystemStatus.js
+[20.796s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/_index.js
+[20.797s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/DiagnosticStatusArray.js
+[20.797s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/DiagnosticStatus.js
+[20.797s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/NodeStatus.js
+[20.797s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/gennodejs/ros/autoware_system_msgs/msg/HardwareStatus.js
+[20.797s] Listing '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs'...
+[20.797s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/__init__.py'...
+[20.797s] Listing '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg'...
+[20.797s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg/_DiagnosticStatus.py'...
+[20.798s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg/_DiagnosticStatusArray.py'...
+[20.798s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg/_HardwareStatus.py'...
+[20.798s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg/_NodeStatus.py'...
+[20.798s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg/_SystemStatus.py'...
+[20.798s] Compiling '/workspaces/carma_ws/src/build/autoware_system_msgs/devel/lib/python3/dist-packages/autoware_system_msgs/msg/__init__.py'...
+[20.798s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/__pycache__
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/__pycache__/__init__.cpython-38.pyc
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__/_DiagnosticStatusArray.cpython-38.pyc
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__/_SystemStatus.cpython-38.pyc
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__/_NodeStatus.cpython-38.pyc
+[20.799s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__/__init__.cpython-38.pyc
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__/_HardwareStatus.cpython-38.pyc
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__pycache__/_DiagnosticStatus.cpython-38.pyc
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/_DiagnosticStatus.py
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/_SystemStatus.py
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/_HardwareStatus.py
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/_DiagnosticStatusArray.py
+[20.800s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/_NodeStatus.py
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/msg/__init__.py
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/python3/dist-packages/autoware_system_msgs/__init__.py
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/lib/pkgconfig/autoware_system_msgs.pc
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgs-msg-extras.cmake
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgsConfig.cmake
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/cmake/autoware_system_msgsConfig-version.cmake
+[20.801s] -- Installing: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/package.xml
+[20.802s] -- Up-to-date: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg
+[20.802s] -- Up-to-date: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/NodeStatus.msg
+[20.802s] -- Up-to-date: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/DiagnosticStatus.msg
+[20.802s] -- Up-to-date: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/HardwareStatus.msg
+[20.802s] -- Up-to-date: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/DiagnosticStatusArray.msg
+[20.802s] -- Up-to-date: /workspaces/carma_ws/src/install/autoware_system_msgs/share/autoware_system_msgs/msg/SystemStatus.msg
+[20.811s] Invoked command in '/workspaces/carma_ws/src/build/autoware_system_msgs' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_system_msgs

@@ -1,0 +1,3 @@
+source;share/mobilitypath_visualizer/hook/ros_package_path.ps1
+source;share/mobilitypath_visualizer/hook/ros_package_path.dsv
+source;share/mobilitypath_visualizer/hook/ros_package_path.sh

@@ -1,0 +1,3 @@
+source;share/intersection_transit_maneuvering/hook/ros_package_path.ps1
+source;share/intersection_transit_maneuvering/hook/ros_package_path.dsv
+source;share/intersection_transit_maneuvering/hook/ros_package_path.sh

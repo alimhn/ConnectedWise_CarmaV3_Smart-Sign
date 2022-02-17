@@ -1,0 +1,3 @@
+source;share/runtime_manager/hook/ros_package_path.ps1
+source;share/runtime_manager/hook/ros_package_path.dsv
+source;share/runtime_manager/hook/ros_package_path.sh

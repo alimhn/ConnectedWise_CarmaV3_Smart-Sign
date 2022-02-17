@@ -1,0 +1,9 @@
+[0.087s] Invoking command in '/workspaces/carma_ws/src/build/autoware_config_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_config_msgs -- -j12 -l12
+[0.205s] [  0%] Built target _autoware_config_msgs_generate_messages_check_deps_ConfigLatticeVelocitySet
+[0.306s] [  0%] Built target _autoware_config_msgs_generate_messages_check_deps_ConfigPlannerSelector
+[0.346s] make[1]: *** wait: No child processes.  Stop.
+[0.346s] make[1]: *** Waiting for unfinished jobs....
+[0.346s] make[1]: *** wait: No child processes.  Stop.
+[0.346s] make[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/_autoware_config_msgs_generate_messages_check_deps_ConfigPedestrianDPM.dir/all] Error 2
+[0.348s] make: *** [Makefile:141: all] Interrupt
+[0.366s] Invoked command in '/workspaces/carma_ws/src/build/autoware_config_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_config_msgs -- -j12 -l12

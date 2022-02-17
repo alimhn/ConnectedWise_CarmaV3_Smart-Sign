@@ -1,0 +1,12 @@
+[01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:[m[K In function ‘[01m[Kvoid lib_vehicle_model::KinematicsSolver::{anonymous}::checkDeltaVAndAccelMatch(const double&, const double&, const double&)[m[K’:
+[01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:70:21:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+   70 |           || [01;35m[Ka == 0 && v_i != v_f[m[K) {
+      |              [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:[m[K In function ‘[01m[Kdouble lib_vehicle_model::KinematicsSolver::solve(const lib_vehicle_model::KinematicsProperty&, const lib_vehicle_model::KinematicsProperty&, const double&, const double&, const double&)[m[K’:
+[01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:316:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  316 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test/KinematicsSolverTest.cpp:[m[K In member function ‘[01m[Kvirtual void KinematicsSolver_solve_exceptions_Test::TestBody()[m[K’:
+[01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test/KinematicsSolverTest.cpp:120:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_bound[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  120 |   const double [01;35m[Kerror_bound[m[K = 0.0000001;
+      |                [01;35m[K^~~~~~~~~~~[m[K

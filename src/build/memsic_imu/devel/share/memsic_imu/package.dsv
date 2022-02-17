@@ -1,0 +1,3 @@
+source;share/memsic_imu/hook/ros_package_path.ps1
+source;share/memsic_imu/hook/ros_package_path.dsv
+source;share/memsic_imu/hook/ros_package_path.sh

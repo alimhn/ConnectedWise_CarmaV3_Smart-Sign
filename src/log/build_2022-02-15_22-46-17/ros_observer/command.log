@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/carma_ws/src/build/ros_observer': /usr/bin/cmake --build /workspaces/carma_ws/src/build/ros_observer -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/ros_observer' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/ros_observer -- -j12 -l12

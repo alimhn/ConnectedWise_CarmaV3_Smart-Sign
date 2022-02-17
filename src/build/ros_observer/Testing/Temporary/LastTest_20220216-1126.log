@@ -1,0 +1,73 @@
+Start testing: Feb 16 11:26 UTC
+----------------------------------------------------------
+1/2 Testing: _ctest_ros_observer_roslint_package
+1/2 Test: _ctest_ros_observer_roslint_package
+Command: "/workspaces/carma_ws/src/build/ros_observer/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml" "--working-dir" "/workspaces/carma_ws/src/build/ros_observer" "--return-code" "/opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml make roslint_ros_observer"
+Directory: /workspaces/carma_ws/src/build/ros_observer
+"_ctest_ros_observer_roslint_package" start time: Feb 16 11:26 UTC
+Output:
+----------------------------------------------------------
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/include/ros_observer/lib_ros_observer.h
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/include/ros_observer/ros_observer.h
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/lib/lib_ros_observer.cpp
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/src/ros_observer.cpp
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/src/test_ros_observer.cpp
+Total errors found: 1
+/workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/src/test_ros_observer.cpp:59:  Add #include <memory> for unique_ptr<>  [build/include_what_you_use] [4]
+make[3]: *** [CMakeFiles/roslint_ros_observer.dir/build.make:57: roslint_ros_observer] Error 1
+make[2]: *** [CMakeFiles/Makefile2:1000: CMakeFiles/roslint_ros_observer.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:1007: CMakeFiles/roslint_ros_observer.dir/rule] Error 2
+make: *** [Makefile:565: roslint_ros_observer] Error 2
+-- run_tests.py: execute commands with working directory "/workspaces/carma_ws/src/build/ros_observer"
+  /opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml make roslint_ros_observer
+-- run_tests.py: verify result "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/roslint-ros_observer.xml"
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Failed.
+"_ctest_ros_observer_roslint_package" end time: Feb 16 11:26 UTC
+"_ctest_ros_observer_roslint_package" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: _ctest_ros_observer_rostest_test_test_ros_observer.test
+2/2 Test: _ctest_ros_observer_rostest_test_test_ros_observer.test
+Command: "/workspaces/carma_ws/src/build/ros_observer/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/rostest-test_test_ros_observer.xml" "--return-code" "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/ros_observer --package=ros_observer --results-filename test_test_ros_observer.xml --results-base-dir "/workspaces/carma_ws/src/build/ros_observer/test_results" /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/test_ros_observer.test "
+Directory: /workspaces/carma_ws/src/build/ros_observer
+"_ctest_ros_observer_rostest_test_test_ros_observer.test" start time: Feb 16 11:26 UTC
+Output:
+----------------------------------------------------------
+... logging to /home/carma/.ros/log/rostest-734334d1087f-9255.log
+[ROSUNIT] Outputting test results to /workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/rostest-test_test_ros_observer.xml
+[Testcase: testtest-ros_observer] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[ros_observer.rosunit-test-ros_observer/ModeTestVM][passed]
+[ros_observer.rosunit-test-ros_observer/NameTestVM][passed]
+[ros_observer.rosunit-test-ros_observer/OpenTestVM][passed]
+[ros_observer.rosunit-test-ros_observer/RunTestVM][passed]
+[ros_observer.rosunit-test-ros_observer/UpdateTestVM][passed]
+[ros_observer.rosunit-test-ros_observer/ErrorDetectionTestVM][passed]
+[ros_observer.rosunit-test-ros_observer/OpenTestDR][passed]
+[ros_observer.rosunit-test-ros_observer/ClearTestDR][passed]
+[ros_observer.rosunit-test-ros_observer/RequestCheckTestDR][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 9
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/carma/.ros/log/rostest-734334d1087f-9255.log
+-- run_tests.py: execute commands
+  /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/ros_observer --package=ros_observer --results-filename test_test_ros_observer.xml --results-base-dir "/workspaces/carma_ws/src/build/ros_observer/test_results" /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/test_ros_observer.test 
+-- run_tests.py: verify result "/workspaces/carma_ws/src/build/ros_observer/test_results/ros_observer/rostest-test_test_ros_observer.xml"
+<end of output>
+Test time =   2.09 sec
+----------------------------------------------------------
+Test Passed.
+"_ctest_ros_observer_rostest_test_test_ros_observer.test" end time: Feb 16 11:26 UTC
+"_ctest_ros_observer_rostest_test_test_ros_observer.test" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Feb 16 11:26 UTC

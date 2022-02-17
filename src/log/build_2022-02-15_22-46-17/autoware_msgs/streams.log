@@ -1,0 +1,25 @@
+[0.056s] Invoking command in '/workspaces/carma_ws/src/build/autoware_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_msgs -- -j12 -l12
+[0.197s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLight
+[0.293s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObj
+[0.351s] Traceback (most recent call last):
+[0.351s]   File "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py", line 41, in <module>
+[0.351s]     from genmsg import EXT_MSG, EXT_SRV, MsgContext
+[0.351s]   File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/__init__.py", line 33, in <module>
+[0.351s]     from . base import MSG_DIR, SRV_DIR, EXT_MSG, EXT_SRV, SEP, log, plog, InvalidMsgSpec, log_verbose, MsgGenerationException
+[0.352s]   File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/base.py", line 52, in <module>
+[0.354s]     import inspect, pprint
+[0.354s]   File "/usr/lib/python3.8/inspect.py", line 40, in <module>
+[0.370s]     import linecache
+[0.375s]   File "/usr/lib/python3.8/linecache.py", line 11, in <module>
+[0.376s]     import tokenize
+[0.376s]   File "/usr/lib/python3.8/tokenize.py", line 32, in <module>
+[0.376s]     import re
+[0.376s]   File "/usr/lib/python3.8/re.py", line 145, in <module>
+[0.377s]     class RegexFlag(enum.IntFlag):
+[0.377s]   File "/usr/lib/python3.8/enum.py", line 256, in __new__
+[0.378s]     if canonical_member._value_ == enum_member._value_:
+[0.379s] KeyboardInterrupt
+[0.380s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ValueSet.dir/build.make:57: CMakeFiles/_autoware_msgs_generate_messages_check_deps_ValueSet] Interrupt
+[0.380s] make[1]: *** [CMakeFiles/Makefile2:1813: CMakeFiles/_autoware_msgs_generate_messages_check_deps_ValueSet.dir/all] Interrupt
+[0.381s] make: *** [Makefile:141: all] Interrupt
+[0.433s] Invoked command in '/workspaces/carma_ws/src/build/autoware_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_msgs -- -j12 -l12

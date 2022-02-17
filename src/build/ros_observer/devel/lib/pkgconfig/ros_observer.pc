@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/build/ros_observer/devel
+
+Name: ros_observer
+Description: Description of ros_observer
+Version: 1.12.0
+Cflags: -I/workspaces/carma_ws/src/autoware.ai/common/ros_observer/include
+Libs: -L${prefix}/lib -llib_ros_observer
+Requires: 

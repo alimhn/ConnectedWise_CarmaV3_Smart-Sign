@@ -1,0 +1,44 @@
+UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+Parse Config file:/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+   Site: 734334d1087f
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20220216-1126 - Experimental
+UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+Parse Config file:/workspaces/carma_ws/src/build/gnss/CTestConfiguration.ini
+Test project /workspaces/carma_ws/src/build/gnss
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: _ctest_gnss_rostest_test_test_gnss.test
+
+1: Test command: /workspaces/carma_ws/src/build/gnss/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml" "--return-code" "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/gnss --package=gnss --results-filename test_test_gnss.xml --results-base-dir "/workspaces/carma_ws/src/build/gnss/test_results" /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test "
+1: Test timeout computed to be: 10000000
+1: ... logging to /home/carma/.ros/log/rostest-734334d1087f-9267.log
+1: [ROSUNIT] Outputting test results to /workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml
+1: [Testcase: testtest_gnss] ... ok
+1: 
+1: [ROSTEST]-----------------------------------------------------------------------
+1: 
+1: [gnss.rosunit-test_gnss/llhNmeaDegreesTest][passed]
+1: 
+1: SUMMARY
+1: [32m * RESULT: SUCCESS[0m
+1:  * TESTS: 1
+1:  * ERRORS: 0
+1:  * FAILURES: 0
+1: 
+1: rostest log file is in /home/carma/.ros/log/rostest-734334d1087f-9267.log
+1: -- run_tests.py: execute commands
+1:   /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/gnss --package=gnss --results-filename test_test_gnss.xml --results-base-dir "/workspaces/carma_ws/src/build/gnss/test_results" /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test 
+1: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml"
+1/1 Test #1: _ctest_gnss_rostest_test_test_gnss.test ...   Passed    2.07 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+
+Total Test time (real) =   2.07 sec

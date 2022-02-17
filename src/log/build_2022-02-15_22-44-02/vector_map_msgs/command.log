@@ -1,0 +1,3 @@
+Invoking command in '/workspaces/carma_ws/src/build/vector_map_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/vector_map_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/vector_map_msgs
+Invoked command in '/workspaces/carma_ws/src/build/vector_map_msgs' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/messages/vector_map_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/vector_map_msgs
+Invoking command in '/workspaces/carma_ws/src/build/vector_map_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/vector_map_msgs -- -j12 -l12

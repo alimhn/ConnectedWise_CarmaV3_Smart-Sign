@@ -1,0 +1,54 @@
+[0.063s] Invoking command in '/workspaces/carma_ws/src/build/hardcoded_params': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/common/hardcoded_params -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/hardcoded_params
+[0.208s] -- The C compiler identification is GNU 9.3.0
+[0.328s] -- The CXX compiler identification is GNU 9.3.0
+[0.340s] -- Check for working C compiler: /usr/bin/cc
+[0.502s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.504s] -- Detecting C compiler ABI info
+[0.637s] -- Detecting C compiler ABI info - done
+[0.661s] -- Detecting C compile features
+[0.662s] -- Detecting C compile features - done
+[0.668s] -- Check for working CXX compiler: /usr/bin/c++
+[0.835s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.837s] -- Detecting CXX compiler ABI info
+[0.979s] -- Detecting CXX compiler ABI info - done
+[1.023s] -- Detecting CXX compile features
+[1.025s] -- Detecting CXX compile features - done
+[1.041s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/hardcoded_params/devel
+[1.041s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[1.041s] -- This workspace overlays: /opt/ros/noetic
+[1.106s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.106s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.107s] -- Using Debian Python package layout
+[1.169s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.169s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.448s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.448s] -- Call enable_testing()
+[1.454s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/hardcoded_params/test_results
+[2.062s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.062s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.062s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.107s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.113s] -- Found Threads: TRUE  
+[2.132s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.254s] -- catkin 0.8.10
+[2.254s] -- BUILD_SHARED_LIBS is on
+[2.915s] -- Configuring done
+[2.940s] -- Generating done
+[2.946s] -- Build files have been written to: /workspaces/carma_ws/src/build/hardcoded_params
+[2.962s] Invoked command in '/workspaces/carma_ws/src/build/hardcoded_params' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/common/hardcoded_params -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/hardcoded_params
+[2.967s] Invoking command in '/workspaces/carma_ws/src/build/hardcoded_params': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params -- -j12 -l12
+[3.529s] Invoked command in '/workspaces/carma_ws/src/build/hardcoded_params' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params -- -j12 -l12
+[3.760s] Invoking command in '/workspaces/carma_ws/src/build/hardcoded_params': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params --target tests -- -j12 -l12
+[4.744s] [35m[1mScanning dependencies of target tests[0m
+[4.744s] Built target tests
+[4.899s] Invoked command in '/workspaces/carma_ws/src/build/hardcoded_params' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/hardcoded_params --target tests -- -j12 -l12
+[5.688s] Invoking command in '/workspaces/carma_ws/src/build/hardcoded_params': /usr/bin/cmake --install /workspaces/carma_ws/src/build/hardcoded_params
+[8.821s] -- Install configuration: ""
+[8.821s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/lib/pkgconfig/hardcoded_params.pc
+[8.821s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/share/hardcoded_params/cmake/hardcoded_paramsConfig.cmake
+[8.821s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/share/hardcoded_params/cmake/hardcoded_paramsConfig-version.cmake
+[8.822s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/share/hardcoded_params/package.xml
+[8.822s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/include/hardcoded_params
+[8.822s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/include/hardcoded_params/control_limits
+[8.822s] -- Installing: /workspaces/carma_ws/src/install/hardcoded_params/include/hardcoded_params/control_limits/control_limits.h
+[8.994s] Invoked command in '/workspaces/carma_ws/src/build/hardcoded_params' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/hardcoded_params

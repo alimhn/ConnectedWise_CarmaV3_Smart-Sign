@@ -1,0 +1,4 @@
+(cl:in-package j2735_msgs-msg)
+(cl:export '(CONNECTION_MANEUVER_ASSIST_LIST-VAL
+          CONNECTION_MANEUVER_ASSIST_LIST
+))

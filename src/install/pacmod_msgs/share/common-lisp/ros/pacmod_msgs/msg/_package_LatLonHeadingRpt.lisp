@@ -1,0 +1,18 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          LATITUDE_DEGREES-VAL
+          LATITUDE_DEGREES
+          LATITUDE_MINUTES-VAL
+          LATITUDE_MINUTES
+          LATITUDE_SECONDS-VAL
+          LATITUDE_SECONDS
+          LONGITUDE_DEGREES-VAL
+          LONGITUDE_DEGREES
+          LONGITUDE_MINUTES-VAL
+          LONGITUDE_MINUTES
+          LONGITUDE_SECONDS-VAL
+          LONGITUDE_SECONDS
+          HEADING-VAL
+          HEADING
+))

@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py", line 41, in <module>
+    from genmsg import EXT_MSG, EXT_SRV, MsgContext
+  File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/__init__.py", line 33, in <module>
+    from . base import MSG_DIR, SRV_DIR, EXT_MSG, EXT_SRV, SEP, log, plog, InvalidMsgSpec, log_verbose, MsgGenerationException
+  File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/base.py", line 52, in <module>
+    import inspect, pprint
+  File "/usr/lib/python3.8/inspect.py", line 40, in <module>
+    import linecache
+  File "/usr/lib/python3.8/linecache.py", line 11, in <module>
+    import tokenize
+  File "/usr/lib/python3.8/tokenize.py", line 32, in <module>
+    import re
+  File "/usr/lib/python3.8/re.py", line 145, in <module>
+    class RegexFlag(enum.IntFlag):
+  File "/usr/lib/python3.8/enum.py", line 256, in __new__
+    if canonical_member._value_ == enum_member._value_:
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ValueSet.dir/build.make:57: CMakeFiles/_autoware_msgs_generate_messages_check_deps_ValueSet] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1813: CMakeFiles/_autoware_msgs_generate_messages_check_deps_ValueSet.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

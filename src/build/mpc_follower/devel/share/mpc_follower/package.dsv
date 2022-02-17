@@ -1,0 +1,3 @@
+source;share/mpc_follower/hook/ros_package_path.ps1
+source;share/mpc_follower/hook/ros_package_path.dsv
+source;share/mpc_follower/hook/ros_package_path.sh

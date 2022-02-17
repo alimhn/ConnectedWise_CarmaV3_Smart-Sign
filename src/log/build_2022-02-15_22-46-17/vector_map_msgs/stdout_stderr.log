@@ -1,0 +1,5 @@
+[  0%] Built target _vector_map_msgs_generate_messages_check_deps_GuardRail
+[  0%] Built target _vector_map_msgs_generate_messages_check_deps_GuardRailArray
+make[2]: *** [CMakeFiles/_vector_map_msgs_generate_messages_check_deps_CrossWalkArray.dir/build.make:57: CMakeFiles/_vector_map_msgs_generate_messages_check_deps_CrossWalkArray] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:934: CMakeFiles/_vector_map_msgs_generate_messages_check_deps_CrossWalkArray.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

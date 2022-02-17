@@ -1,0 +1,3 @@
+source;share/ssc_pm_cascadia_dot_10002/hook/ros_package_path.ps1
+source;share/ssc_pm_cascadia_dot_10002/hook/ros_package_path.dsv
+source;share/ssc_pm_cascadia_dot_10002/hook/ros_package_path.sh

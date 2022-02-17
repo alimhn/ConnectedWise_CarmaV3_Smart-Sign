@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/carma_ws/src/build/vector_map_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/vector_map_msgs -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/vector_map_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/vector_map_msgs -- -j12 -l12

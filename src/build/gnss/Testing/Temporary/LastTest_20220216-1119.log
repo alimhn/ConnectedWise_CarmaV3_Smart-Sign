@@ -1,0 +1,36 @@
+Start testing: Feb 16 11:19 UTC
+----------------------------------------------------------
+1/1 Testing: _ctest_gnss_rostest_test_test_gnss.test
+1/1 Test: _ctest_gnss_rostest_test_test_gnss.test
+Command: "/workspaces/carma_ws/src/build/gnss/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml" "--return-code" "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/gnss --package=gnss --results-filename test_test_gnss.xml --results-base-dir "/workspaces/carma_ws/src/build/gnss/test_results" /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test "
+Directory: /workspaces/carma_ws/src/build/gnss
+"_ctest_gnss_rostest_test_test_gnss.test" start time: Feb 16 11:19 UTC
+Output:
+----------------------------------------------------------
+... logging to /home/carma/.ros/log/rostest-734334d1087f-999.log
+[ROSUNIT] Outputting test results to /workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml
+[Testcase: testtest_gnss] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[gnss.rosunit-test_gnss/llhNmeaDegreesTest][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 1
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/carma/.ros/log/rostest-734334d1087f-999.log
+-- run_tests.py: execute commands
+  /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/workspaces/carma_ws/src/autoware.ai/common/gnss --package=gnss --results-filename test_test_gnss.xml --results-base-dir "/workspaces/carma_ws/src/build/gnss/test_results" /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test 
+-- run_tests.py: verify result "/workspaces/carma_ws/src/build/gnss/test_results/gnss/rostest-test_test_gnss.xml"
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"_ctest_gnss_rostest_test_test_gnss.test" end time: Feb 16 11:19 UTC
+"_ctest_gnss_rostest_test_test_gnss.test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Feb 16 11:19 UTC

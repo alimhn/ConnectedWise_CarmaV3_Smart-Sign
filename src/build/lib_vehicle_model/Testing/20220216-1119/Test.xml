@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220216-1119-Experimental"
+	Name="734334d1087f"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.3.0"
+	OSName="Linux"
+	Hostname="734334d1087f"
+	OSRelease="5.13.0-28-generic"
+	OSVersion="#31~20.04.1-Ubuntu SMP Wed Jan 19 14:08:10 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="14003"
+	TotalPhysicalMemory="31967"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3571.68"
+	>
+	<Testing>
+		<StartDateTime>Feb 16 11:19 UTC</StartDateTime>
+		<StartTestTime>1645010344</StartTestTime>
+		<TestList>
+			<Test>./_ctest_lib_vehicle_model_gtest_lib_vehicle_model-test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>_ctest_lib_vehicle_model_gtest_lib_vehicle_model-test</Name>
+			<Path>.</Path>
+			<FullName>./_ctest_lib_vehicle_model_gtest_lib_vehicle_model-test</FullName>
+			<FullCommandLine>/workspaces/carma_ws/src/build/lib_vehicle_model/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/lib_vehicle_model/test_results/lib_vehicle_model/gtest-lib_vehicle_model-test.xml" "--working-dir" "/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test" "--return-code" "/workspaces/carma_ws/src/build/lib_vehicle_model/devel/lib/lib_vehicle_model/lib_vehicle_model-test --gtest_output=xml:/workspaces/carma_ws/src/build/lib_vehicle_model/test_results/lib_vehicle_model/gtest-lib_vehicle_model-test.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.077724</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/workspaces/carma_ws/src/build/lib_vehicle_model/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/lib_vehicle_model/test_results/lib_vehicle_model/gtest-lib_vehicle_model-test.xml" "--working-dir" "/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test" "--return-code" "/workspaces/carma_ws/src/build/lib_vehicle_model/devel/lib/lib_vehicle_model/lib_vehicle_model-test --gtest_output=xml:/workspaces/carma_ws/src/build/lib_vehicle_model/test_results/lib_vehicle_model/gtest-lib_vehicle_model-test.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>[==========] Running 10 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from KinematicsSolver
+[ RUN      ] KinematicsSolver.solve
+[       OK ] KinematicsSolver.solve (0 ms)
+[ RUN      ] KinematicsSolver.solve_exceptions
+[       OK ] KinematicsSolver.solve_exceptions (1 ms)
+[----------] 2 tests from KinematicsSolver (1 ms total)
+
+[----------] 3 tests from ConstraintChecker
+[ RUN      ] ConstraintChecker.constructor
+[       OK ] ConstraintChecker.constructor (1 ms)
+[ RUN      ] ConstraintChecker.validateInitialState
+[       OK ] ConstraintChecker.validateInitialState (0 ms)
+[ RUN      ] ConstraintChecker.validateControlInputs
+[       OK ] ConstraintChecker.validateControlInputs (0 ms)
+[----------] 3 tests from ConstraintChecker (1 ms total)
+
+[----------] 1 test from ModelLoader
+[ RUN      ] ModelLoader.load
+[       OK ] ModelLoader.load (2 ms)
+[----------] 1 test from ModelLoader (2 ms total)
+
+[----------] 3 tests from lib_vehicle_model
+[ RUN      ] lib_vehicle_model.init
+[       OK ] lib_vehicle_model.init (1 ms)
+[ RUN      ] lib_vehicle_model.predict_no_control
+[       OK ] lib_vehicle_model.predict_no_control (0 ms)
+[ RUN      ] lib_vehicle_model.predict_with_control
+[       OK ] lib_vehicle_model.predict_with_control (0 ms)
+[----------] 3 tests from lib_vehicle_model (1 ms total)
+
+[----------] 1 test from ODESOlver
+[ RUN      ] ODESOlver.rk4
+[       OK ] ODESOlver.rk4 (0 ms)
+[----------] 1 test from ODESOlver (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 5 test suites ran. (5 ms total)
+[  PASSED  ] 10 tests.
+-- run_tests.py: execute commands with working directory "/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test"
+  /workspaces/carma_ws/src/build/lib_vehicle_model/devel/lib/lib_vehicle_model/lib_vehicle_model-test --gtest_output=xml:/workspaces/carma_ws/src/build/lib_vehicle_model/test_results/lib_vehicle_model/gtest-lib_vehicle_model-test.xml
+-- run_tests.py: verify result "/workspaces/carma_ws/src/build/lib_vehicle_model/test_results/lib_vehicle_model/gtest-lib_vehicle_model-test.xml"
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 16 11:19 UTC</EndDateTime>
+		<EndTestTime>1645010344</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

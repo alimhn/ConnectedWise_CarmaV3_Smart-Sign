@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/carma_ws/src/build/sick_ldmrs_description/devel/setup.sh

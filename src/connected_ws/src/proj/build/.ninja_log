@@ -1,0 +1,6 @@
+# ninja log v5
+0	2169	1644738177	CMakeFiles/crop_image.dir/src/crop/crop_rects_main.cpp.o	3167da3b283c0a63
+0	3353	1644738178	CMakeFiles/v2i.dir/src/v2i/v2i_node.cpp.o	8da707157d7cb022
+3353	3654	1644738178	devel/lib/proj/v2i	284ecfe176afb69e
+0	4770	1644738179	CMakeFiles/crop_image.dir/src/crop/crop_rects.cpp.o	8cbf85185cc90360
+4770	5153	1644738180	devel/lib/proj/crop_image	361dede9b6b3b608

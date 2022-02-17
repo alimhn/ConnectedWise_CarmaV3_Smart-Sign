@@ -1,0 +1,3 @@
+source;share/traffic_incident/hook/ros_package_path.ps1
+source;share/traffic_incident/hook/ros_package_path.dsv
+source;share/traffic_incident/hook/ros_package_path.sh

@@ -1,0 +1,2 @@
+set(tablet_socket_msgs_MESSAGE_FILES "/workspaces/carma_ws/src/autoware.ai/messages/tablet_socket_msgs/msg/Waypoint.msg;/workspaces/carma_ws/src/autoware.ai/messages/tablet_socket_msgs/msg/error_info.msg;/workspaces/carma_ws/src/autoware.ai/messages/tablet_socket_msgs/msg/gear_cmd.msg;/workspaces/carma_ws/src/autoware.ai/messages/tablet_socket_msgs/msg/mode_cmd.msg;/workspaces/carma_ws/src/autoware.ai/messages/tablet_socket_msgs/msg/mode_info.msg;/workspaces/carma_ws/src/autoware.ai/messages/tablet_socket_msgs/msg/route_cmd.msg")
+set(tablet_socket_msgs_SERVICE_FILES "")

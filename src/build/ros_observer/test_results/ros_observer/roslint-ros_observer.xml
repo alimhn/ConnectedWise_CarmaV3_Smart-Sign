@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="roslint" tests="1" failures="1" errors="0">
+  <testcase name="roslint_ros_observer" classname="roslint.LintCheck">
+    <failure message="One or more linter errors was reported." type=""><![CDATA[Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/include/ros_observer/lib_ros_observer.h
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/include/ros_observer/ros_observer.h
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/lib/lib_ros_observer.cpp
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/src/ros_observer.cpp
+Done processing /workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/src/test_ros_observer.cpp
+Total errors found: 1
+/workspaces/carma_ws/src/autoware.ai/common/ros_observer/test/src/test_ros_observer.cpp:59:  Add #include <memory> for unique_ptr<>  [build/include_what_you_use] [4]
+make[3]: *** [CMakeFiles/roslint_ros_observer.dir/build.make:57: roslint_ros_observer] Error 1
+make[2]: *** [CMakeFiles/Makefile2:1000: CMakeFiles/roslint_ros_observer.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:1007: CMakeFiles/roslint_ros_observer.dir/rule] Error 2
+make: *** [Makefile:565: roslint_ros_observer] Error 2]]></failure>
+  </testcase>
+</testsuite>

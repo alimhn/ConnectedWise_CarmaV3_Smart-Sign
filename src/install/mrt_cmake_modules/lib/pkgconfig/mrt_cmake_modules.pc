@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/install/mrt_cmake_modules
+
+Name: mrt_cmake_modules
+Description: Description of mrt_cmake_modules
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

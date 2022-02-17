@@ -1,0 +1,43 @@
+UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+Parse Config file:/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+   Site: 734334d1087f
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20220216-1119 - Experimental
+UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+Parse Config file:/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+Test project /workspaces/carma_ws/src/build/sick_ldmrs_description
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: _ctest_sick_ldmrs_description_roslaunch-check_launch
+
+1: Test command: /workspaces/carma_ws/src/build/sick_ldmrs_description/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description" "/opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml" "/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch" "
+1: Test timeout computed to be: 10000000
+1: xacro: in-order processing became default in ROS Melodic. You can drop the option.
+1: xacro: in-order processing became default in ROS Melodic. You can drop the option.
+1: FAILURE:
+1: [/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/show_urdf.launch]:
+1: 	cannot find node [state_publisher] in package [robot_state_publisher]
+1: [31mwrote test file to [/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml][0m
+1: checking *.launch in directory /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch
+1: checking /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/upload_urdf.launch
+1: checking /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/show_urdf.launch
+1: ...writing test results to /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml
+1: -- run_tests.py: execute commands
+1:   /usr/bin/cmake -E make_directory /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description
+1:   /opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml" "/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch" 
+1: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml"
+1/1 Test #1: _ctest_sick_ldmrs_description_roslaunch-check_launch ...***Failed    3.61 sec
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Total Test time (real) =   3.62 sec
+
+The following tests FAILED:
+	[0;31m  1 - _ctest_sick_ldmrs_description_roslaunch-check_launch (Failed)[0;0m

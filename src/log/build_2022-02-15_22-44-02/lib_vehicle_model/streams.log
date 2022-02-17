@@ -1,0 +1,129 @@
+[0.077s] Invoking command in '/workspaces/carma_ws/src/build/lib_vehicle_model': /usr/bin/cmake /workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/lib_vehicle_model
+[0.497s] -- The C compiler identification is GNU 9.3.0
+[0.686s] -- The CXX compiler identification is GNU 9.3.0
+[0.704s] -- Check for working C compiler: /usr/bin/cc
+[1.226s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.227s] -- Detecting C compiler ABI info
+[1.731s] -- Detecting C compiler ABI info - done
+[1.772s] -- Detecting C compile features
+[1.773s] -- Detecting C compile features - done
+[1.789s] -- Check for working CXX compiler: /usr/bin/c++
+[2.351s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.354s] -- Detecting CXX compiler ABI info
+[2.782s] -- Detecting CXX compiler ABI info - done
+[2.828s] -- Detecting CXX compile features
+[2.829s] -- Detecting CXX compile features - done
+[2.835s] -- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/lib_vehicle_model/devel
+[2.835s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[2.837s] -- This workspace overlays: /opt/ros/noetic
+[2.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.898s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.899s] -- Using Debian Python package layout
+[3.082s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[3.082s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[4.096s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.096s] -- Call enable_testing()
+[4.104s] -- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/lib_vehicle_model/test_results
+[5.883s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[5.883s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[5.883s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[5.929s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.933s] -- Found Threads: TRUE  
+[5.950s] -- Using Python nosetests: /usr/bin/nosetests3
+[6.374s] -- catkin 0.8.10
+[6.374s] -- BUILD_SHARED_LIBS is on
+[7.378s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[8.004s] -- Configuring done
+[8.089s] -- Generating done
+[8.102s] -- Build files have been written to: /workspaces/carma_ws/src/build/lib_vehicle_model
+[8.125s] Invoked command in '/workspaces/carma_ws/src/build/lib_vehicle_model' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/lib_vehicle_model
+[8.126s] Invoking command in '/workspaces/carma_ws/src/build/lib_vehicle_model': /usr/bin/cmake --build /workspaces/carma_ws/src/build/lib_vehicle_model -- -j12 -l12
+[13.705s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[13.706s] [  0%] Built target roscpp_generate_messages_cpp
+[13.707s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[13.707s] [  0%] Built target roscpp_generate_messages_nodejs
+[13.707s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[13.707s] [  0%] Built target std_msgs_generate_messages_eus
+[13.707s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[13.707s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[13.707s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[13.707s] [  0%] Built target roscpp_generate_messages_eus
+[13.708s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[13.708s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[13.708s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[13.708s] [  0%] Built target std_msgs_generate_messages_py
+[13.708s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[13.708s] [  0%] Built target std_msgs_generate_messages_nodejs
+[13.708s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[13.710s] [  0%] Built target std_msgs_generate_messages_cpp
+[13.710s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[13.710s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[13.710s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[13.710s] [  0%] Built target roscpp_generate_messages_lisp
+[13.710s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[13.710s] [  0%] Built target std_msgs_generate_messages_lisp
+[13.711s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[13.711s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[13.711s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[13.711s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[13.711s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[13.711s] [  0%] Built target roscpp_generate_messages_py
+[13.711s] [35m[1mScanning dependencies of target lib_vehicle_model[0m
+[13.712s] [ 12%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/KinematicsSolver.cpp.o[0m
+[13.712s] [ 25%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/ModelAccessException.cpp.o[0m
+[13.712s] [01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:[m[K In function ‘[01m[Kvoid lib_vehicle_model::KinematicsSolver::{anonymous}::checkDeltaVAndAccelMatch(const double&, const double&, const double&)[m[K’:
+[13.712s] [01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:70:21:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[13.713s]    70 |           || [01;35m[Ka == 0 && v_i != v_f[m[K) {
+[13.713s]       |              [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[13.713s] [01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:[m[K In function ‘[01m[Kdouble lib_vehicle_model::KinematicsSolver::solve(const lib_vehicle_model::KinematicsProperty&, const lib_vehicle_model::KinematicsProperty&, const double&, const double&, const double&)[m[K’:
+[13.713s] [01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/src/lib_vehicle_model/KinematicsSolver.cpp:316:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[13.713s]   316 |     [01;35m[K}[m[K
+[13.714s]       |     [01;35m[K^[m[K
+[13.977s] [ 37%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/KinematicsProperty.cpp.o[0m
+[14.852s] [ 50%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/ConstraintChecker.cpp.o[0m
+[15.992s] [ 62%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/ModelLoader.cpp.o[0m
+[17.193s] [ 75%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/LibVehicleModel.cpp.o[0m
+[23.296s] [ 87%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model.dir/src/lib_vehicle_model/ROSParameterServer.cpp.o[0m
+[28.060s] [100%] [32m[1mLinking CXX shared library devel/lib/liblib_vehicle_model.so[0m
+[28.403s] [100%] Built target lib_vehicle_model
+[28.493s] Invoked command in '/workspaces/carma_ws/src/build/lib_vehicle_model' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/lib_vehicle_model -- -j12 -l12
+[29.076s] Invoking command in '/workspaces/carma_ws/src/build/lib_vehicle_model': /usr/bin/cmake --build /workspaces/carma_ws/src/build/lib_vehicle_model --target tests -- -j12 -l12
+[33.043s] [35m[1mScanning dependencies of target gtest[0m
+[33.043s] [  5%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35.129s] [ 10%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[35.314s] [ 10%] Built target gtest
+[35.336s] [ 10%] Built target rosgraph_msgs_generate_messages_eus
+[35.361s] [ 10%] Built target roscpp_generate_messages_nodejs
+[35.379s] [ 10%] Built target std_msgs_generate_messages_eus
+[35.399s] [ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[35.423s] [ 10%] Built target roscpp_generate_messages_eus
+[35.434s] [35m[1mScanning dependencies of target gmock[0m
+[35.463s] [ 15%] [32mBuilding CXX object gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[37.905s] [ 21%] [32m[1mLinking CXX shared library ../lib/libgmock.so[0m
+[38.040s] [ 21%] Built target gmock
+[38.066s] [ 21%] Built target std_msgs_generate_messages_py
+[38.085s] [ 21%] Built target std_msgs_generate_messages_nodejs
+[38.109s] [ 21%] Built target std_msgs_generate_messages_cpp
+[38.131s] [ 21%] Built target rosgraph_msgs_generate_messages_nodejs
+[38.154s] [ 21%] Built target roscpp_generate_messages_lisp
+[38.176s] [ 21%] Built target std_msgs_generate_messages_lisp
+[38.230s] [ 21%] Built target roscpp_generate_messages_cpp
+[38.256s] [ 21%] Built target rosgraph_msgs_generate_messages_lisp
+[38.303s] [ 21%] Built target rosgraph_msgs_generate_messages_py
+[38.343s] [ 21%] Built target roscpp_generate_messages_py
+[38.374s] [ 63%] Built target lib_vehicle_model
+[38.387s] [35m[1mScanning dependencies of target lib_vehicle_model-test[0m
+[38.431s] [ 68%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model-test.dir/test/TestEntryPoint.cpp.o[0m
+[39.968s] [ 73%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model-test.dir/test/ODESolverTest.cpp.o[0m
+[46.869s] [ 78%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model-test.dir/test/LibVehicleModelTest.cpp.o[0m
+[52.627s] [ 84%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model-test.dir/test/ModelLoaderTest.cpp.o[0m
+[53.421s] [ 89%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model-test.dir/test/ConstraintCheckerTest.cpp.o[0m
+[56.448s] [ 94%] [32mBuilding CXX object CMakeFiles/lib_vehicle_model-test.dir/test/KinematicsSolverTest.cpp.o[0m
+[57.086s] [01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test/KinematicsSolverTest.cpp:[m[K In member function ‘[01m[Kvirtual void KinematicsSolver_solve_exceptions_Test::TestBody()[m[K’:
+[57.086s] [01m[K/workspaces/carma_ws/src/carma-vehicle-model-framework/lib_vehicle_model/test/KinematicsSolverTest.cpp:120:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_bound[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[57.086s]   120 |   const double [01;35m[Kerror_bound[m[K = 0.0000001;
+[57.086s]       |                [01;35m[K^~~~~~~~~~~[m[K
+[57.376s] [100%] [32m[1mLinking CXX executable devel/lib/lib_vehicle_model/lib_vehicle_model-test[0m
+[57.692s] [100%] Built target lib_vehicle_model-test
+[57.704s] [35m[1mScanning dependencies of target tests[0m
+[57.714s] [100%] Built target tests

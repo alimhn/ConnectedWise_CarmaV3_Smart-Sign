@@ -1,0 +1,46 @@
+[0.280s] Invoking command in '/workspaces/carma_ws/src/build/sick_ldmrs_description': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/sick_ldmrs_description/devel:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/sick_ldmrs_description/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.429s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+[0.429s] Parse Config file:/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+[0.429s]    Site: 734334d1087f
+[0.430s]    Build name: (empty)
+[0.430s]  Add coverage exclude regular expressions.
+[0.430s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.430s] Create new tag: 20220216-1126 - Experimental
+[0.430s] UpdateCTestConfiguration  from :/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+[0.430s] Parse Config file:/workspaces/carma_ws/src/build/sick_ldmrs_description/CTestConfiguration.ini
+[0.430s] Test project /workspaces/carma_ws/src/build/sick_ldmrs_description
+[0.430s] Constructing a list of tests
+[0.430s] Done constructing a list of tests
+[0.430s] Updating test list for fixtures
+[0.431s] Added 0 tests to meet fixture requirements
+[0.432s] Checking test dependency graph...
+[0.432s] Checking test dependency graph end
+[0.432s] test 1
+[0.432s]     Start 1: _ctest_sick_ldmrs_description_roslaunch-check_launch
+[0.432s] 
+[0.432s] 1: Test command: /workspaces/carma_ws/src/build/sick_ldmrs_description/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description" "/opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml" "/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch" "
+[0.432s] 1: Test timeout computed to be: 10000000
+[2.246s] 1: xacro: in-order processing became default in ROS Melodic. You can drop the option.
+[3.906s] 1: xacro: in-order processing became default in ROS Melodic. You can drop the option.
+[4.081s] 1: FAILURE:
+[4.081s] 1: [/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/show_urdf.launch]:
+[4.081s] 1: 	cannot find node [state_publisher] in package [robot_state_publisher]
+[4.081s] 1: [31mwrote test file to [/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml][0m
+[4.081s] 1: checking *.launch in directory /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch
+[4.081s] 1: checking /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/upload_urdf.launch
+[4.082s] 1: checking /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch/show_urdf.launch
+[4.082s] 1: ...writing test results to /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml
+[4.165s] 1: -- run_tests.py: execute commands
+[4.165s] 1:   /usr/bin/cmake -E make_directory /workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description
+[4.165s] 1:   /opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml" "/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description/launch" 
+[4.166s] 1: -- run_tests.py: verify result "/workspaces/carma_ws/src/build/sick_ldmrs_description/test_results/sick_ldmrs_description/roslaunch-check_launch.xml"
+[4.169s] 1/1 Test #1: _ctest_sick_ldmrs_description_roslaunch-check_launch ...***Failed    3.87 sec
+[4.169s] 
+[4.169s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[4.169s] 
+[4.169s] Total Test time (real) =   3.87 sec
+[4.170s] 
+[4.170s] The following tests FAILED:
+[4.170s] 	[0;31m  1 - _ctest_sick_ldmrs_description_roslaunch-check_launch (Failed)[0;0m
+[4.193s] Errors while running CTest
+[4.287s] Invoked command in '/workspaces/carma_ws/src/build/sick_ldmrs_description' returned '8': CMAKE_PREFIX_PATH=/workspaces/carma_ws/src/build/sick_ldmrs_description/devel:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/workspaces/carma_ws/src/build/sick_ldmrs_description/devel/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_description:${ROS_PACKAGE_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

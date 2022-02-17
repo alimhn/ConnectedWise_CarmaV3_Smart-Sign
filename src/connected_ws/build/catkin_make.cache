@@ -1,0 +1,2 @@
+proj
+-DCATKIN_DEVEL_PREFIX=/workspaces/carma_ws/src/connected_ws/devel -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/connected_ws/install -G Unix Makefiles

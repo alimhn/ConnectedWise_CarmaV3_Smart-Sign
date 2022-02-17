@@ -1,0 +1,3 @@
+source;share/delphi_mrr_msgs/hook/ros_package_path.ps1
+source;share/delphi_mrr_msgs/hook/ros_package_path.dsv
+source;share/delphi_mrr_msgs/hook/ros_package_path.sh

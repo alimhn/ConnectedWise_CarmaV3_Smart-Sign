@@ -1,0 +1,3 @@
+source;share/calibration_publisher/hook/ros_package_path.ps1
+source;share/calibration_publisher/hook/ros_package_path.dsv
+source;share/calibration_publisher/hook/ros_package_path.sh

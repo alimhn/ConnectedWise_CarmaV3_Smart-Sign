@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (vision_darknet_detect) JobQueued: {'identifier': 'vision_darknet_detect', 'dependencies': OrderedDict([('autoware_build_flags', '/workspaces/carma_ws/src/install/autoware_build_flags'), ('autoware_config_msgs', '/workspaces/carma_ws/src/install/autoware_config_msgs'), ('autoware_msgs', '/workspaces/carma_ws/src/install/autoware_msgs'), ('vision_darknet_detect', '/workspaces/carma_ws/src/install/vision_darknet_detect')])}
+[0.000841] (vision_darknet_detect) JobStarted: {'identifier': 'vision_darknet_detect'}
+[0.078969] (vision_darknet_detect) JobEnded: {'identifier': 'vision_darknet_detect', 'rc': 0}
+[0.079569] (-) EventReactorShutdown: {}

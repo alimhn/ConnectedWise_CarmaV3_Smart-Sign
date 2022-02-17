@@ -1,0 +1,4 @@
+_ctest_ros_observer_roslint_package 0 0
+_ctest_ros_observer_rostest_test_test_ros_observer.test 2 1.04366
+---
+_ctest_ros_observer_roslint_package

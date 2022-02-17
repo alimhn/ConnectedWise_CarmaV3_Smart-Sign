@@ -1,0 +1,6 @@
+[0.094s] Invoking command in '/workspaces/carma_ws/src/build/autoware_can_msgs': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_can_msgs -- -j12 -l12
+[0.255s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANPacket
+[0.292s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.334s] make[1]: *** [CMakeFiles/Makefile2:275: CMakeFiles/std_msgs_generate_messages_py.dir/all] Interrupt
+[0.337s] make: *** [Makefile:141: all] Interrupt
+[0.360s] Invoked command in '/workspaces/carma_ws/src/build/autoware_can_msgs' returned '-2': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_can_msgs -- -j12 -l12

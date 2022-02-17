@@ -1,0 +1,1 @@
+Invoking command in '/workspaces/carma_ws/src/build/sick_ldmrs_msgs': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/drivers/sick_ldmrs_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/sick_ldmrs_msgs

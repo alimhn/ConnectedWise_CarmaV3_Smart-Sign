@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/novatel_gps_msgs_generate_messages_py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_ClockSteering.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Gpgga.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Gpgsa.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Gpgsv.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Gphdt.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Gprmc.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Inscov.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Inspva.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Inspvax.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Insstdev.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelCorrectedImuData.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelDualAntennaHeading.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelExtendedSolutionStatus.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelHeading2.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelMessageHeader.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelPosition.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelPsrdop2.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelPsrdop2System.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelReceiverStatus.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelSignalMask.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelUtmPosition.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelVelocity.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_NovatelXYZ.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Range.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_RangeInformation.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Satellite.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Time.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_Trackstat.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/_TrackstatChannel.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/msg/__init__.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/srv/_NovatelFRESET.py"
+  "devel/lib/python3/dist-packages/novatel_gps_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/novatel_gps_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

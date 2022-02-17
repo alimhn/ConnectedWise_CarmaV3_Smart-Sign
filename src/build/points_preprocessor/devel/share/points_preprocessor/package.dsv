@@ -1,0 +1,3 @@
+source;share/points_preprocessor/hook/ros_package_path.ps1
+source;share/points_preprocessor/hook/ros_package_path.dsv
+source;share/points_preprocessor/hook/ros_package_path.sh

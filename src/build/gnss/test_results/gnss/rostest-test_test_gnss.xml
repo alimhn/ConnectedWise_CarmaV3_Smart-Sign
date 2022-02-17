@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="0.306"><testcase classname="rostest.runner.RosTest" name="testtest_gnss" time="0.3059" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test] run_id[41729208-8f1b-11ec-a6c3-0242ac110002] starting
+&amp;#x001B;[1mstarted roslaunch server http://734334d1087f:35419/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.15.14
+
+NODES
+
+[ROSTEST]setup[/workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test] run_id[41729208-8f1b-11ec-a6c3-0242ac110002] done
+[ROSTEST]Running test [test_gnss]
+&amp;#x001B;[1mROS_MASTER_URI=http://734334d1087f:45975/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to 41729208-8f1b-11ec-a6c3-0242ac110002&amp;#x001B;[0m
+[ROSTEST]removing previous test results file [/workspaces/carma_ws/src/build/gnss/test_results/gnss/rosunit-test_gnss.xml]
+[ROSTEST]running test test_gnss
+&amp;#x001B;[1mprocess[test-1]: started with pid [9718]&amp;#x001B;[0m
+&amp;#x001B;[1m[test-1] process has finished cleanly
+log file: /home/carma/.ros/log/41729208-8f1b-11ec-a6c3-0242ac110002/test-1*.log&amp;#x001B;[0m
+[ROSTEST]test [test_gnss] finished
+[ROSTEST]test [test_gnss] results are in [/workspaces/carma_ws/src/build/gnss/test_results/gnss/rosunit-test_gnss.xml]
+[ROSTEST]test [test_gnss] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [test_gnss] done
+[ROSTEST]tearDown[/workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test]
+shutting down processing monitor...
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /workspaces/carma_ws/src/autoware.ai/common/gnss/test/test_gnss.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

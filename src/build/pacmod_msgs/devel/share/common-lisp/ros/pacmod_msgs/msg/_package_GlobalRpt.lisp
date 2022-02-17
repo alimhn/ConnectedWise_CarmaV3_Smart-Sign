@@ -1,0 +1,24 @@
+(cl:in-package pacmod_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          ENABLED-VAL
+          ENABLED
+          OVERRIDE_ACTIVE-VAL
+          OVERRIDE_ACTIVE
+          FAULT_ACTIVE-VAL
+          FAULT_ACTIVE
+          CONFIG_FAULT_ACTIVE-VAL
+          CONFIG_FAULT_ACTIVE
+          USER_CAN_TIMEOUT-VAL
+          USER_CAN_TIMEOUT
+          BRAKE_CAN_TIMEOUT-VAL
+          BRAKE_CAN_TIMEOUT
+          STEERING_CAN_TIMEOUT-VAL
+          STEERING_CAN_TIMEOUT
+          VEHICLE_CAN_TIMEOUT-VAL
+          VEHICLE_CAN_TIMEOUT
+          SUBSYSTEM_CAN_TIMEOUT-VAL
+          SUBSYSTEM_CAN_TIMEOUT
+          USER_CAN_READ_ERRORS-VAL
+          USER_CAN_READ_ERRORS
+))

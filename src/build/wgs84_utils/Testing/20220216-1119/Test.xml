@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220216-1119-Experimental"
+	Name="734334d1087f"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.3.0"
+	OSName="Linux"
+	Hostname="734334d1087f"
+	OSRelease="5.13.0-28-generic"
+	OSVersion="#31~20.04.1-Ubuntu SMP Wed Jan 19 14:08:10 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="14003"
+	TotalPhysicalMemory="31967"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3571.68"
+	>
+	<Testing>
+		<StartDateTime>Feb 16 11:19 UTC</StartDateTime>
+		<StartTestTime>1645010344</StartTestTime>
+		<TestList>
+			<Test>./_ctest_wgs84_utils_gtest_wgs84_uitls_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>_ctest_wgs84_utils_gtest_wgs84_uitls_test</Name>
+			<Path>.</Path>
+			<FullName>./_ctest_wgs84_utils_gtest_wgs84_uitls_test</FullName>
+			<FullCommandLine>/workspaces/carma_ws/src/build/wgs84_utils/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml" "--return-code" "/workspaces/carma_ws/src/build/wgs84_utils/devel/lib/wgs84_utils/wgs84_uitls_test --gtest_output=xml:/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0709264</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/workspaces/carma_ws/src/build/wgs84_utils/catkin_generated/env_cached.sh "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml" "--return-code" "/workspaces/carma_ws/src/build/wgs84_utils/devel/lib/wgs84_utils/wgs84_uitls_test --gtest_output=xml:/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from proj_tools
+[ RUN      ] proj_tools.getAxisFromProjString
+[       OK ] proj_tools.getAxisFromProjString (1 ms)
+[ RUN      ] proj_tools.getRotationOfNEDFromProjAxis
+[       OK ] proj_tools.getRotationOfNEDFromProjAxis (0 ms)
+[----------] 2 tests from proj_tools (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 2 tests.
+-- run_tests.py: execute commands
+  /workspaces/carma_ws/src/build/wgs84_utils/devel/lib/wgs84_utils/wgs84_uitls_test --gtest_output=xml:/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml
+-- run_tests.py: verify result "/workspaces/carma_ws/src/build/wgs84_utils/test_results/wgs84_utils/gtest-wgs84_uitls_test.xml"
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 16 11:19 UTC</EndDateTime>
+		<EndTestTime>1645010344</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

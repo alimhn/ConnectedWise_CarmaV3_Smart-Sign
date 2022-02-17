@@ -1,0 +1,3 @@
+source;share/gnss_to_map_convertor/hook/ros_package_path.ps1
+source;share/gnss_to_map_convertor/hook/ros_package_path.dsv
+source;share/gnss_to_map_convertor/hook/ros_package_path.sh

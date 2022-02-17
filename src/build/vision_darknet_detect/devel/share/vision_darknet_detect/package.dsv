@@ -1,0 +1,3 @@
+source;share/vision_darknet_detect/hook/ros_package_path.ps1
+source;share/vision_darknet_detect/hook/ros_package_path.dsv
+source;share/vision_darknet_detect/hook/ros_package_path.sh

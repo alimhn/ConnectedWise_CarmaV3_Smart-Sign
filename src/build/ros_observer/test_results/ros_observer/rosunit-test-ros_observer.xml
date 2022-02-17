@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-02-16T11:26:16" name="AllTests">
+  <testsuite name="ShmTestSuite" tests="9" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-02-16T11:26:16">
+    <testcase name="ModeTestVM" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="NameTestVM" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="OpenTestVM" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="RunTestVM" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="UpdateTestVM" status="run" result="completed" time="0.001" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="ErrorDetectionTestVM" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="OpenTestDR" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="ClearTestDR" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+    <testcase name="RequestCheckTestDR" status="run" result="completed" time="0" timestamp="2022-02-16T11:26:16" classname="ShmTestSuite" />
+  </testsuite>
+</testsuites>

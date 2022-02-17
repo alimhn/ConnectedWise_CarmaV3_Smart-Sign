@@ -1,0 +1,3 @@
+source;share/rosbag_mock_drivers/hook/ros_package_path.ps1
+source;share/rosbag_mock_drivers/hook/ros_package_path.dsv
+source;share/rosbag_mock_drivers/hook/ros_package_path.sh

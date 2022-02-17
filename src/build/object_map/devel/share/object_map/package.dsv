@@ -1,0 +1,3 @@
+source;share/object_map/hook/ros_package_path.ps1
+source;share/object_map/hook/ros_package_path.dsv
+source;share/object_map/hook/ros_package_path.sh

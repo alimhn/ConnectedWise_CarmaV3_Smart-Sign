@@ -1,0 +1,127 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /workspaces/carma_ws/src/build/can_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /workspaces/carma_ws/src/build/can_msgs/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- can_msgs: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/carma_ws/src/build/can_msgs
+[35m[1mScanning dependencies of target _can_msgs_generate_messages_check_deps_Frame[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _can_msgs_generate_messages_check_deps_CanState[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _can_msgs_generate_messages_check_deps_Frame
+[  0%] Built target _can_msgs_generate_messages_check_deps_CanState
+[35m[1mScanning dependencies of target can_msgs_generate_messages_cpp[0m
+[  8%] [34m[1mGenerating C++ code from can_msgs/Frame.msg[0m
+[35m[1mScanning dependencies of target can_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target can_msgs_generate_messages_nodejs[0m
+[ 16%] [34m[1mGenerating C++ code from can_msgs/CanState.msg[0m
+[35m[1mScanning dependencies of target can_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target can_msgs_generate_messages_lisp[0m
+[ 25%] [34m[1mGenerating Javascript code from can_msgs/Frame.msg[0m
+[ 33%] [34m[1mGenerating Javascript code from can_msgs/CanState.msg[0m
+[ 41%] [34m[1mGenerating Python from MSG can_msgs/Frame[0m
+[ 58%] [34m[1mGenerating Lisp code from can_msgs/CanState.msg[0m
+[ 66%] [34m[1mGenerating EusLisp code from can_msgs/CanState.msg[0m
+[ 75%] [34m[1mGenerating Python from MSG can_msgs/CanState[0m
+[ 91%] [34m[1mGenerating Lisp code from can_msgs/Frame.msg[0m
+[ 91%] [34m[1mGenerating EusLisp manifest code for can_msgs[0m
+[ 91%] [34m[1mGenerating EusLisp code from can_msgs/Frame.msg[0m
+[ 91%] Built target can_msgs_generate_messages_nodejs
+[ 91%] Built target can_msgs_generate_messages_lisp
+[ 91%] Built target can_msgs_generate_messages_cpp
+[100%] [34m[1mGenerating Python msg __init__.py for can_msgs[0m
+[100%] Built target can_msgs_generate_messages_eus
+[100%] Built target can_msgs_generate_messages_py
+[35m[1mScanning dependencies of target can_msgs_generate_messages[0m
+[100%] Built target can_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/msg/Frame.msg
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/msg/CanState.msg
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/cmake/can_msgs-msg-paths.cmake
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/include/can_msgs
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/include/can_msgs/CanState.h
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/include/can_msgs/Frame.h
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/roseus/ros/can_msgs
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/roseus/ros/can_msgs/msg
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/roseus/ros/can_msgs/msg/CanState.l
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/roseus/ros/can_msgs/msg/Frame.l
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/roseus/ros/can_msgs/manifest.l
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg/_package_CanState.lisp
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg/can_msgs-msg.asd
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg/CanState.lisp
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg/_package.lisp
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg/Frame.lisp
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/common-lisp/ros/can_msgs/msg/_package_Frame.lisp
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/gennodejs/ros/can_msgs
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/gennodejs/ros/can_msgs/_index.js
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/gennodejs/ros/can_msgs/msg
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/gennodejs/ros/can_msgs/msg/_index.js
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/gennodejs/ros/can_msgs/msg/CanState.js
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/gennodejs/ros/can_msgs/msg/Frame.js
+Listing '/workspaces/carma_ws/src/build/can_msgs/devel/lib/python3/dist-packages/can_msgs'...
+Compiling '/workspaces/carma_ws/src/build/can_msgs/devel/lib/python3/dist-packages/can_msgs/__init__.py'...
+Listing '/workspaces/carma_ws/src/build/can_msgs/devel/lib/python3/dist-packages/can_msgs/msg'...
+Compiling '/workspaces/carma_ws/src/build/can_msgs/devel/lib/python3/dist-packages/can_msgs/msg/_CanState.py'...
+Compiling '/workspaces/carma_ws/src/build/can_msgs/devel/lib/python3/dist-packages/can_msgs/msg/_Frame.py'...
+Compiling '/workspaces/carma_ws/src/build/can_msgs/devel/lib/python3/dist-packages/can_msgs/msg/__init__.py'...
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/__pycache__
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/__pycache__/__init__.cpython-38.pyc
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/__pycache__
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/__pycache__/_CanState.cpython-38.pyc
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/__pycache__/_Frame.cpython-38.pyc
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/_CanState.py
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/_Frame.py
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/msg/__init__.py
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/python3/dist-packages/can_msgs/__init__.py
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/lib/pkgconfig/can_msgs.pc
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/cmake/can_msgs-msg-extras.cmake
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/cmake/can_msgsConfig.cmake
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/cmake/can_msgsConfig-version.cmake
+-- Installing: /workspaces/carma_ws/src/install/can_msgs/share/can_msgs/package.xml

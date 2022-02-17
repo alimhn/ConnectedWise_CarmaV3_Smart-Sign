@@ -1,0 +1,8 @@
+prefix=/workspaces/carma_ws/src/install/asn1c
+
+Name: asn1c
+Description: Description of asn1c
+Version: 3.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

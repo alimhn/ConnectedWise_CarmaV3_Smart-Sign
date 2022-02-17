@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall  -shared -Wl,-soname,libwgs84_utils_library.so -o devel/lib/libwgs84_utils_library.so CMakeFiles/wgs84_utils_library.dir/src/wgs84_utils/wgs84_utils.cpp.o CMakeFiles/wgs84_utils_library.dir/src/wgs84_utils/proj_tools.cpp.o 

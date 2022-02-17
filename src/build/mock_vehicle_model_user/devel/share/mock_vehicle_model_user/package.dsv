@@ -1,0 +1,3 @@
+source;share/mock_vehicle_model_user/hook/ros_package_path.ps1
+source;share/mock_vehicle_model_user/hook/ros_package_path.dsv
+source;share/mock_vehicle_model_user/hook/ros_package_path.sh

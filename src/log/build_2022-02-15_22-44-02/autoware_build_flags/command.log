@@ -1,0 +1,8 @@
+Invoking command in '/workspaces/carma_ws/src/build/autoware_build_flags': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/common/autoware_build_flags -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_build_flags
+Invoked command in '/workspaces/carma_ws/src/build/autoware_build_flags' returned '0': /usr/bin/cmake /workspaces/carma_ws/src/autoware.ai/common/autoware_build_flags -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/workspaces/carma_ws/src/install/autoware_build_flags
+Invoking command in '/workspaces/carma_ws/src/build/autoware_build_flags': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_build_flags -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_build_flags -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/autoware_build_flags': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_build_flags --target tests -- -j12 -l12
+Invoked command in '/workspaces/carma_ws/src/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /workspaces/carma_ws/src/build/autoware_build_flags --target tests -- -j12 -l12
+Invoking command in '/workspaces/carma_ws/src/build/autoware_build_flags': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_build_flags
+Invoked command in '/workspaces/carma_ws/src/build/autoware_build_flags' returned '0': /usr/bin/cmake --install /workspaces/carma_ws/src/build/autoware_build_flags

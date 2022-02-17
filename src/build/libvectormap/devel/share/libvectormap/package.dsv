@@ -1,0 +1,3 @@
+source;share/libvectormap/hook/ros_package_path.ps1
+source;share/libvectormap/hook/ros_package_path.dsv
+source;share/libvectormap/hook/ros_package_path.sh

@@ -1,0 +1,12 @@
+source;share/wgs84_utils/hook/cmake_prefix_path.ps1
+source;share/wgs84_utils/hook/cmake_prefix_path.dsv
+source;share/wgs84_utils/hook/cmake_prefix_path.sh
+source;share/wgs84_utils/hook/ld_library_path_lib.ps1
+source;share/wgs84_utils/hook/ld_library_path_lib.dsv
+source;share/wgs84_utils/hook/ld_library_path_lib.sh
+source;share/wgs84_utils/hook/pkg_config.ps1
+source;share/wgs84_utils/hook/pkg_config.dsv
+source;share/wgs84_utils/hook/pkg_config.sh
+source;share/wgs84_utils/hook/ros_package_path.ps1
+source;share/wgs84_utils/hook/ros_package_path.dsv
+source;share/wgs84_utils/hook/ros_package_path.sh
